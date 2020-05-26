@@ -198,9 +198,7 @@ def do_get(sess):
 
         s = ['contract', str(contract.id)]
         for dt in (start_date, finish_date):
-            s.append(
-                hh_format(dt).replace(' ', 'T').replace(':', '').replace(
-                    '-', ''))
+            s.append(hh_format(dt).replace(' ', 'T').replace(':', ''))
         fname_additional = '_'.join(s)
     else:
         raise BadRequest(
