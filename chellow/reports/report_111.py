@@ -192,10 +192,16 @@ def do_get(sess):
     elif 'contract_id' in request.values:
         contract_id = req_int("contract_id")
         contract = Contract.get_by_id(sess, contract_id)
-        fname_additional = '_contract_' + str(contract.id)
 
         start_date = req_date("start_date")
         finish_date = req_date("finish_date")
+
+        s = ['_contract', str(contract.id)]
+        for dt in (start_date, finish_date):
+            s.append(
+                hh_format(dt).replace(' ', 'T').replace(':', '').replace(
+                    '-', ''))
+        fname_additional = '_'.join(s)
     else:
         raise BadRequest(
             "The bill check needs a batch_id, a bill_id or a start_date "
