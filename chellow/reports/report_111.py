@@ -69,7 +69,7 @@ def content(
 
     try:
         running_name, finished_name = chellow.dloads.make_names(
-            'bill_check' + fname_additional + '.csv', user)
+            'bill_check_' + fname_additional + '.csv', user)
         tmp_file = open(running_name, mode='w', newline='')
         writer = csv.writer(tmp_file, lineterminator='\n')
 
@@ -184,11 +184,11 @@ def do_get(sess):
     if 'batch_id' in request.values:
         batch_id = req_int("batch_id")
         batch = Batch.get_by_id(sess, batch_id)
-        fname_additional = '_batch_' + batch.reference
+        fname_additional = 'batch_' + batch.reference
     elif 'bill_id' in request.values:
         bill_id = req_int("bill_id")
         bill = Bill.get_by_id(sess, bill_id)
-        fname_additional = '_bill_' + str(bill.id)
+        fname_additional = 'bill_' + str(bill.id)
     elif 'contract_id' in request.values:
         contract_id = req_int("contract_id")
         contract = Contract.get_by_id(sess, contract_id)
@@ -196,7 +196,7 @@ def do_get(sess):
         start_date = req_date("start_date")
         finish_date = req_date("finish_date")
 
-        s = ['_contract', str(contract.id)]
+        s = ['contract', str(contract.id)]
         for dt in (start_date, finish_date):
             s.append(
                 hh_format(dt).replace(' ', 'T').replace(':', '').replace(
