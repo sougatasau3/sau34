@@ -7,7 +7,7 @@ from sqlalchemy.sql.expression import null, true
 import traceback
 from chellow.models import (
     Batch, Bill, Session, Era, Site, SiteEra, MarketRole, Contract, Mtc, Llfc,
-    RegisterRead, Supply)
+    RegisterRead, Supply, ReportRun)
 import chellow.computer
 import chellow.dloads
 import sys
@@ -74,6 +74,9 @@ def content(
         writer = csv.writer(tmp_file, lineterminator='\n')
 
         sess = Session()
+        report_run = ReportRun('bill_check', user, fname_additional)
+        sess.add(report_run)
+
         bills = sess.query(Bill).order_by(
             Bill.supply_id, Bill.reference).options(
             joinedload(Bill.supply),
@@ -139,15 +142,22 @@ def content(
         for supply_id in bill_map.keys():
             _process_supply(
                 sess, caches, supply_id, bill_map, forecast_date, contract,
-                vbf, virtual_bill_titles, writer, titles)
+                vbf, virtual_bill_titles, writer, titles, report_run)
+
+        report_run.update('finished')
+        sess.commit()
 
     except BadRequest as e:
+        if report_run is not None:
+            report_run.update('problem')
         if supply_id is None:
             prefix = "Problem: "
         else:
             prefix = "Problem with supply " + str(supply_id) + ':'
         tmp_file.write(prefix + e.description)
     except BaseException:
+        if report_run is not None:
+            report_run.update('interrupted')
         if supply_id is None:
             prefix = "Problem: "
         else:
@@ -200,7 +210,7 @@ def do_get(sess):
 
 def _process_supply(
         sess, caches, supply_id, bill_map, forecast_date, contract, vbf,
-        virtual_bill_titles, writer, titles):
+        virtual_bill_titles, writer, titles, report_run):
     gaps = {}
     data_sources = {}
     market_role_code = contract.market_role.code
@@ -507,7 +517,7 @@ def _process_supply(
                 values.append('')
 
             try:
-                virt_val = csv_make_val(virtual_bill[title])
+                virt_val = virtual_bill[title]
                 values.append(virt_val)
                 del virtual_bill[title]
             except KeyError:
@@ -524,14 +534,16 @@ def _process_supply(
                     values.append('')
 
         for title in sorted(virtual_bill.keys()):
-            virt_val = csv_make_val(virtual_bill[title])
+            virt_val = virtual_bill[title]
             values += ['virtual-' + title, virt_val]
             if title in covered_bdown:
                 values += ['covered-' + title, covered_bdown[title]]
             else:
                 values += ['', '']
 
-        writer.writerow(values)
+        writer.writerow([csv_make_val(v) for v in values])
+
+        report_run.insert_row(sess, '', titles, dict(zip(titles, values)))
 
         for bill in sess.query(Bill).filter(
                 Bill.supply == supply, Bill.start_date <= covered_finish,
@@ -544,7 +556,7 @@ def _process_supply(
                         bill.finish_date, False, v)
 
         # Avoid long-running transactions
-        sess.rollback()
+        sess.commit()
 
     clumps = []
     for element, elgap in sorted(gaps.items()):

@@ -16,6 +16,7 @@ table.etheling {
   border-color: silver;
   border-style: solid;
   border-width: thin;
+  background: white;
 }
 
 table.etheling th {
@@ -45,7 +46,6 @@ table.etheling_sticky {
 table.etheling_sticky th {
   position: sticky;
   top: 0;
-  background: white;
 }
 
 html, body {

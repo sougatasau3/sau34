@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}
+	&raquo; Report Runs &raquo; {{row.report_run.id}} &raquo; Row {{row.id}}
+{% endblock %}
+
+{% block nav %}
+	<a href="/report_runs">Report Runs</a> &raquo;
+	<a href="/report_runs/{{row.report_run.id}}">{{row.report_run.id}}</a>
+	&raquo; Row {{row.id}}
+{% endblock %}
+
+{% block content %}
+	<!-- Layer Section -->
+	<div class="layer-section">
+		<!-- Section Header -->
+		<div class="section-header">
+			<h2>Report Run Row</h2>	
+		</div>
+		<!-- End Section Header -->
+		<!-- Section Content -->
+		<div class="section-content">
+			<div class="section-data">
+				<table class="etheling">
+					<tbody>
+						{% for title in row.data.titles %}
+							<tr>
+								<th>{{title}}</th>
+								<td>{{row.data['values'][title]}}</td>
+							</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<!-- End Section Content -->
+	</div>
+	<!-- End Layer Section -->
+{% endblock %}

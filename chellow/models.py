@@ -1,6 +1,7 @@
 from sqlalchemy import (
     ForeignKey, Column, Integer, String, Boolean, DateTime, Text, Numeric, or_,
     not_, and_, Enum, null, create_engine, event, LargeBinary)
+from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import sessionmaker, relationship, joinedload, aliased
 from sqlalchemy.schema import UniqueConstraint
 from sqlalchemy.engine import Engine
@@ -4077,6 +4078,76 @@ class GExitZone(Base, PersistentClass):
             raise BadRequest(
                 "The Exit Zone with code " + code + " can't be found.")
         return typ
+
+
+class ReportRun(Base, PersistentClass):
+    __tablename__ = 'report_run'
+    id = Column(Integer, primary_key=True)
+    date_created = Column(DateTime(timezone=True), nullable=False, index=True)
+    creator = Column(String, nullable=False, index=True)
+    name = Column(String, nullable=False, index=True)
+    title = Column(String, nullable=False, index=True)
+    state = Column(String, nullable=False, index=True)
+    rows = relationship('ReportRunRow', backref='report_run')
+
+    def __init__(self, name, user, title):
+        self.name = name
+
+        if user is None:
+            creator = ''
+        else:
+            if hasattr(user, 'proxy_username'):
+                creator = user.proxy_username
+            else:
+                creator = user.email_address
+        self.creator = creator
+
+        self.title = title
+        self.date_created = utc_datetime_now()
+        self.state = 'running'
+
+    def update(self, state):
+        self.state = state
+
+    def insert_row(self, sess, tab, titles, values):
+        vals = {
+            'titles': titles,
+            'values': values
+        }
+        row = ReportRunRow(self, tab, vals)
+        sess.add(row)
+
+
+def _jsonize(val):
+    if isinstance(val, dict):
+        d = {}
+        for k, v in val.items():
+            d[k] = _jsonize(v)
+        return d
+
+    elif isinstance(val, set):
+        return [_jsonize(v) for v in sorted(val)[:3]]
+
+    elif isinstance(val, Decimal):
+        return float(val)
+
+    else:
+        return val
+
+
+class ReportRunRow(Base, PersistentClass):
+    __tablename__ = 'report_run_row'
+    id = Column(Integer, primary_key=True)
+    report_run_id = Column(
+        Integer, ForeignKey('report_run.id', ondelete='CASCADE'),
+        index=True, nullable=False)
+    tab = Column(String, nullable=False, index=True)
+    data = Column(JSONB, nullable=False)
+
+    def __init__(self, report_run, tab, data):
+        self.report_run = report_run
+        self.tab = tab
+        self.data = _jsonize(data)
 
 
 def read_file(pth, fname, attr):

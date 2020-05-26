@@ -11,7 +11,7 @@ from chellow.models import (
     ClockInterval, db_upgrade, Llfc, MeterType, GEra, GSupply, SiteGEra, GBill,
     GContract, GRateScript, GBatch, GRegisterRead, GReadType, VoltageLevel,
     GUnit, GLdz, GExitZone, GDn, METER_TYPES, GReadingFrequency, Scenario,
-    BatchFile)
+    BatchFile, ReportRun, ReportRunRow)
 from sqlalchemy.exc import IntegrityError
 import traceback
 from datetime import datetime as Datetime
@@ -3199,6 +3199,33 @@ def download_post(fname):
     full_name = os.path.join(download_path, name)
     os.remove(full_name)
     return chellow_redirect("/downloads", 303)
+
+
+@app.route('/report_runs')
+def report_runs_get():
+    runs = g.sess.query(ReportRun).order_by(ReportRun.date_created.desc())
+
+    return render_template('report_runs.html', runs=runs)
+
+
+@app.route('/report_runs/<int:run_id>')
+def report_run_get(run_id):
+    run = g.sess.query(ReportRun).filter(ReportRun.id == run_id).one()
+    if run.name == 'bill_check':
+        ob = ReportRunRow.data['difference-net-gbp'].desc()
+    else:
+        ob = ReportRunRow.id
+
+    rows = g.sess.query(ReportRunRow).filter(
+        ReportRunRow.report_run == run).order_by(ob).limit(100).all()
+
+    return render_template('report_run.html', run=run, rows=rows)
+
+
+@app.route('/report_run_rows/<int:row_id>')
+def report_run_row_get(row_id):
+    row = g.sess.query(ReportRunRow).filter(ReportRunRow.id == row_id).one()
+    return render_template('report_run_row.html', row=row)
 
 
 @app.route('/channel_snags')
