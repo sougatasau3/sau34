@@ -4125,6 +4125,12 @@ def _jsonize(val):
             d[k] = _jsonize(v)
         return d
 
+    elif isinstance(val, list):
+        array = []
+        for v in val:
+            array.append(_jsonize(v))
+        return array
+
     elif isinstance(val, set):
         return [_jsonize(v) for v in sorted(val)[:3]]
 

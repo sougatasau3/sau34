@@ -565,7 +565,7 @@ def c_months_c(
 def csv_make_val(v):
     if isinstance(v, (set, list)):
         if len(v) == 1:
-            return csv_make_val(v.pop())
+            return csv_make_val(next(iter(v)))
         elif 1 < len(v) < 4:
             vals = set(str(csv_make_val(val)) for val in v)
             return ' | '.join(sorted(vals))
@@ -582,7 +582,7 @@ def csv_make_val(v):
 def make_val(v):
     if isinstance(v, (set, list)):
         if len(v) == 1:
-            return make_val(v.pop())
+            return make_val(next(iter(v)))
         elif 1 < len(v) < 4:
             vals = set(str(csv_make_val(val)) for val in v)
             return ' | '.join(sorted(vals))

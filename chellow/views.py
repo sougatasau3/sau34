@@ -3217,7 +3217,7 @@ def report_run_get(run_id):
         ob = ReportRunRow.id
 
     rows = g.sess.query(ReportRunRow).filter(
-        ReportRunRow.report_run == run).order_by(ob).limit(100).all()
+        ReportRunRow.report_run == run).order_by(ob).limit(200).all()
 
     return render_template('report_run.html', run=run, rows=rows)
 
