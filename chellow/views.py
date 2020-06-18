@@ -1,4 +1,5 @@
 from io import StringIO, DEFAULT_BUFFER_SIZE
+import json
 import csv
 from flask import (
     request, Response, g, redirect, render_template, send_file, flash,
@@ -3212,20 +3213,56 @@ def report_runs_get():
 def report_run_get(run_id):
     run = g.sess.query(ReportRun).filter(ReportRun.id == run_id).one()
     if run.name == 'bill_check':
-        ob = ReportRunRow.data['difference-net-gbp'].desc()
+        order_by = 'difference-net-gbp'
+        ob = ReportRunRow.data[order_by].desc()
     else:
+        order_by = 'row.id'
         ob = ReportRunRow.id
 
     rows = g.sess.query(ReportRunRow).filter(
         ReportRunRow.report_run == run).order_by(ob).limit(200).all()
 
-    return render_template('report_run.html', run=run, rows=rows)
+    return render_template(
+        'report_run.html', run=run, rows=rows, order_by=order_by)
 
 
 @app.route('/report_run_rows/<int:row_id>')
 def report_run_row_get(row_id):
     row = g.sess.query(ReportRunRow).filter(ReportRunRow.id == row_id).one()
-    return render_template('report_run_row.html', row=row)
+    raw_data = json.dumps(row.data, sort_keys=True, indent=4)
+    tables = []
+
+    if row.report_run.name == 'bill_check':
+        values = row.data['values']
+        elements = defaultdict(dict)
+        for t in row.data['titles']:
+            if (t.startswith('covered-') or t.startswith('virtual-') or
+                    t.startswith('difference-')) and t not in (
+                    'covered-from', 'covered-to', 'covered-bills',
+                    'covered-problem', 'virtual-problem'):
+
+                toks = t.split('-')
+                name = '-'.join(toks[1:-1])
+                table = elements[name]
+                if 'titles' not in table:
+                    table['titles'] = []
+                table['titles'].append(toks[0] + '-' + toks[-1])
+                if 'values' not in table:
+                    table['values'] = []
+                table['values'].append(values[t])
+                if t.endswith('-difference-gbp'):
+                    table['order'] = values[t]
+
+        for k, v in elements.items():
+            if k == 'net':
+                continue
+            v['name'] = k
+            tables.append(v)
+
+        tables.sort(key=lambda t: t.get('order', 1000))
+
+    return render_template(
+        'report_run_row.html', row=row, raw_data=raw_data, tables=tables)
 
 
 @app.route('/channel_snags')
