@@ -3229,7 +3229,7 @@ def report_run_get(run_id):
 @app.route('/report_run_rows/<int:row_id>')
 def report_run_row_get(row_id):
     row = g.sess.query(ReportRunRow).filter(ReportRunRow.id == row_id).one()
-    raw_data = json.dumps(row.data, sort_keys=True, indent=4)
+    raw_data = json.dumps(row.data, sort_keys=True, indent=4, reverse=True)
     tables = []
 
     if row.report_run.name == 'bill_check':
