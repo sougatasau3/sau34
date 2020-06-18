@@ -3214,7 +3214,7 @@ def report_run_get(run_id):
     run = g.sess.query(ReportRun).filter(ReportRun.id == run_id).one()
     if run.name == 'bill_check':
         order_by = 'difference-net-gbp'
-        ob = ReportRunRow.data[order_by].desc()
+        ob = ReportRunRow.data['values'][order_by].desc()
     else:
         order_by = 'row.id'
         ob = ReportRunRow.id
@@ -3229,7 +3229,7 @@ def report_run_get(run_id):
 @app.route('/report_run_rows/<int:row_id>')
 def report_run_row_get(row_id):
     row = g.sess.query(ReportRunRow).filter(ReportRunRow.id == row_id).one()
-    raw_data = json.dumps(row.data, sort_keys=True, indent=4, reverse=True)
+    raw_data = json.dumps(row.data, sort_keys=True, indent=4)
     tables = []
 
     if row.report_run.name == 'bill_check':
@@ -3259,7 +3259,7 @@ def report_run_row_get(row_id):
             v['name'] = k
             tables.append(v)
 
-        tables.sort(key=lambda t: t.get('order', 1000))
+        tables.sort(key=lambda t: t.get('order', 1000), reverse=True)
 
     return render_template(
         'report_run_row.html', row=row, raw_data=raw_data, tables=tables)
