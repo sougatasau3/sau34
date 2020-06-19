@@ -3214,7 +3214,7 @@ def report_run_get(run_id):
     run = g.sess.query(ReportRun).filter(ReportRun.id == run_id).one()
     if run.name == 'bill_check':
         order_by = 'difference-net-gbp'
-        ob = ReportRunRow.data['values'][order_by].desc()
+        ob = func.abs(ReportRunRow.data['values'][order_by].as_float()).desc()
     else:
         order_by = 'row.id'
         ob = ReportRunRow.id

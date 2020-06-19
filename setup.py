@@ -55,7 +55,7 @@ setup(
         'odio==0.0.16',
         'pg8000==1.13.2',
         'Flask==1.1.2',
-        'SQLAlchemy==1.3.3',
+        'SQLAlchemy==1.3.17',
         'openpyxl==2.4.8',
         'python-dateutil==2.4.2',
         'pytz==2019.1',
