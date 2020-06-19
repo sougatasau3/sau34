@@ -57,8 +57,12 @@
 								<td>{{values['bill-gross-gbp']}}</td>
 								<td>{{values['bill-start-date']}}</td>
 								<td>{{values['bill-finish-date']}}</td>
-								<td>{{values['imp-mpan-core']}}</td>
-								<td>{{values['exp-mpan-core']}}</td>
+								<td>
+									{{values['imp-mpan-core'] if values['imp-mpan-core'] != None}}
+								</td>
+								<td>
+									{{values['exp-mpan-core'] if values['exp-mpan-core'] != None}}
+								</td>
 								<td>{{values['site-code']}}</td>
 								<td>{{values['site-name']}}</td>
 							</tr>
