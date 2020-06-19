@@ -3215,15 +3215,22 @@ def report_run_get(run_id):
     if run.name == 'bill_check':
         order_by = 'difference-net-gbp'
         ob = func.abs(ReportRunRow.data['values'][order_by].as_float()).desc()
+        sum_diff = g.sess.query(
+            func.sum(ReportRunRow.data['values'][order_by].as_float())).one()
+        summary = {
+            'sum_difference': sum_diff[0]
+        }
     else:
         order_by = 'row.id'
         ob = ReportRunRow.id
+        summary = {}
 
     rows = g.sess.query(ReportRunRow).filter(
         ReportRunRow.report_run == run).order_by(ob).limit(200).all()
 
     return render_template(
-        'report_run.html', run=run, rows=rows, order_by=order_by)
+        'report_run.html', run=run, rows=rows, order_by=order_by,
+        summary=summary)
 
 
 @app.route('/report_run_rows/<int:row_id>')
@@ -3251,7 +3258,7 @@ def report_run_row_get(row_id):
                     table['values'] = []
                 table['values'].append(values[t])
                 if t.endswith('-difference-gbp'):
-                    table['order'] = values[t]
+                    table['order'] = abs(values[t])
 
         for k, v in elements.items():
             if k == 'net':
