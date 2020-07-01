@@ -3216,7 +3216,8 @@ def report_run_get(run_id):
         order_by = 'difference-net-gbp'
         ob = func.abs(ReportRunRow.data['values'][order_by].as_float()).desc()
         sum_diff = g.sess.query(
-            func.sum(ReportRunRow.data['values'][order_by].as_float())).one()
+            func.sum(ReportRunRow.data['values'][order_by].as_float())).filter(
+            ReportRunRow.report_run == run).one()
         summary = {
             'sum_difference': sum_diff[0]
         }
