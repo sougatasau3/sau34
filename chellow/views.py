@@ -3234,6 +3234,30 @@ def report_run_get(run_id):
         summary=summary)
 
 
+@app.route('/report_runs/<int:run_id>/spreadsheet')
+def report_run_spreadsheet_get(run_id):
+    run = g.sess.query(ReportRun).filter(ReportRun.id == run_id).one()
+
+    si = StringIO()
+    cw = csv.writer(si)
+
+    first_row = g.sess.query(ReportRunRow).filter(
+        ReportRunRow.report_run == run).order_by(ReportRunRow.id).first()
+
+    titles = first_row.data['titles']
+    cw.writerow(titles)
+
+    for row in g.sess.query(ReportRunRow).filter(
+            ReportRunRow.report_run == run).order_by(ReportRunRow.id):
+        cw.writerow([csv_make_val(row.data['values'][t]) for t in titles])
+
+    output = make_response(si.getvalue())
+    output.headers["Content-Disposition"] = \
+        f'attachment; filename="{run.title}"'
+    output.headers["Content-type"] = "text/csv"
+    return output
+
+
 @app.route('/report_run_rows/<int:row_id>')
 def report_run_row_get(row_id):
     row = g.sess.query(ReportRunRow).filter(ReportRunRow.id == row_id).one()
