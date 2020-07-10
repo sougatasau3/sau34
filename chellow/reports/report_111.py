@@ -547,7 +547,12 @@ def _process_supply(
 
         writer.writerow([csv_make_val(v) for v in values])
 
-        report_run.insert_row(sess, '', titles, dict(zip(titles, values)))
+        report_run_values = dict(zip(titles, values))
+        report_run_values['bill_id'] = bill.id
+        report_run_values['batch_id'] = bill.batch.id
+        report_run_values['supply_id'] = supply.id
+        report_run_values['site_id'] = None if site_code is None else site.id
+        report_run.insert_row(sess, '', titles, report_run_values)
 
         for bill in sess.query(Bill).filter(
                 Bill.supply == supply, Bill.start_date <= covered_finish,
@@ -592,6 +597,11 @@ def _process_supply(
         vals['bill-finish-date'] = hh_format(clump['finish_date'])
         vals['difference-net-gbp'] = clump['gbp']
         writer.writerow(vals[title] for title in titles)
+
+        vals['bill_id'] = None
+        vals['batch_id'] = None
+        vals['supply_id'] = supply.id
+        vals['site_id'] = None if site_code is None else site.id
         report_run.insert_row(sess, '', titles, vals)
 
     # Avoid long-running transactions

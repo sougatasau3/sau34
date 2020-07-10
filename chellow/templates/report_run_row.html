@@ -48,8 +48,18 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td>{{values['batch']}}</td>
-								<td>{{values['bill-reference']}}</td>
+								<td>
+									{% if values.batch_id != None %}
+										<a href="/supplier_batches/{{values.batch_id}}">{{
+											values['batch']}}</a>
+									{% endif %}
+								</td>
+								<td>
+									{% if values.bill_id != None %}
+										<a href="/supplier_bills/{{values.bill_id}}">{{
+											values['bill-reference']}}</a>
+									{% endif %}
+								</td>
 								<td>{{values['bill-type']}}</td>
 								<td>{{values['bill-kwh']}}</td>
 								<td>{{values['bill-net-gbp']}}</td>
@@ -58,12 +68,23 @@
 								<td>{{values['bill-start-date']}}</td>
 								<td>{{values['bill-finish-date']}}</td>
 								<td>
-									{{values['imp-mpan-core'] if values['imp-mpan-core'] != None}}
+									{% if values['imp-mpan-core'] != None %}
+									<a href="/supplies/{{supply_id}}">{{
+										values['imp-mpan-core']}}</a>
+									{% endif %}
 								</td>
 								<td>
-									{{values['exp-mpan-core'] if values['exp-mpan-core'] != None}}
+									{% if values['exp-mpan-core'] != None %}
+										<a href="/supplies/{{supply_id}}">{{
+											values['exp-mpan-core']}}</a>
+									{% endif %}
 								</td>
-								<td>{{values['site-code']}}</td>
+								<td>
+									{% if values.site_id != None %}
+										<a href="/sites/{{values.site_id}}">{{
+											values['site-code']}}</a>
+									{% endif %}
+								</td>
 								<td>{{values['site-name']}}</td>
 							</tr>
 						</tbody>
