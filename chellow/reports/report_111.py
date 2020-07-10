@@ -592,6 +592,7 @@ def _process_supply(
         vals['bill-finish-date'] = hh_format(clump['finish_date'])
         vals['difference-net-gbp'] = clump['gbp']
         writer.writerow(vals[title] for title in titles)
+        report_run.insert_row(sess, '', titles, vals)
 
     # Avoid long-running transactions
-    sess.rollback()
+    sess.commit()
