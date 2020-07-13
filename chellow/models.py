@@ -4117,6 +4117,10 @@ class ReportRun(Base, PersistentClass):
         row = ReportRunRow(self, tab, vals)
         sess.add(row)
 
+    def delete(self, sess):
+        sess.delete(self)
+        sess.flush()
+
 
 def _jsonize(val):
     if isinstance(val, dict):

@@ -21983,4 +21983,17 @@ def virtual_bill(ds):
             r'</tr>\s*'
         ],
     },
+
+    {
+        'name': "Delete a report run",
+        'path': '/report_runs/1',
+        'method': 'post',
+        'data': {
+            'delete': 'Delete',
+        },
+        'status_code': 303,
+        'regexes': [
+            '/report_runs'
+        ],
+    },
 ]

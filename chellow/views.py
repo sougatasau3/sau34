@@ -3234,6 +3234,13 @@ def report_run_get(run_id):
         summary=summary)
 
 
+@app.route('/report_runs/<int:run_id>', methods=['POST'])
+def report_run_post(run_id):
+    run = g.sess.query(ReportRun).filter(ReportRun.id == run_id).one()
+    run.delete(g.sess)
+    return chellow_redirect("/report_runs", 303)
+
+
 @app.route('/report_runs/<int:run_id>/spreadsheet')
 def report_run_spreadsheet_get(run_id):
     run = g.sess.query(ReportRun).filter(ReportRun.id == run_id).one()
