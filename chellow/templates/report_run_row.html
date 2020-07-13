@@ -108,7 +108,18 @@
 							<tr>
 								<td>{{values['covered-from']}}</td>
 								<td>{{values['covered-to']}}</td>
-								<td>{{values['covered-bills']}}</td>
+								<td>
+									<ul>
+										{% for bill_id in values['covered-bills'] %}
+											<li>
+												<a href="/supplier_bills/{{bill_id}}">{{bill_id}}</a>
+												{% if bill_id == values.bill_id %}
+													(This bill)
+												{% endif %}
+											</li>
+										{% endfor %}
+									</ul>
+								</td>
 								<td>{{values['metered-kwh']}}</td>
 								<td>{{values['covered-net-gbp']}}</td>
 								<td>{{values['virtual-net-gbp']}}</td>

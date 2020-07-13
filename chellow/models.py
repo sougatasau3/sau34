@@ -26,7 +26,7 @@ from hashlib import pbkdf2_hmac
 from binascii import hexlify, unhexlify
 from decimal import Decimal
 from zish import dumps, loads, ZishException
-from collections.abc import Mapping
+from collections.abc import Mapping, Set
 from itertools import takewhile
 
 
@@ -4131,11 +4131,14 @@ def _jsonize(val):
             array.append(_jsonize(v))
         return array
 
-    elif isinstance(val, set):
+    elif isinstance(val, Set):
         return [_jsonize(v) for v in sorted(val)[:3]]
 
     elif isinstance(val, Decimal):
         return float(val)
+
+    elif isinstance(val, Datetime):
+        return hh_format(val)
 
     else:
         return val

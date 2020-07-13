@@ -504,12 +504,10 @@ def _process_supply(
 
         values = [
             bill.batch.reference, bill.reference, bill.bill_type.code,
-            bill.kwh, bill.net, bill.vat, hh_format(bill_start),
-            hh_format(bill_finish), imp_mpan_core, exp_mpan_core, site_code,
-            site_name, hh_format(covered_start),
-            hh_format(covered_finish), ':'.join(
-                str(i).replace(',', '') for i in covered_bills.keys()),
-            metered_kwh]
+            bill.kwh, bill.net, bill.vat, bill_start, bill_finish,
+            imp_mpan_core, exp_mpan_core, site_code, site_name, covered_start,
+            covered_finish, covered_bills.keys(), metered_kwh
+        ]
 
         for title in virtual_bill_titles:
             try:
