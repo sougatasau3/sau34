@@ -9,7 +9,7 @@ from jinja2 import Environment
 import time
 import traceback
 import os
-from collections.abc import Mapping
+from collections.abc import Mapping, Set
 from zish import loads, ZishException
 
 url_root = None
@@ -563,7 +563,7 @@ def c_months_c(
 
 
 def csv_make_val(v):
-    if isinstance(v, (set, list)):
+    if isinstance(v, (Set, list)):
         if len(v) == 1:
             return csv_make_val(next(iter(v)))
         elif 1 < len(v) < 4:
@@ -580,7 +580,7 @@ def csv_make_val(v):
 
 
 def make_val(v):
-    if isinstance(v, (set, list)):
+    if isinstance(v, (Set, list)):
         if len(v) == 1:
             return make_val(next(iter(v)))
         elif 1 < len(v) < 4:
