@@ -29,7 +29,6 @@
 							<th>Name</th>
 							<th>Title</th>
 							<th>State</th>
-							<th>Delete</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -43,14 +42,6 @@
 								<td>{{run.name}}</td>
 								<td>{{run.title}}</td>
 								<td>{{run.state}}</td>
-								<td>
-									<form
-										method="post" action="/report_runs/{{run.id}}">
-										<fieldset style="border: none;">
-											<input type="submit" name="delete" value="Delete">
-										</fieldset>
-									</form>
-								</td>
 							</tr>
 						{% endfor %}
 					</tbody>

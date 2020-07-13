@@ -4088,7 +4088,9 @@ class ReportRun(Base, PersistentClass):
     name = Column(String, nullable=False, index=True)
     title = Column(String, nullable=False, index=True)
     state = Column(String, nullable=False, index=True)
-    rows = relationship('ReportRunRow', backref='report_run')
+    rows = relationship(
+        'ReportRunRow', backref='report_run', cascade="all, delete-orphan",
+        passive_deletes=True)
 
     def __init__(self, name, user, title):
         self.name = name

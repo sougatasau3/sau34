@@ -3238,6 +3238,7 @@ def report_run_get(run_id):
 def report_run_post(run_id):
     run = g.sess.query(ReportRun).filter(ReportRun.id == run_id).one()
     run.delete(g.sess)
+    g.sess.commit()
     return chellow_redirect("/report_runs", 303)
 
 
