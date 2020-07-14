@@ -34,7 +34,7 @@
 		<div class="layer-section">
 			<!-- Section Header -->
 			<div class="section-header">
-				<h2>Bill Check</h2>	
+				<h2>Bill Check</h2>
 			</div>
 			<!-- End Section Header -->
 			<!-- Section Content -->
@@ -75,6 +75,32 @@
 						</tbody>
 					</table>
 					<br>
+					{% if summary.missing_bills|length > 0 %}
+						<table class="etheling etheling_sticky">
+							<caption>Some Missing Bills (<a href="/report_runs/{{report_run}}</caption>
+							<thead>
+								<tr>
+									<th>View</th>
+									<th>Import MPAN Core</th>
+									<th>Export MPAN Core</th>
+									<th>Start</th>
+									<th>Finish</th>
+									<th>Problem</th>
+									<th>Estimated Difference GBP</th>
+								</tr>
+							</thead>
+							<tbody>
+								{% for row in rows %}
+									<tr>
+										<td><a href="/report_run_rows/{{row.id}}">View</a></td>
+										{% for title in row.data.titles %}
+											<td>{{row.data['values'][title]}}</td>
+										{% endfor %}
+									</tr>
+								{% endfor %}
+							</tbody>
+						</table>
+					{% endif %}
 					{% if rows|length > 0 %}
 						<table class="etheling etheling_sticky">
 							<caption>Rows - Ordered By {{order_by}}</caption>
