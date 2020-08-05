@@ -315,8 +315,11 @@ def _process_line(code, row, headers):
     elif code == "CHARGE":
         _process_CHARGE(row, headers)
 
+    elif code == "SUMMARY":
+        _process_SUMMARY(row, headers)
+
     else:
-        raise BadRequest("The code {code} is not recognized.")
+        raise BadRequest(f"The code {code} is not recognized.")
 
 
 def _process_INVOICE(row, headers):
@@ -535,3 +538,7 @@ def _process_CHARGE(row, headers):
             BillElement(
                 gbp=gbp, rate=rate, cons=consumption, titles=titles,
                 desc=desc))
+
+
+def _process_SUMMARY(row, headers):
+    pass
