@@ -461,7 +461,7 @@ def _process_READING(row, headers):
         prev_read_type = READ_TYPE_MAP[row[13]]
     except KeyError as e:
         raise BadRequest(
-            "The previous register read type isn't recognized " + str(e))
+            f"The previous register read type isn't recognized {e}.")
 
     pres_read_date = _to_date(row[14]) + relativedelta(days=1) - HH
     pres_reading_value = Decimal(row[15])
@@ -478,11 +478,11 @@ def _process_READING(row, headers):
     elif units_raw == 'kVA':
         units = 'kVA'
         tpr_code = None
-    elif units_raw == 'kWH':
+    elif units_raw == 'KWH':
         units = 'kWh'
         tpr_code = tpr_code_raw
     else:
-        raise BadRequest("Units {units_raw} not recognized.")
+        raise BadRequest(f"Units {units_raw} not recognized.")
 
     headers['reads'].append(
         {
