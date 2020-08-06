@@ -261,7 +261,7 @@ BillElement = namedtuple(
 
 
 def _to_date(date_str):
-    return to_utc(to_ct(Datetime.strptime(date_str, "%y%m%d")))
+    return to_utc(to_ct(Datetime.strptime(date_str, "%Y%m%d")))
 
 
 class Parser():
