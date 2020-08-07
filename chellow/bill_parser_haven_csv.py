@@ -260,11 +260,11 @@ BillElement = namedtuple(
     'BillElement', ['gbp', 'rate', 'cons', 'titles', 'desc'])
 
 
-def _to_date(date_str):
+def _to_date(row, index):
     try:
-        return to_utc(to_ct(Datetime.strptime(date_str, "%Y%m%d")))
+        return to_utc(to_ct(Datetime.strptime(row[index], "%Y%m%d")))
     except ValueError as e:
-        raise BadRequest(f"Can't parse a date: {e}.")
+        raise BadRequest(f"Can't parse the date at index {index}: {e}.")
 
 
 class Parser():
@@ -337,10 +337,10 @@ def _process_INVOICE(row, headers):
     headers['reference'] = row[0]
     bill_type_raw = row[3]
     headers['bill_type_code'] = 'W' if bill_type_raw == '' else bill_type_raw
-    headers['issue_date'] = _to_date(row[14])
+    headers['issue_date'] = _to_date(row, 14)
 
-    headers['start_date'] = _to_date(row[17])
-    headers['finish_date'] = _to_date(row[18]) + relativedelta(days=1) - HH
+    headers['start_date'] = _to_date(row, 17)
+    headers['finish_date'] = _to_date(row, 18) + relativedelta(days=1) - HH
     headers['net'] = Decimal('0.00') + Decimal(row[19])
     headers['vat'] = Decimal('0.00') + Decimal(row[20])
     headers['gross'] = Decimal('0.00') + Decimal(row[21])
@@ -458,7 +458,7 @@ def _process_READING(row, headers):
     msn = row[4]
     tpr_code_raw = row[6]
 
-    prev_read_date = _to_date(row[11]) + relativedelta(days=1) - HH
+    prev_read_date = _to_date(row, 11) + relativedelta(days=1) - HH
     prev_reading_value = Decimal(row[12])
     try:
         prev_read_type = READ_TYPE_MAP[row[13]]
@@ -466,7 +466,7 @@ def _process_READING(row, headers):
         raise BadRequest(
             f"The previous register read type isn't recognized {e}.")
 
-    pres_read_date = _to_date(row[14]) + relativedelta(days=1) - HH
+    pres_read_date = _to_date(row, 14) + relativedelta(days=1) - HH
     pres_reading_value = Decimal(row[15])
     try:
         pres_read_type = READ_TYPE_MAP[row[16]]
@@ -516,8 +516,8 @@ def _process_CHARGE(row, headers):
     rate = Decimal(row[20])
 
     if desc == 'Standing Charge':
-        start_date = _to_date(row[23])
-        finish_date = _to_date(row[24])
+        start_date = _to_date(row, 23)
+        finish_date = _to_date(row, 24)
         consumption = Decimal((finish_date - start_date).days + 1)
     else:
         consumption = Decimal(row[22])
