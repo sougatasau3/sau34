@@ -23,7 +23,8 @@ def test_process_line_SUMMARY():
 
 def test_to_date():
     date_str = "20200430"
-    dt = chellow.bill_parser_haven_csv._to_date(date_str)
+    row = [date_str]
+    dt = chellow.bill_parser_haven_csv._to_date(row, 0)
     assert dt == to_utc(ct_datetime(2020, 4, 30))
 
 
