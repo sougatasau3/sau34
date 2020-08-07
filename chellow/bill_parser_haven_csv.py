@@ -261,7 +261,10 @@ BillElement = namedtuple(
 
 
 def _to_date(date_str):
-    return to_utc(to_ct(Datetime.strptime(date_str, "%Y%m%d")))
+    try:
+        return to_utc(to_ct(Datetime.strptime(date_str, "%Y%m%d")))
+    except ValueError as e:
+        raise BadRequest(f"Can't parse a date: {e}.")
 
 
 class Parser():
