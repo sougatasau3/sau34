@@ -1,14 +1,90 @@
 /* Etheling */
 
-table.etheling {
+:root {
+  --main-color: #009FD9;
+}
+
+body {
+	display: grid;
+ 	grid-template-columns: 1fr 4fr;
+ 	grid-template-rows: 3em 1fr;
+ 	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+ 	color: #333;
+	background-color: #EEF4F9;
+	font-size: 14px;
+	min-height: 100vh;
+	margin: 0px;
+}
+
+header {
+	background-color: var(--main-color);
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+}
+
+nav.top-nav {
+	background-color: white;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+}
+
+nav.top-nav > div {
+	display: flex;
+ 	color: white;
+}
+
+nav.top-nav > div > form {
+	padding: 1em;
+}
+
+
+nav.top-nav > div > form > input {
+	background-color: var(--main-color);
+	color: white;
+ 	border-style: none;
+ 	padding: 5px 10px;
+ 	margin: 0px;
+}
+
+nav.top-nav > div > form > button {
+	border-style: none;
+ 	background-color: var(--main-color);
+ 	padding: 5px 10px;
+ 	margin: 0px;
+}
+
+nav.side-nav {
+	background-color: white;
+}
+
+nav.side-nav > details {
+	padding-top: 1em;
+	padding-left: 1em;
+}
+
+body > main {
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 0em;
+	background-color: white;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 2em;
+}
+
+table {
   border-collapse: separate;
   border-color: silver;
   border-style: solid;
   border-width: thin;
+  border-spacing: 0px;
   background: white;
 }
 
-table.etheling th {
+table th {
   border-color: silver;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -18,7 +94,7 @@ table.etheling th {
   border-width: thin;
 }
 
-table.etheling td {
+table td {
   border-color: silver;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -28,21 +104,18 @@ table.etheling td {
   border-width: thin;
 }
 
-table.etheling_sticky {
+table.sticky {
   position: relative;
 }
 
-table.etheling_sticky th {
+table.sticky th {
   position: sticky;
   top: 0;
   background: white;
 }
 
-body {
-    background-color: #EEF4F9;
-    color: #333;
-    font-size: 14px;
-    position: relative;
+a:link, a:visited {
+	color: var(--main-color);
 }
 
 .global {
