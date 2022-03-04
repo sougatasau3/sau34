@@ -49,7 +49,7 @@ nav.top-nav > div > form > input {
 }
 
 nav.top-nav > div > form > button {
-	border-style: none;
+	border: 0;
  	background-color: var(--main-color);
  	padding: 5px 10px;
  	margin: 0px;
