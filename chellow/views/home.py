@@ -158,23 +158,6 @@ def chellow_redirect(path, code=None):
         return redirect(location, code)
 
 
-@home.route("/chellowcss", methods=["GET"])
-def chellowcss_get():
-    props = Contract.get_non_core_by_name(g.sess, "configuration").make_properties()
-    response = make_response(
-        render_template("css/chellow.css", background_colour=props["background_colour"])
-    )
-    response.headers["Content-type"] = "text/css"
-    return response
-
-
-@home.route("/chellowjs", methods=["GET"])
-def chellowjs_get():
-    response = make_response(render_template("js/chellow.js"))
-    response.headers["Content-type"] = "text/javascript"
-    return response
-
-
 @home.route("/configuration", methods=["GET"])
 def configuration():
     config = Contract.get_non_core_by_name(g.sess, "configuration")
