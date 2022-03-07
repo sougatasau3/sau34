@@ -176,6 +176,113 @@
 	<body>
 		{% block body %}
 			<header>
+				<nav class="dropdown">
+					&#x2630;
+					<nav class="dropdown-content">
+						<details>
+							<summary>&#x26A1; Contracts</summary>
+							<ul>
+								<li><a href="/e/dc_contracts" title="DC">DC</a></li>
+								<li><a href="/e/mop_contracts" title="MOP">MOP</a></li>
+								<li><a href="/e/supplier_contracts" title="Supplier">Supplier</a></li>
+								<li><a href="/non_core_contracts" title="Non-Core">Non-Core</a></li>
+							</ul>
+						</details>
+						<details>
+							<summary>&#x270F; For Editors</summary>
+							<ul>                          
+								<li>
+									<a href="/local_reports_home" title="Local Reports">Local Reports</a>
+								</li>
+								<li>
+									<a href="/general_imports" title="General Import">General Import</a>
+								</li>
+								<li><a href="/downloads" title="Downloads">Downloads</a></li>
+								<li>
+									<a href="/reports/ecoes_comparison" title="Comparison against ECOES"
+										>Comparison against ECOES</a>
+								</li>
+								<li>
+									<a href="/reports/asset_comparison" title="Comparison against Asset DB"
+										>Comparison against Asset DB</a>
+								</li>
+								<li>
+									<a href="/local_reports" title="Edit Local Reports">Edit Local Reports</a>
+								</li>
+								<li><a href="/site_snags" title="Site Snags">Site Snags</a></li>
+								<li><a href="/scenarios" title="Scenarios">Scenarios</a></li>
+								<li><a href="/reports/batches">Batches</a></li>
+								<li><a href="/edi_viewer" title="EDI Viewer">EDI Viewer</a></li>
+								<li>
+									<a href="https://github.com/WessexWater/chellow" title="Docs">Docs</a>
+								</li> 
+							</ul>
+						</details>
+						<details>
+							<summary>&#x1F3ED; Industry Info</summary>
+							<ul>
+								<li><a href="/e/dnos" title="DNOs">DNOs</a></li>
+								<li>
+									<a href="/industry_contracts" title="Industry Rates">Industry Rates</a>
+								</li>
+								<li>
+									<a href="/e/participants" title="Market Participants"
+										>Market Participants</a>
+								</li>
+								<li><a href="/e/market_roles" title="Market Roles">Market Roles</a></li>
+								<li><a href="/e/parties" title="Parties">Parties</a></li>
+								<li><a href="/e/pcs" title="Profile Classes">Profile Classes</a></li>
+								<li>
+									<a href="/e/mtcs" title="Meter Timeswitch Classes"
+										>Meter Timeswitch Classes</a>
+								</li>
+								<li><a href="/e/meter_types" title="Meter Types">Meter Types</a></li>
+								<li>
+									<a href="/dtc_meter_types" title="DTC Meter Types">DTC Meter Types</a>
+								</li>
+								<li>
+									<a href="/e/meter_payment_types" title="Meter Payments Types"
+										>Meter Payments Types</a>
+								</li>
+								<li><a href="/e/tprs" title="TPRs">TPRs</a></li>
+								<li><a href="/e/sscs" title="SSCs">SSCs</a></li>
+								<li><a href="/e/gsp_groups" title="GSP Groups">GSP Groups</a></li>
+								<li><a href="/e/cops" title="CoPs">CoPs</a></li>
+								<li><a href="/bill_types" title="Bill Types">Bill Types</a></li>
+								<li><a href="/read_types" title="Read Types">Read Types</a></li>
+								<li>
+									<a href="/e/energisation_statuses" title="Energisation Statuses"
+										>Energisation Statuses</a></li>
+								<li><a href="/e/sources" title="Sources">Sources</a></li>
+								<li>
+									<a href="/e/generator_types" title="Generator Types">Generator Types</a>
+								</li>
+								<li><a href="/e/mdd_imports" title="MDD Imports">MDD Importer</a></li>
+							</ul>
+						</details>
+						<details>
+							<summary>&#x1F525; Gas</summary>
+							<ul>                          
+								<li><a href="/g_supplies">Supplies</a></li>
+								<li><a href="/g_contracts">Contracts</a></li>
+								<li><a href="/g_read_types">Read Types</a></li>
+								<li><a href="/g_units">Units</a></li>
+								<li><a href="/g_reports">Reports</a></li>
+								<li><a href="/g_dns">DNs</a></li>
+								<li><a href="/g_reading_frequencies">Reading Frequencies</a></li>
+							</ul>
+						</details>
+						<details>
+							<summary>&#x2699; Administration</summary>
+							<ul>                          
+								<li><a href="/users" title="Users">Users</a></li>
+								<li><a href="/user_roles" title="Users Roles">Users Roles</a></li>
+								<li><a href="/system" title="System">System</a></li>
+							</ul>
+						</details>
+					</nav>
+				</nav>
+
 				<a href="/"><img style="" src="/static/images/logo.png"></a>
 			</header>
 			<nav class="top-nav">
@@ -194,110 +301,6 @@
 							><button>&#x1F50D;</button>
 					</form>
 				</div>
-			</nav>
-
-			<nav class="side-nav">
-				<details>
-					<summary>&#x26A1; Contracts</summary>
-					<ul>
-						<li><a href="/e/dc_contracts" title="DC">DC</a></li>
-						<li><a href="/e/mop_contracts" title="MOP">MOP</a></li>
-						<li><a href="/e/supplier_contracts" title="Supplier">Supplier</a></li>
-						<li><a href="/non_core_contracts" title="Non-Core">Non-Core</a></li>
-					</ul>
-				</details>
-				<details>
-					<summary>&#x270F; For Editors</summary>
-					<ul>                          
-						<li>
-							<a href="/local_reports_home" title="Local Reports">Local Reports</a>
-						</li>
-						<li>
-							<a href="/general_imports" title="General Import">General Import</a>
-						</li>
-						<li><a href="/downloads" title="Downloads">Downloads</a></li>
-						<li>
-							<a href="/reports/ecoes_comparison" title="Comparison against ECOES"
-								>Comparison against ECOES</a>
-						</li>
-						<li>
-							<a href="/reports/asset_comparison" title="Comparison against Asset DB"
-								>Comparison against Asset DB</a>
-						</li>
-						<li>
-							<a href="/local_reports" title="Edit Local Reports">Edit Local Reports</a>
-						</li>
-						<li><a href="/site_snags" title="Site Snags">Site Snags</a></li>
-						<li><a href="/scenarios" title="Scenarios">Scenarios</a></li>
-						<li><a href="/reports/batches">Batches</a></li>
-						<li><a href="/edi_viewer" title="EDI Viewer">EDI Viewer</a></li>
-						<li>
-							<a href="https://github.com/WessexWater/chellow" title="Docs">Docs</a>
-						</li> 
-					</ul>
-				</details>
-				<details>
-					<summary>&#x1F3ED; Industry Info</summary>
-					<ul>
-						<li><a href="/e/dnos" title="DNOs">DNOs</a></li>
-						<li>
-							<a href="/industry_contracts" title="Industry Rates">Industry Rates</a>
-						</li>
-						<li>
-							<a href="/e/participants" title="Market Participants"
-								>Market Participants</a>
-						</li>
-						<li><a href="/e/market_roles" title="Market Roles">Market Roles</a></li>
-						<li><a href="/e/parties" title="Parties">Parties</a></li>
-						<li><a href="/e/pcs" title="Profile Classes">Profile Classes</a></li>
-						<li>
-							<a href="/e/mtcs" title="Meter Timeswitch Classes"
-								>Meter Timeswitch Classes</a>
-						</li>
-						<li><a href="/e/meter_types" title="Meter Types">Meter Types</a></li>
-						<li>
-							<a href="/dtc_meter_types" title="DTC Meter Types">DTC Meter Types</a>
-						</li>
-						<li>
-							<a href="/e/meter_payment_types" title="Meter Payments Types"
-								>Meter Payments Types</a>
-						</li>
-						<li><a href="/e/tprs" title="TPRs">TPRs</a></li>
-						<li><a href="/e/sscs" title="SSCs">SSCs</a></li>
-						<li><a href="/e/gsp_groups" title="GSP Groups">GSP Groups</a></li>
-						<li><a href="/e/cops" title="CoPs">CoPs</a></li>
-						<li><a href="/bill_types" title="Bill Types">Bill Types</a></li>
-						<li><a href="/read_types" title="Read Types">Read Types</a></li>
-						<li>
-							<a href="/e/energisation_statuses" title="Energisation Statuses"
-								>Energisation Statuses</a></li>
-						<li><a href="/e/sources" title="Sources">Sources</a></li>
-						<li>
-							<a href="/e/generator_types" title="Generator Types">Generator Types</a>
-						</li>
-						<li><a href="/e/mdd_imports" title="MDD Imports">MDD Importer</a></li>
-					</ul>
-				</details>
-				<details>
-					<summary>&#x1F525; Gas</summary>
-					<ul>                          
-						<li><a href="/g_supplies">Supplies</a></li>
-						<li><a href="/g_contracts">Contracts</a></li>
-						<li><a href="/g_read_types">Read Types</a></li>
-						<li><a href="/g_units">Units</a></li>
-						<li><a href="/g_reports">Reports</a></li>
-						<li><a href="/g_dns">DNs</a></li>
-						<li><a href="/g_reading_frequencies">Reading Frequencies</a></li>
-					</ul>
-				</details>
-				<details>
-					<summary>&#x2699; Administration</summary>
-					<ul>                          
-						<li><a href="/users" title="Users">Users</a></li>
-						<li><a href="/user_roles" title="Users Roles">Users Roles</a></li>
-						<li><a href="/system" title="System">System</a></li>
-					</ul>
-				</details>
 			</nav>
 
 			<main>
