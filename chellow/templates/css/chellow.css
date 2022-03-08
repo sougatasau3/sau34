@@ -5,6 +5,18 @@
   --fg-color: #333;
 }
 
+body {
+	display: grid;
+ 	grid-template-columns: 1fr 4fr;
+ 	grid-template-rows: 4em 1fr;
+ 	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+ 	color: var(--fg-color);
+	background-color: #EEF4F9;
+	font-size: 14px;
+	min-height: 100vh;
+	margin: 0px;
+}
+
 body header nav {
 	color: white;
   position: relative;
@@ -21,10 +33,13 @@ body header nav nav {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 body header nav nav details {
 	padding-top: 0.5em;
+padding-bottom: 0.5em;
 }
 
 body header nav:hover nav {
@@ -32,17 +47,7 @@ body header nav:hover nav {
 }
 
 
-body {
-	display: grid;
- 	grid-template-columns: 1fr 4fr;
- 	grid-template-rows: 3em 1fr;
- 	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
- 	color: var(--fg-color);
-	background-color: #EEF4F9;
-	font-size: 14px;
-	min-height: 100vh;
-	margin: 0px;
-}
+
 
 header {
 	background-color: var(--main-color);
@@ -51,6 +56,7 @@ header {
 }
 
 nav.top-nav {
+        font-size: 16px;
 	background-color: white;
  	display: flex;
  	align-items: center;
@@ -70,16 +76,18 @@ nav.top-nav > div > form {
 nav.top-nav > div > form > input {
 	background-color: var(--main-color);
 	color: white;
- 	border-style: none;
+ 	border: 0;
  	padding: 5px 10px;
- 	margin: 0px;
+ 	margin: 0;
+        line-height: 24px;
 }
 
 nav.top-nav > div > form > button {
 	border: 0;
  	background-color: var(--main-color);
  	padding: 5px 10px;
- 	margin: 0px;
+ 	margin: 0;
+        line-height: 24px;
 }
 
 body > main {
@@ -92,14 +100,14 @@ body > main {
 	padding-right: 1em;
 	padding-top: 2em;
 	grid-column: 1 / -1;
+        font-size: 12px;
 }
 
 table {
-  border-collapse: separate;
+  border-collapse: collapse;
   border-color: silver;
   border-style: solid;
-  border-width: thin;
-  border-spacing: 0px;
+  border-spacing: 0;
   background: white;
 }
 
@@ -110,7 +118,6 @@ table th {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   border-style: solid;
-  border-width: thin;
 }
 
 table td {
@@ -120,7 +127,6 @@ table td {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   border-style: solid;
-  border-width: thin;
 }
 
 table.sticky {
