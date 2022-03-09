@@ -19,15 +19,13 @@
 							party.participant.code + " : " + party.name) }}
 				{% endfor %}
 			</select>
-						</label>
-						<label>
-							Name {{input_text('name')}}
-						</label>
-				<fieldset>
-						<legend>Start Date</legend>
-						{{ input_date('start') }}
-				</fieldset>
-				<input type="submit" value="Add">
+			<label>Name</label>
+			{{input_text('name')}}
+			<fieldset>
+					<legend>Start Date</legend>
+					{{ input_date('start') }}
+			</fieldset>
+			<input type="submit" value="Add">
 		</fieldset>
 	</form>
 {% endblock %}

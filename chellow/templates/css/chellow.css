@@ -28,7 +28,7 @@ body header nav nav {
 	color: var(--fg-color);
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+	background-color: #D9D9D9;
   min-width: 21em;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -36,18 +36,64 @@ body header nav nav {
   padding-bottom: 0.5em;
 }
 
-body header nav nav details {
+body header nav:hover nav {
+  display: block;
+	list-style-type: none;
+	padding-left: 0;
+	padding-right: 0;
+	color: var(--fg-color);
+	margin: 0;
+}
+
+body header nav:hover nav details {
+	cursor: pointer;
+	margin: 0;
+}
+
+body header nav:hover nav details > summary {
+	list-style: none;
+	padding-left: 1em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
 
-body header nav nav details ul {
+body header nav:hover nav details ul {
 	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+	color: var(--fg-color);
 }
 
-body header nav:hover nav {
-  display: block;
+body header nav:hover nav details ul li {
+	margin: 0;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+	background-color: white;
 }
+
+body header nav:hover nav details ul li:hover {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+	background-color: var(--main-color);
+	color: white;
+}
+
+
+body header nav:hover nav details ul li a {
+	color: var(--fg-color);
+	text-decoration: none;
+}
+
+body header nav:hover nav details ul li:hover a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
 
 header {
 	background-color: var(--main-color);
@@ -109,6 +155,11 @@ table {
   border-style: solid;
   border-spacing: 0;
   background: white;
+	margin-top: 2em;
+}
+
+table caption {
+	padding-bottom: 0.5em;
 }
 
 table th {
@@ -152,6 +203,8 @@ fieldset {
 	column-gap: 1em;
 	justify-items: left;
 	grid-row-gap: 0.5em;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
 }
 
 fieldset > fieldset {
