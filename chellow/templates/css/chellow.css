@@ -2,6 +2,7 @@
 
 :root {
   --main-color: #009FD9;
+	--main-hover-color: #008EC2;
   --fg-color: #333;
 }
 
@@ -141,6 +142,46 @@ table.sticky th {
 a:link, a:visited {
 	color: var(--main-color);
 }
+
+fieldset {
+	border-right: none;
+	border-left: none;
+	border-width: thin;
+	display: inline-grid;
+	grid-template-columns: auto auto;
+	column-gap: 1em;
+	justify-items: left;
+	grid-row-gap: 0.5em;
+}
+
+fieldset > fieldset {
+	grid-column: 1 / -1;
+}
+	
+
+legend {
+	font-weight: 700;
+	color: #999;
+	text-transform: uppercase;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+input[type = submit] {
+	color: white;
+	padding: 5px 10px;
+	border: 0;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+	background-color: var(--main-color);
+	transition: background-color 230ms ease, color 230ms ease;
+}
+
+input[type = submit]:hover {
+	background-color: var(--main-hover-color);
+}
+
 
 .global {
 	color: red;
