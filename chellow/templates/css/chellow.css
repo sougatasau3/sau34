@@ -16,15 +16,23 @@ body {
 	font-size: 14px;
 }
 
-body header nav {
+body > header {
+	background-color: var(--main-color);
+ 	display: grid;
+ 	grid-template-columns: auto 1fr;
+ 	grid-template-rows: 1fr;
+	align-items: center;
+}
+
+body > header > nav {
 	color: white;
   position: relative;
   display: inline-block;
-	padding-left: 1em;
-	padding-right: 1em;
+	text-align: center;
+	padding-left: 1.5em;
 }
 
-body header nav nav {
+body > header > nav > nav {
 	color: var(--fg-color);
   display: none;
   position: absolute;
@@ -36,35 +44,36 @@ body header nav nav {
   padding-bottom: 0.5em;
 }
 
-body header nav:hover nav {
+body > header > nav:hover > nav {
   display: block;
 	list-style-type: none;
 	padding-left: 0;
 	padding-right: 0;
 	color: var(--fg-color);
 	margin: 0;
+	text-align: start;
 }
 
-body header nav:hover nav details {
+body > header > nav:hover > nav > details {
 	cursor: pointer;
 	margin: 0;
 }
 
-body header nav:hover nav details > summary {
+body > header > nav:hover > nav > details > summary {
 	list-style: none;
 	padding-left: 1em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
 
-body header nav:hover nav details ul {
+body > header > nav:hover > nav > details > ul {
 	list-style-type: none;
 	padding-left: 0;
 	margin: 0;
 	color: var(--fg-color);
 }
 
-body header nav:hover nav details ul li {
+body > header > nav:hover > nav > details > ul > li {
 	margin: 0;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
@@ -72,7 +81,7 @@ body header nav:hover nav details ul li {
 	background-color: white;
 }
 
-body header nav:hover nav details ul li:hover {
+body > header > nav:hover > nav > details > ul > li:hover {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	padding-left: 1em;
@@ -81,12 +90,12 @@ body header nav:hover nav details ul li:hover {
 }
 
 
-body header nav:hover nav details ul li a {
+body > header > nav:hover > nav > details > ul > li > a {
 	color: var(--fg-color);
 	text-decoration: none;
 }
 
-body header nav:hover nav details ul li:hover a {
+body > header > nav:hover > nav > details > ul > li:hover > a {
 	color: white;
 	text-decoration: none;
 	display: block;
@@ -94,12 +103,11 @@ body header nav:hover nav details ul li:hover a {
 	height: 100%;
 }
 
-
-header {
-	background-color: var(--main-color);
- 	display: flex;
- 	align-items: center;
+body > header > a {
+ 	display: block;
+ 	text-align: center;
 }
+
 
 nav.top-nav {
 	font-size: 16px;
@@ -192,7 +200,15 @@ table.sticky th {
 
 a:link, a:visited {
 	color: var(--main-color);
+	text-decoration: none;
+	transition: background-color 230ms ease, color 230ms ease;
 }
+
+a:hover {
+	color: var(--main-hover-color);
+	text-decoration: underline;
+}
+
 
 fieldset {
 	border-right: none;
