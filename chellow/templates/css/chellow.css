@@ -198,13 +198,13 @@ table.sticky th {
 }
 
 a:link, a:visited {
-	color: #337AB7;
+	color: var(--main-color);
 	text-decoration: none;
 	transition: background-color 230ms ease, color 230ms ease;
 }
 
 a:hover {
-	color: ;
+	color: #337AB7;
 	text-decoration: underline;
 }
 
