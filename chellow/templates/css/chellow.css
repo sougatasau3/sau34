@@ -2,7 +2,6 @@
 
 :root {
   --main-color: #009FD9;
-	--main-hover-color: #008EC2;
   --fg-color: #333;
 }
 
@@ -199,13 +198,13 @@ table.sticky th {
 }
 
 a:link, a:visited {
-	color: var(--main-color);
+	color: #337AB7;
 	text-decoration: none;
 	transition: background-color 230ms ease, color 230ms ease;
 }
 
 a:hover {
-	color: var(--main-hover-color);
+	color: ;
 	text-decoration: underline;
 }
 
@@ -248,7 +247,7 @@ input[type = submit] {
 }
 
 input[type = submit]:hover {
-	background-color: var(--main-hover-color);
+	background-color: #008EC2;
 }
 
 
