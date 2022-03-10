@@ -163,6 +163,7 @@ table {
   border-spacing: 0;
   background: white;
 	margin-top: 2em;
+	border-width: thin;
 }
 
 table caption {
@@ -176,6 +177,7 @@ table th {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   border-style: solid;
+	border-width: thin;
 }
 
 table td {
@@ -185,6 +187,7 @@ table td {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   border-style: solid;
+	border-width: thin;
 }
 
 table.sticky {
