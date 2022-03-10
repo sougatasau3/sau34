@@ -161,21 +161,23 @@
 			<tbody>
 				<tr>
 					<td rowspan="4">
-						<span title="{{ era.start_date|hh_format }}">{{ era.start_date|hh_format(modifier='date') }}</span>
+						<span title="{{ era.start_date|hh_format }}"
+							>{{ era.start_date|hh_format(modifier='date') }}</span>
 					</td>
 					<td rowspan="4">
-							<span title="{{ era.finish_date|hh_format }}">{{ era.finish_date|hh_format(modifier='date') }}</span>
+							<span title="{{ era.finish_date|hh_format }}"
+								>{{ era.finish_date|hh_format(modifier='date') }}</span>
 					</td>
 					<td rowspan="4">
 							<a href="/sites/{{physical_site.id}}"
 								 title="{{physical_site.name}}">{{ physical_site.code }}</a>
 							{% if other_sites %}
-							(also
-							{% for other_site in other_sites %}
-							<a href="/sites/{{ other_site.id }}"
-								 title="{{other_site.name}}">{{ other_site.code }}</a>
-							{%- endfor -%}
-							)
+								(also
+								{% for other_site in other_sites %}
+									<a href="/sites/{{ other_site.id }}"
+										 title="{{other_site.name}}">{{ other_site.code }}</a>
+								{%- endfor -%}
+								)
 							{% endif %}
 					</td>
 					<td rowspan="4">
