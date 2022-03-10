@@ -161,10 +161,10 @@
 			<tbody>
 				<tr>
 					<td rowspan="4">
-						<a title="{{ era.start_date|hh_format }}">{{ era.start_date|hh_format(modifier='date') }}</a>
+						<span title="{{ era.start_date|hh_format }}">{{ era.start_date|hh_format(modifier='date') }}</span>
 					</td>
 					<td rowspan="4">
-							<a title="{{ era.finish_date|hh_format }}">{{ era.finish_date|hh_format(modifier='date') }}</a>
+							<span title="{{ era.finish_date|hh_format }}">{{ era.finish_date|hh_format(modifier='date') }}</span>
 					</td>
 					<td rowspan="4">
 							<a href="/sites/{{physical_site.id}}"
