@@ -238,10 +238,12 @@ def create_app(testing=False):
             if importer is not None and importer.global_alert is not None:
                 global_alerts.append(importer.global_alert)
 
+        test_match = g.config.get("test_match")
+
         return {
             "current_user": g.user,
             "global_alerts": global_alerts,
-            "is_test": g.config.get("test_match") in request.host,
+            "is_test": False if test_match is None else test_match in request.host,
             "test_css": g.config.get("test_css"),
         }
 
