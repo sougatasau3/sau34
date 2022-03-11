@@ -148,6 +148,7 @@ nav.top-nav > div > form > button {
  	padding: 5px 10px;
  	margin: 0;
 	line-height: 24px;
+	cursor: pointer;
 }
 
 body > main {
@@ -194,6 +195,12 @@ table td {
   padding-bottom: 0.5em;
   border-style: solid;
 	border-width: thin;
+}
+
+table fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
 }
 
 table.sticky {
@@ -271,6 +278,7 @@ input[type = submit] {
 
 input[type = submit]:hover {
 	background-color: #008EC2;
+	cursor: pointer;
 }
 
 
