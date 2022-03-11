@@ -29,6 +29,7 @@ body > header > nav {
   display: inline-block;
 	text-align: center;
 	padding-left: 1.5em;
+	padding-right: 3em;
 }
 
 body > header > nav > nav {
@@ -105,6 +106,7 @@ body > header > nav:hover > nav > details > ul > li:hover > a {
 body > header > a {
  	display: block;
  	text-align: center;
+	padding-right: 5em;
 }
 
 
