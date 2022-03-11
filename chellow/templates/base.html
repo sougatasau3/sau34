@@ -169,7 +169,7 @@
 			{% if is_test %}
 				<link rel="icon" type="image/svg+xml" href="/static/images/favicon_test.svg">
 				<style>
-					{{ test_css }}
+					{{ test_css|safe }}
 				</style>
 			{% else %}
 				<link rel="icon" type="image/svg+xml" href="/static/images/favicon.svg">
