@@ -1893,12 +1893,12 @@ def non_core_contract_edit_post(contract_id):
             state = req_zish("state")
             contract.update_state(state)
             g.sess.commit()
-            return chellow_redirect("/non_core_contracts/" + str(contract.id), 303)
+            return chellow_redirect(f"/non_core_contracts/{contract.id}", 303)
         else:
             properties = req_zish("properties")
             contract.update_properties(properties)
             g.sess.commit()
-            return chellow_redirect("/non_core_contracts/" + str(contract.id), 303)
+            return chellow_redirect(f"/non_core_contracts/{contract.id}", 303)
     except BadRequest as e:
         flash(e.description)
         return make_response(

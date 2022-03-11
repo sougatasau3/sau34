@@ -7,7 +7,7 @@ from sqlalchemy import select
 
 from werkzeug.exceptions import NotFound
 
-from zish import dumps
+from zish import ZishException, dumps
 
 import chellow.api
 import chellow.bank_holidays
@@ -111,7 +111,10 @@ def create_app(testing=False):
     def check_permissions(*args, **kwargs):
         g.user = None
         config_contract = Contract.get_non_core_by_name(g.sess, "configuration")
-        g.config = config_contract.make_properties()
+        try:
+            g.config = config_contract.make_properties()
+        except ZishException:
+            g.config = {}
         ad_props = g.config.get("ad_authentication", {})
         ad_auth_on = ad_props.get("on", False)
         if ad_auth_on:
