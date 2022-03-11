@@ -165,8 +165,15 @@
 <html lang="en">
 	<head>
 		{% block head %}
-			<link rel="stylesheet" href="/chellowcss">
-			<link rel="icon" type="image/svg+xml" href="/static/images/favicon.svg">
+			<link rel="stylesheet" type="text/css" href="/static/css/chellow.css">
+			{% if is_test %}
+				<link rel="icon" type="image/svg+xml" href="/static/images/favicon_test.svg">
+				<style>
+					{{ test_css }}
+				</style>
+			{% elif %}
+				<link rel="icon" type="image/svg+xml" href="/static/images/favicon.svg">
+			{% endif %}
 
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 		
