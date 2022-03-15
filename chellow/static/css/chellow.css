@@ -17,6 +17,19 @@ body {
 	line-height: 1.42857143;
 }
 
+a:link, a:visited {
+	color: var(--main-color);
+	text-decoration: none;
+	transition: background-color 230ms ease, color 230ms ease;
+}
+
+a:hover {
+	color: #337AB7;
+	text-decoration: underline;
+}
+
+
+
 body > header {
 	background-color: var(--main-color);
  	display: grid;
@@ -31,7 +44,11 @@ body > header > nav {
   display: inline-block;
 	text-align: center;
 	padding-left: 1.5em;
-	padding-right: 3em;
+}
+
+body > header > nav > span {
+	cursor: pointer;
+	font-size: large;
 }
 
 body > header > nav > nav {
@@ -44,15 +61,10 @@ body > header > nav > nav {
   z-index: 1;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-}
-
-body > header > nav > nav {
-  display: block;
 	left: 0em;
 	list-style-type: none;
 	padding-left: 0;
 	padding-right: 0;
-	color: var(--fg-color);
 	margin: 0;
 	text-align: start;
 }
@@ -77,6 +89,7 @@ body > header > nav > nav > details > ul {
 }
 
 body > header > nav > nav > details > ul > li {
+	color: var(--fg-color);
 	margin: 0;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
@@ -84,6 +97,18 @@ body > header > nav > nav > details > ul > li {
 	padding-right: 2em;
 	background-color: white;
 }
+
+body > header > nav > nav > details > ul > li > a:link {
+	color: var(--fg-color);
+	text-decoration: none;
+}
+
+body > header > nav > nav > details > ul > li > a:visited {
+	color: var(--fg-color);
+	text-decoration: none;
+}
+
+/*
 
 body > header > nav > nav > details > ul > li:hover {
 	padding-top: 0.5em;
@@ -95,11 +120,6 @@ body > header > nav > nav > details > ul > li:hover {
 }
 
 
-body > header > nav > nav > details > ul > li > a {
-	color: var(--fg-color);
-	text-decoration: none;
-}
-
 body > header > nav > nav > details > ul > li:hover > a {
 	color: white;
 	text-decoration: none;
@@ -108,10 +128,11 @@ body > header > nav > nav > details > ul > li:hover > a {
 	height: 100%;
 }
 
+*/
+
 body > header > a {
  	display: block;
  	text-align: center;
-	padding-right: 5em;
 }
 
 
@@ -212,18 +233,6 @@ table.sticky th {
   top: 0;
   background: white;
 }
-
-a:link, a:visited {
-	color: var(--main-color);
-	text-decoration: none;
-	transition: background-color 230ms ease, color 230ms ease;
-}
-
-a:hover {
-	color: #337AB7;
-	text-decoration: underline;
-}
-
 
 fieldset {
 	border-right: none;
