@@ -178,6 +178,17 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 			<title>Chellow {% block title %}{% endblock %}</title>
+			<script>
+				function onHamburgerClick() {
+					var navElement = document.getElementById('hamburger');
+					if (navElement.style.display == 'block') {
+						navElement.style.display = 'none';
+					} else {
+						navElement.style.display = 'block';
+					}
+				}
+
+			</script>
 			{% block inside_head %}{% endblock %}
 		{% endblock %}
 	</head>
@@ -185,8 +196,8 @@
 		{% block body %}
 			<header>
 				<nav>
-					&#x2630;
-					<nav>
+					<span onClick="onHamburgerClick()">&#x2630;</span>
+					<nav id="hamburger">
 						<details>
 							<summary>&#x26A1; Contracts</summary>
 							<ul>

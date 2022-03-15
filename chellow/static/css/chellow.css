@@ -46,7 +46,7 @@ body > header > nav > nav {
   padding-bottom: 0.5em;
 }
 
-body > header > nav:hover > nav {
+body > header > nav > nav {
   display: block;
 	left: 0em;
 	list-style-type: none;
@@ -57,26 +57,26 @@ body > header > nav:hover > nav {
 	text-align: start;
 }
 
-body > header > nav:hover > nav > details {
+body > header > nav > nav > details {
 	cursor: pointer;
 	margin: 0;
 }
 
-body > header > nav:hover > nav > details > summary {
+body > header > nav > nav > details > summary {
 	list-style: none;
 	padding-left: 2em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
 
-body > header > nav:hover > nav > details > ul {
+body > header > nav > nav > details > ul {
 	list-style-type: none;
 	padding-left: 0;
 	margin: 0;
 	color: var(--fg-color);
 }
 
-body > header > nav:hover > nav > details > ul > li {
+body > header > nav > nav > details > ul > li {
 	margin: 0;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
@@ -85,7 +85,7 @@ body > header > nav:hover > nav > details > ul > li {
 	background-color: white;
 }
 
-body > header > nav:hover > nav > details > ul > li:hover {
+body > header > nav > nav > details > ul > li:hover {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	padding-left: 2em;
@@ -95,12 +95,12 @@ body > header > nav:hover > nav > details > ul > li:hover {
 }
 
 
-body > header > nav:hover > nav > details > ul > li > a {
+body > header > nav > nav > details > ul > li > a {
 	color: var(--fg-color);
 	text-decoration: none;
 }
 
-body > header > nav:hover > nav > details > ul > li:hover > a {
+body > header > nav > nav > details > ul > li:hover > a {
 	color: white;
 	text-decoration: none;
 	display: block;
