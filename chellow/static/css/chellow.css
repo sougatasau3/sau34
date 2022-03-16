@@ -283,7 +283,6 @@ main li:before {
 	content: '- ';
 }
 
-
 input[type = submit] {
 	color: white;
 	padding: 5px 10px;
