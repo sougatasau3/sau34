@@ -32,6 +32,25 @@
 		main table.stretch {
 			width: 100%;
 		}
+
+		main table td.bold {
+			font-weight: bold;
+		}
+		main table caption {
+			text-align: left;
+		}
+
+		main h4 {
+			width: 100%;
+			text-align: center;
+		}
+
+		main div.link-grid {
+			display: grid;
+			grid-template-columns: auto auto;
+			align-items: center;
+		}
+
 	</style>
 {% endblock %}
 
@@ -127,57 +146,44 @@
 				</thead>
 				<tbody>
 					<tr>
-						<th>Snapshot</th>
+						<td class="bold">Snapshot</td>
 						<td><a href="/e/csv_supplies_snapshot" title="Download">Download</a></td>
-						<td>&nbsp;</td>
+						<td></td>
 					</tr>
 					<tr>
-						<th>HH Data</th>
+						<td class="bold">HH Data</td>
 						<td><a href="/e/csv_supplies_hh_data">Download</a></td>
 						<td><a href="/e/csv_sites_hh_data">Download</a></td>
 					</tr>
 					<tr>
-						<th>TRIAD</th>
+						<td class="bold">TRIAD</td>
 						<td><a href="/e/csv_supplies_triad">Download</a></td>
 						<td><a href="/e/csv_sites_triad">Displaced</a></td>
 					</tr>
 					<tr>
-						<th>CRC</th>
+						<td class="bold">CRC</td>
 						<td><a href="/e/csv_crc">Download</a></td>
-						<td>&nbsp;</td>
-					</tr>
-					<tr>
-						<th>Register Reads</th>
-						<td>
-							<a href="/e/csv_register_reads">Download</a>
-						</td>
 						<td></td>
 					</tr>
 					<tr>
-						<th>DNO / Supplier Contacts</th>
+						<td class="bold">Register Reads</td>
+						<td><a href="/e/csv_register_reads">Download</a></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="bold">DNO / Supplier Contacts</td>
 						<td><a href="/reports/supply_contacts">Download</a></td>
+						<td>
 					</tr>
 					<tr>
-						<th>
-							<a
-									href="/e/ods_monthly_duration"
-									>Monthly Duration</a>
-						</th>
+						<td class="bold"><a href="/e/ods_monthly_duration">Monthly Duration</a></td>
 						<td></td>
 						<td></td>
 					</tr>
 					<tr>
-						<th>
-							Duration
-						</th>
-						<td>
-							<a href="/e/csv_supplies_duration"
-									>Download</a>
-						</td>
-						<td>
-							<a
-								href="/csv_sites_duration">Download</a>
-						</td>
+						<td class="bold">Duration</td>
+						<td><a href="/e/csv_supplies_duration">Download</a></td>
+						<td><a href="/csv_sites_duration">Download</a></td>
 					</tr>
 				</tbody>
 			</table>
@@ -185,56 +191,76 @@
 
 
 		<section>
-			<h4>Contracts</h4>
-			<ul>
-				<li><a href="/e/dc_contracts">DC</a></li>
-				<li><a href="/e/mop_contracts">MOP</a></li>
-				<li><a href="/e/supplier_contracts">Supplier</a></li>
-				<li><a href="/non_core_contracts">Non-Core</a></li>
-			</ul>
+			<table class="stretch">
+				<tbody>
+					<tr>
+						<td rowspan="4">Contracts</td>
+						<td><a href="/e/dc_contracts">DC</a></td>
+					</tr>
+					<tr>
+						<td><a href="/e/mop_contracts">MOP</a></td>
+					</tr>
+					<tr>
+						<td><a href="/e/supplier_contracts">Supplier</a></td>
+					</tr>
+					<tr>
+						<td><a href="/non_core_contracts">Non-Core</a></td>
+					</tr>
+				</tbody>
+			</table>
 		</section>
 
 		<section>
 			<h4>Industry Information Links</h4>
+			
+			<div class="link-grid">
+				<ul>
+					<li><a href="/e/dnos">DNOs</a></li>
+					<li><a href="/industry_contracts">Industry Rates</a></li>
+					<li><a href="/e/participants">Market Participants</a></li>
+					<li><a href="/e/parties">Parties</a></li>
+					<li><a href="/e/generator_types">Generator Types</a></li>
+					<li><a href="/e/meter_payment_types">Meter Payment Types</a></li>
+					<li><a href="/e/sscs">SSCs</a></li>
+					<li><a href="/e/cops">CoPs</a></li>
+					<li><a href="/e/comms">Comms</a></li>
+					<li><a href="/e/read_types">Read Types</a></li>
+				</ul>
 
-			<ul>
-				<li><a href="/e/dnos">DNOs</a></li>
-			 	<li><a href="/industry_contracts">Industry Rates</a></li>
-				<li><a href="/e/participants">Market Participants</a></li>
-				<li><a href="/e/parties">Parties</a></li>
-				<li><a href="/e/generator_types">Generator Types</a></li>
-				<li><a href="/e/meter_payment_types">Meter Payment Types</a></li>
-				<li><a href="/e/sscs">SSCs</a></li>
-				<li><a href="/e/cops">CoPs</a></li>
-				<li><a href="/e/comms">Comms</a></li>
-				<li><a href="/e/read_types">Read Types</a></li>
-				<li><a href="/e/market_roles">Market Roles</a></li>
-				<li><a href="/e/pcs">Profile Classes</a></li>
-				<li><a href="/e/mdd_imports">MDD Importer</a></li>
-				<li><a href="/e/tprs">TPRs</a></li>
-				<li><a href="/e/gsp_groups">GSP Groups</a></li>
-				<li><a href="/bill_types">Bill Types</a></li>
-				<li><a href="/e/sources">Sources</a></li>
-				<li><a href="/e/meter_types">Meter Types</a></li>
-				<li><a href="/e/mtcs">Meter Timeswitch Classes</a></li>
-			</ul>
+				<ul>
+					<li><a href="/e/market_roles">Market Roles</a></li>
+					<li><a href="/e/pcs">Profile Classes</a></li>
+					<li><a href="/e/mdd_imports">MDD Importer</a></li>
+					<li><a href="/e/tprs">TPRs</a></li>
+					<li><a href="/e/gsp_groups">GSP Groups</a></li>
+					<li><a href="/bill_types">Bill Types</a></li>
+					<li><a href="/e/sources">Sources</a></li>
+					<li><a href="/e/meter_types">Meter Types</a></li>
+					<li><a href="/e/mtcs">Meter Timeswitch Classes</a></li>
+				</ul>
+			</div>
 		</section>
 
 		<section>
 			<h4>For Editor Links</h4>
-
-			<ul>
-				<li><a href="/local_reports">Edit Local Reports</a></li>
-				<li><a href="/user_roles">Users Roles</a></li>
-				<li><a href="/reports/ecoes_comparison" >Comparison against ECOES</a></li>
-				<li><a href="/e/asset_comparison" >Comparison against asset data</a></li>
-				<li><a href="/api/v1" >API</a></li>
-				<li><a href="/users">Users</a></li>
-				<li><a href="/system">System</a></li>
-				<li><a href="/edi_viewer">EDI Viewer</a></li>
-				<li><a href="/e/scenarios">Scenarios</a></li>
-				<li><a href="/reports/batches">Batches</a></li>
-			</ul>
+			
+			<div class="link-grid">
+				<ul>
+					<li><a href="/local_reports">Edit Local Reports</a></li>
+					<li><a href="/user_roles">Users Roles</a></li>
+					<li><a href="/reports/ecoes_comparison" >Comparison against ECOES</a></li>
+					<li><a href="/e/asset_comparison" >Comparison against asset data</a></li>
+					<li><a href="/api/v1" >API</a></li>
+				</ul>
+			
+				<ul>
+					<li><a href="/users">Users</a></li>
+					<li><a href="/system">System</a></li>
+					<li><a href="/edi_viewer">EDI Viewer</a></li>
+					<li><a href="/e/scenarios">Scenarios</a></li>
+					<li><a href="/reports/batches">Batches</a></li>
+				</ul>
+			</div>
 		</section>
 	</div>
 {% endblock %}
