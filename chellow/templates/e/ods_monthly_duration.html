@@ -9,6 +9,7 @@
 {% endblock %}
 
 {% block content %}
+
 	<form action="/reports/247" method="post">
 		<fieldset>
 			<legend>Download</legend>	
@@ -22,15 +23,14 @@
 	</form>
 
 	<p>
-		Here's how Chellow calculates the monthly consumption for dumb NHH
-		supplies. First it finds the closest normal reads. Let's assume
-		there are just two for simplicity. For each TPR, Chellow works out
-		the (historical kWh / hh) = (kWh between the two reads) /
-		(number of HHs between the two reads). Then Chellow finds the
-		number of HHs between the beginning of the month and the end of the
-		month, and also the number of HHs that fall within the TPR, between
-		the beginning and and of the month. The kWh for each half hour in
-		the month for each TPR is (historical kWh / hh) *
+		Here's how Chellow calculates the monthly consumption for dumb NHH supplies. First
+	 	it finds the closest normal reads. Let's assume there are just two for simplicity.
+	 	For each TPR, Chellow works out the (historical kWh / hh) = (kWh between the two
+	 	reads) / (number of HHs between the two reads). Then Chellow finds the number of
+	 	HHs between the beginning of the month and the end of the month, and also the
+	 	number of HHs that fall within the TPR, between the beginning and and of the month.
+	 	The kWh for each half hour in the month for each TPR is (historical kWh / hh) *
 		(month half-hours) / (month half-hours within TPR).
 	</P>
+
 {% endblock %}
