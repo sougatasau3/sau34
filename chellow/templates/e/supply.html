@@ -691,8 +691,8 @@
 		<fieldset>
 			<input type="hidden" name="supply_id" value="{{supply.id}}">
 			<legend>Virtual Bills</legend>
-			From {{input_date('start', last_month_start)}} to
-			{{input_date('finish', last_month_finish)}}
+			<label>From</label> {{input_date('start', last_month_start)}}
+			<label>To</label> {{input_date('finish', last_month_finish)}}
 			<input type="submit" value="Download">
 		</fieldset>
 	</form>
@@ -701,24 +701,27 @@
 		<fieldset>
 			<input type="hidden" name="supply_id" value="{{supply.id}}">
 			<legend>Daily Supplier Virtual Bills</legend>
+			<label>Import / Export</label>
 			<select name="is_import">
 				<option value="true">Import</option>
 				<option value="false">Export</option>
 			</select>
-			from {{input_date('start', last_month_start, 'day')}}
-			to {{input_date('finish', last_month_finish, 'day')}}
+			<label>From</label> {{input_date('start', last_month_start, 'day')}}
+			<label>To</label> {{input_date('finish', last_month_finish, 'day')}}
 			<input type="submit" value="Download">
-			(Note that unless a month is entirely in the past, all the days
-			for that month will be estimates)
 		</fieldset>
+		<p>
+			(Note that unless a month is entirely in the past, all the days for that month
+			will be estimates)
+		</p>
 	</form>
 
 	<form action="/reports/387">
 		<fieldset>
 			<input type="hidden" name="supply_id" value="{{supply.id}}">
 			<legend>Virtual Bills By Half-Hour</legend>
-			From {{input_date('start', last_month_start)}} to
-			{{input_date('finish', last_month_finish)}}
+			<label>From</label> {{input_date('start', last_month_start)}}
+			<label>To</label> {{input_date('finish', last_month_finish)}}
 			<input type="submit" value="Download">
 		</fieldset>
 	</form>
@@ -727,18 +730,19 @@
 		<fieldset>
 			<legend>HH Data: Day Per Row</legend>
 			<input type="hidden" name="supply_id" value="{{supply.id}}">
+			<label>Import / Export</label>
 			<select name="imp_related">
 				<option value="true">Import</option>
 				<option value="false">Export</option>
 			</select>
+			<label>Channel Type</label>
 			<select name="channel_type">
 				<option value="ACTIVE">ACTIVE</option>
 				<option value="REACTIVE_IMP">REACTIVE_IMP</option>
 				<option value="REACTIVE_EXP">REACTIVE_EXP</option>
 			</select>
-			from {{
-			input_date('start', last_month_start, resolution='day') }} to
-			{{ input_date('finish', last_month_finish, resolution='day') }}
+			<label>From</label> {{input_date('start', last_month_start, resolution='day') }}
+			<label>To</label> {{ input_date('finish', last_month_finish, resolution='day') }}
 			<input type="submit" value="Download">
 		</fieldset>
 	</form>
@@ -747,8 +751,8 @@
 		<fieldset>
 			<legend>HH Data: HH Per Row</legend>
 			<input type="hidden" name="supply_id" value="{{supply.id}}">
-			From {{ input_date('start', last_month_start) }} to
-			{{ input_date('finish', last_month_finish) }}
+			<label>From</label> {{ input_date('start', last_month_start) }}
+			<label>To</label> {{ input_date('finish', last_month_finish) }}
 			<input type="submit" value="Download">
 		</fieldset>
 	</form>
@@ -757,10 +761,8 @@
 		<fieldset>
 			<legend>TRIAD</legend>
 			<input type="hidden" name="supply_id" value="{{ supply.id }}">
-			<br>
-			For financial year ending March
-			<input
-					name="year" value="{{triad_year}}" size="4" maxlength="4">
+			<label>For financial year ending March</label>
+			<input name="year" value="{{triad_year}}" size="4" maxlength="4">
 			<input type="submit" value="Download">
 		</fieldset>
 	</form>
@@ -769,11 +771,9 @@
 		<fieldset>
 			<input type="hidden" name="supply_id" value="{{supply.id}}">
 			<legend>Duration</legend>
-			<p>
-				From {{ input_date('start', last_month_start) }}
-				to {{ input_date('finish', last_month_finish) }}
-				<input type="submit" value="Download">
-			</p>
+			<label>From</label> {{ input_date('start', last_month_start) }}
+			<label>To</label> {{ input_date('finish', last_month_finish) }}
+			<input type="submit" value="Download">
 		</fieldset>
 	</form>
 
@@ -781,10 +781,8 @@
 		<fieldset>
 			<input type="hidden" name="supply_id" value="{{supply.id}}">
 			<legend>Monthly Duration</legend>
-			<br />
-			For <input name="months" maxlength="2" size="2" value="1">
-			month(s) finishing at the end of
-			{{ input_date('finish', last_month_finish, 'month') }}
+			<label>Months Long</label> <input name="months" maxlength="2" size="2" value="1">
+			<label>Final Month</label> {{ input_date('finish', last_month_finish, 'month') }}
 			<input type="submit" value="Download">
 		</fieldset>
 	</form>
@@ -793,8 +791,7 @@
 		<input type="hidden" name="supply_id" value="{{supply.id}}">
 		<fieldset>
 			<legend>Snapshot</legend>
-			<br>
-			For {{ input_date('date', last_month_finish) }}
+			<label>At</label> {{ input_date('date', last_month_finish) }}
 			<input type="submit" value="Download">
 		</fieldset>
 	</form>
@@ -803,11 +800,8 @@
 		<input type="hidden" name="supply_id" value="{{ supply.id }}">
 		<fieldset>
 			<legend>Register Reads</legend>
-			<br>
-			<br>
-			For <input name="months" maxlength="2" size="2" value="1">
-			month(s) finishing at the end of
-			{{ input_date('end', last_month_finish, 'month') }}
+			<label>Months Long</label> <input name="months" maxlength="2" size="2" value="1">
+			<label>Final Month</label> {{ input_date('end', last_month_finish, 'month') }}
 			<input type="submit" value="Download">
 		</fieldset>
 	</form>
@@ -816,7 +810,7 @@
 		<input type="hidden" name="supply_id" value="{{supply.id}}">
 		<fieldset>
 			<legend>CRC</legend>
-			For financial year starting April
+			<label>For financial year starting April</label>
 			<input name="year" value="{{ last_month_start.year }}" size="4" maxlength="4">
 			<input type="submit" value="Download">
 		</fieldset>
