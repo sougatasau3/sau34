@@ -328,36 +328,20 @@
 
 			<main>
 				{% if global_alerts %}
-					<article>
-						<div class="message-header">
-							<p>Global Alert</p>
-							<button class="delete" aria-label="delete"></button>
-						</div>
-						<div class="message-body">
-							<ul>
-								{% for alert in global_alerts %}
-									<li class="global">{{alert}}</li>
-								{% endfor %}
-							</ul>
-						</div>
-					</article>
+					<ul>
+						{% for alert in global_alerts %}
+							<li class="global">{{alert}}</li>
+						{% endfor %}
+					</ul>
 				{% endif %}
 																										
 				{% with messages = get_flashed_messages() %}
 					{% if messages %}
-						<article class="message">
-							<div class="message-header">
-								<p>Error</p>
-								<button class="delete" aria-label="delete"></button>
-							</div>
-							<div class="message-body">
-								<ul>
-									{% for message in messages %}
-										<li>{{message}}</li>
-									{% endfor %}
-								</ul>
-							</div>
-						</article>
+						<ul>
+							{% for message in messages %}
+								<li>{{message}}</li>
+							{% endfor %}
+						</ul>
 					{% endif %}
 				{% endwith %}
 				{% block content %}
