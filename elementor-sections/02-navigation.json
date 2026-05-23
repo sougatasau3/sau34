@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "1yrslzd",
+      "id": "nav01sec",
       "elType": "section",
       "settings": {
         "layout": "full_width",
@@ -9,7 +9,6 @@
           "unit": "%",
           "size": 100
         },
-        "sticky": "top",
         "background_background": "classic",
         "background_color": "rgba(253,250,245,0.97)",
         "border_border": "solid",
@@ -24,234 +23,44 @@
         "border_color": "#E0D8C8",
         "padding": {
           "unit": "px",
-          "top": "0",
+          "top": "12",
           "right": "40",
-          "bottom": "0",
+          "bottom": "12",
           "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "12",
+          "right": "20",
+          "bottom": "12",
+          "left": "20",
           "isLinked": false
         },
         "padding_mobile": {
           "unit": "px",
-          "top": "0",
+          "top": "10",
           "right": "15",
-          "bottom": "0",
+          "bottom": "10",
           "left": "15",
           "isLinked": false
         },
-        "height": {
-          "unit": "px",
-          "size": 68
-        },
-        "z_index": 200,
-        "css_classes": "nav-sticky"
+        "z_index": 200
       },
       "elements": [
         {
-          "id": "flo64sb",
+          "id": "nav01c1",
           "elType": "column",
           "settings": {
-            "_column_size": 25,
-            "content_position": "center"
+            "_column_size": 100
           },
           "elements": [
             {
-              "id": "gxgn8tn",
+              "id": "nav01htm",
               "elType": "widget",
-              "widgetType": "heading",
+              "widgetType": "html",
               "settings": {
-                "title": "Kolkata<span style=\"color:#C8851A;font-style:italic\">Elder</span>Care",
-                "header_size": "h1",
-                "typography_typography": "custom",
-                "typography_font_family": "Fraunces",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 24
-                },
-                "typography_font_size_mobile": {
-                  "unit": "px",
-                  "size": 20
-                },
-                "typography_font_weight": "700",
-                "title_color": "#1C1A16",
-                "typography_letter_spacing": {
-                  "unit": "px",
-                  "size": -0.5
-                }
-              }
-            },
-            {
-              "id": "nv766k2",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "CMIG Gerontology · Est. 2024",
-                "header_size": "span",
-                "typography_typography": "custom",
-                "typography_font_family": "Jost",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 9
-                },
-                "typography_font_weight": "400",
-                "typography_letter_spacing": {
-                  "unit": "px",
-                  "size": 1
-                },
-                "typography_text_transform": "uppercase",
-                "title_color": "#6B6355"
-              }
-            }
-          ]
-        },
-        {
-          "id": "az2wgsy",
-          "elType": "column",
-          "settings": {
-            "_column_size": 40,
-            "content_position": "center",
-            "align": "center",
-            "hide_mobile": "hidden-phone",
-            "hide_tablet": "hidden-tablet"
-          },
-          "elements": [
-            {
-              "id": "3api9oa",
-              "elType": "widget",
-              "widgetType": "nav-menu",
-              "settings": {
-                "menu": "main-menu",
-                "layout": "horizontal",
-                "align_items": "center",
-                "pointer": "none",
-                "typography_typography": "custom",
-                "typography_font_family": "Jost",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 13
-                },
-                "typography_font_weight": "500",
-                "color_menu_item": "#6B6355",
-                "color_menu_item_hover": "#1C1A16",
-                "menu_items": [
-                  {
-                    "title": "About Us",
-                    "url": "#about"
-                  },
-                  {
-                    "title": "Services",
-                    "url": "#services"
-                  },
-                  {
-                    "title": "Plans",
-                    "url": "#pricing"
-                  },
-                  {
-                    "title": "Our Team",
-                    "url": "#doctors"
-                  },
-                  {
-                    "title": "Contact",
-                    "url": "#contact"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "id": "3id81cm",
-          "elType": "column",
-          "settings": {
-            "_column_size": 35,
-            "content_position": "center",
-            "align": "right"
-          },
-          "elements": [
-            {
-              "id": "v9bb9pw",
-              "elType": "widget",
-              "widgetType": "button",
-              "settings": {
-                "text": "📞 Call India",
-                "link": {
-                  "url": "tel:+917288818181"
-                },
-                "size": "xs",
-                "typography_typography": "custom",
-                "typography_font_family": "Jost",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 13
-                },
-                "typography_font_weight": "600",
-                "button_text_color": "#1A3D6B",
-                "background_color": "transparent",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1.5",
-                  "right": "1.5",
-                  "bottom": "1.5",
-                  "left": "1.5",
-                  "isLinked": true
-                },
-                "border_color": "#E8EFF8",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "100",
-                  "right": "100",
-                  "bottom": "100",
-                  "left": "100",
-                  "isLinked": true
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "7",
-                  "right": "16",
-                  "bottom": "7",
-                  "left": "16",
-                  "isLinked": false
-                },
-                "hide_mobile": "hidden-phone"
-              }
-            },
-            {
-              "id": "t09eiog",
-              "elType": "widget",
-              "widgetType": "button",
-              "settings": {
-                "text": "📲 WhatsApp Us",
-                "link": {
-                  "url": "https://wa.me/917288818181?text=Hi%2C+I+want+to+book+elder+care+for+my+parents",
-                  "is_external": "on"
-                },
-                "size": "xs",
-                "typography_typography": "custom",
-                "typography_font_family": "Jost",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 13
-                },
-                "typography_font_weight": "600",
-                "button_text_color": "#FFFFFF",
-                "background_color": "#25D366",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "100",
-                  "right": "100",
-                  "bottom": "100",
-                  "left": "100",
-                  "isLinked": true
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "9",
-                  "right": "22",
-                  "bottom": "9",
-                  "left": "22",
-                  "isLinked": false
-                },
-                "button_background_color_hover": "#128C7E"
+                "html": "<style>.kec-nav{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;max-width:1320px;margin:0 auto;min-height:44px;font-family:'Jost',sans-serif}.kec-nav-logo{display:flex;flex-direction:column;text-decoration:none}.kec-nav-logo .logo-main{font-family:'Fraunces',Georgia,serif;font-size:1.5rem;font-weight:700;color:#1C1A16;letter-spacing:-0.5px;line-height:1}.kec-nav-logo .logo-main span{color:#C8851A;font-style:italic}.kec-nav-logo .logo-sub{font-size:0.58rem;color:#6B6355;font-weight:400;letter-spacing:1px;text-transform:uppercase;margin-top:2px}.kec-nav-links{list-style:none;display:flex;align-items:center;gap:2.2rem;padding:0;margin:0}.kec-nav-links a{font-size:0.82rem;font-weight:500;color:#6B6355;text-decoration:none;transition:color 0.2s}.kec-nav-links a:hover{color:#1C1A16}.kec-nav-right{display:flex;align-items:center;gap:0.7rem}.kec-btn-call{display:flex;align-items:center;gap:5px;font-size:0.8rem;font-weight:600;color:#1A3D6B;border:1.5px solid #E8EFF8;padding:7px 16px;border-radius:100px;text-decoration:none;transition:all 0.2s;white-space:nowrap}.kec-btn-call:hover{background:#E8EFF8}.kec-btn-wa{background:#25D366;color:#fff;padding:9px 22px;border-radius:100px;font-size:0.82rem;font-weight:600;display:flex;align-items:center;gap:6px;text-decoration:none;transition:all 0.2s;white-space:nowrap}.kec-btn-wa:hover{background:#128C7E;transform:translateY(-1px)}@media(max-width:920px){.kec-nav-links{display:none}}@media(max-width:600px){.kec-btn-call{display:none}.kec-nav-logo .logo-main{font-size:1.2rem}}</style><nav class=\"kec-nav\"><a href=\"#home\" class=\"kec-nav-logo\"><span class=\"logo-main\">Kolkata<span>Elder</span>Care</span><span class=\"logo-sub\">CMIG Gerontology · Est. 2024</span></a><ul class=\"kec-nav-links\"><li><a href=\"#about\">About</a></li><li><a href=\"#services\">Services</a></li><li><a href=\"#pricing\">Plans</a></li><li><a href=\"#doctors\">Our Team</a></li><li><a href=\"#contact\">Contact</a></li></ul><div class=\"kec-nav-right\"><a href=\"tel:+917288818181\" class=\"kec-btn-call\">📞 Call India</a><a href=\"https://wa.me/917288818181?text=Hi%2C+I+want+to+book+elder+care+for+my+parents\" target=\"_blank\" class=\"kec-btn-wa\">📲 WhatsApp Us</a></div></nav>"
               }
             }
           ]
