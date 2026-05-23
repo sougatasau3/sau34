@@ -1,11 +1,7 @@
 {
-  "title": "Navigation - KolkataElderCare",
-  "type": "page",
-  "version": "0.4",
-  "page_settings": [],
   "content": [
     {
-      "id": "nav-section",
+      "id": "1yrslzd",
       "elType": "section",
       "settings": {
         "layout": "full_width",
@@ -51,7 +47,7 @@
       },
       "elements": [
         {
-          "id": "nav-col-logo",
+          "id": "flo64sb",
           "elType": "column",
           "settings": {
             "_column_size": 25,
@@ -59,7 +55,7 @@
           },
           "elements": [
             {
-              "id": "nav-logo",
+              "id": "gxgn8tn",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -84,7 +80,7 @@
               }
             },
             {
-              "id": "nav-subtitle",
+              "id": "nv766k2",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -108,7 +104,7 @@
           ]
         },
         {
-          "id": "nav-col-links",
+          "id": "az2wgsy",
           "elType": "column",
           "settings": {
             "_column_size": 40,
@@ -119,7 +115,7 @@
           },
           "elements": [
             {
-              "id": "nav-menu",
+              "id": "3api9oa",
               "elType": "widget",
               "widgetType": "nav-menu",
               "settings": {
@@ -137,18 +133,33 @@
                 "color_menu_item": "#6B6355",
                 "color_menu_item_hover": "#1C1A16",
                 "menu_items": [
-                  {"title": "About Us", "url": "#about"},
-                  {"title": "Services", "url": "#services"},
-                  {"title": "Plans", "url": "#pricing"},
-                  {"title": "Our Team", "url": "#doctors"},
-                  {"title": "Contact", "url": "#contact"}
+                  {
+                    "title": "About Us",
+                    "url": "#about"
+                  },
+                  {
+                    "title": "Services",
+                    "url": "#services"
+                  },
+                  {
+                    "title": "Plans",
+                    "url": "#pricing"
+                  },
+                  {
+                    "title": "Our Team",
+                    "url": "#doctors"
+                  },
+                  {
+                    "title": "Contact",
+                    "url": "#contact"
+                  }
                 ]
               }
             }
           ]
         },
         {
-          "id": "nav-col-cta",
+          "id": "3id81cm",
           "elType": "column",
           "settings": {
             "_column_size": 35,
@@ -157,7 +168,7 @@
           },
           "elements": [
             {
-              "id": "nav-call-btn",
+              "id": "v9bb9pw",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -205,7 +216,7 @@
               }
             },
             {
-              "id": "nav-wa-btn",
+              "id": "t09eiog",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -247,5 +258,12 @@
         }
       ]
     }
-  ]
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Navigation - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
 }

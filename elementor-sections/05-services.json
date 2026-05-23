@@ -1,11 +1,7 @@
 {
-  "title": "Services - KolkataElderCare",
-  "type": "page",
-  "version": "0.4",
-  "page_settings": [],
   "content": [
     {
-      "id": "services-section",
+      "id": "tw1xrkl",
       "elType": "section",
       "settings": {
         "layout": "full_width",
@@ -42,7 +38,7 @@
       },
       "elements": [
         {
-          "id": "services-header-section",
+          "id": "ygf89hl",
           "elType": "column",
           "settings": {
             "_column_size": 100,
@@ -57,7 +53,7 @@
           },
           "elements": [
             {
-              "id": "services-header-inner",
+              "id": "4sz68s6",
               "elType": "section",
               "isInner": true,
               "settings": {
@@ -65,7 +61,7 @@
               },
               "elements": [
                 {
-                  "id": "svc-header-left",
+                  "id": "z5v52n3",
                   "elType": "column",
                   "settings": {
                     "_column_size": 50,
@@ -73,7 +69,7 @@
                   },
                   "elements": [
                     {
-                      "id": "svc-label",
+                      "id": "2fsyjb2",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -103,7 +99,7 @@
                       }
                     },
                     {
-                      "id": "svc-title",
+                      "id": "qpd6jva",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -134,7 +130,7 @@
                   ]
                 },
                 {
-                  "id": "svc-header-right",
+                  "id": "kh7pmk6",
                   "elType": "column",
                   "settings": {
                     "_column_size": 50,
@@ -143,7 +139,7 @@
                   },
                   "elements": [
                     {
-                      "id": "svc-desc",
+                      "id": "cug4vt1",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
@@ -168,14 +164,14 @@
           ]
         },
         {
-          "id": "services-grid-section",
+          "id": "evew555",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "services-grid-inner",
+              "id": "ddb79xz",
               "elType": "section",
               "isInner": true,
               "settings": {
@@ -184,7 +180,7 @@
               },
               "elements": [
                 {
-                  "id": "svc-col-1",
+                  "id": "qm8s5ej",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -220,27 +216,44 @@
                   },
                   "elements": [
                     {
-                      "id": "svc1-icon",
+                      "id": "6jmt6ik",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
                         "title": "👴",
                         "header_size": "span",
-                        "typography_font_size": {"unit": "px", "size": 35},
-                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "18", "left": "0", "isLinked": false}
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 35
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "18",
+                          "left": "0",
+                          "isLinked": false
+                        }
                       }
                     },
                     {
-                      "id": "svc1-tag",
+                      "id": "tspix5t",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
                         "editor": "<span style=\"display:inline-block;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;background:#F5E6C8;color:#C8851A;padding:3px 10px;border-radius:100px;\">CMIG Certified</span>",
-                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "11", "left": "0", "isLinked": false}
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "11",
+                          "left": "0",
+                          "isLinked": false
+                        }
                       }
                     },
                     {
-                      "id": "svc1-title",
+                      "id": "5v4oerr",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -248,73 +261,164 @@
                         "header_size": "h3",
                         "typography_typography": "custom",
                         "typography_font_family": "Fraunces",
-                        "typography_font_size": {"unit": "px", "size": 20},
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
                         "typography_font_weight": "700",
-                        "typography_line_height": {"unit": "em", "size": 1.2},
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.2
+                        },
                         "title_color": "#1C1A16",
-                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "10",
+                          "left": "0",
+                          "isLinked": false
+                        }
                       }
                     },
                     {
-                      "id": "svc1-desc",
+                      "id": "nql9g8c",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
                         "editor": "A CMIG-trained gerontologist visits your parents regularly. Weekly check-ins, safety audits, medicine coordination, and WhatsApp video updates sent directly to you.",
                         "typography_typography": "custom",
                         "typography_font_family": "Jost",
-                        "typography_font_size": {"unit": "px", "size": 13},
-                        "typography_line_height": {"unit": "em", "size": 1.75},
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.75
+                        },
                         "text_color": "#6B6355",
-                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "19", "left": "0", "isLinked": false}
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "19",
+                          "left": "0",
+                          "isLinked": false
+                        }
                       }
                     },
                     {
-                      "id": "svc1-features",
+                      "id": "gxnz8d8",
                       "elType": "widget",
                       "widgetType": "icon-list",
                       "settings": {
                         "icon_list": [
-                          {"text": "Weekly in-home safety audit", "selected_icon": {"value": "fas fa-check", "library": "fa-solid"}},
-                          {"text": "Medicine management & check", "selected_icon": {"value": "fas fa-check", "library": "fa-solid"}},
-                          {"text": "Dementia & arthritis monitoring", "selected_icon": {"value": "fas fa-check", "library": "fa-solid"}},
-                          {"text": "📲 Weekly \"Ma bhalo ache\" video to your WhatsApp", "selected_icon": {"value": "fas fa-check", "library": "fa-solid"}},
-                          {"text": "Emergency 1-hour response in Kolkata/Howrah", "selected_icon": {"value": "fas fa-check", "library": "fa-solid"}}
+                          {
+                            "text": "Weekly in-home safety audit",
+                            "selected_icon": {
+                              "value": "fas fa-check",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Medicine management & check",
+                            "selected_icon": {
+                              "value": "fas fa-check",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Dementia & arthritis monitoring",
+                            "selected_icon": {
+                              "value": "fas fa-check",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "📲 Weekly \"Ma bhalo ache\" video to your WhatsApp",
+                            "selected_icon": {
+                              "value": "fas fa-check",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Emergency 1-hour response in Kolkata/Howrah",
+                            "selected_icon": {
+                              "value": "fas fa-check",
+                              "library": "fa-solid"
+                            }
+                          }
                         ],
                         "icon_color": "#1A6B4A",
-                        "icon_size": {"unit": "px", "size": 11},
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
                         "text_color": "#6B6355",
                         "text_typography_typography": "custom",
-                        "text_typography_font_size": {"unit": "px", "size": 12},
-                        "icon_text_space": {"unit": "px", "size": 7},
+                        "text_typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "icon_text_space": {
+                          "unit": "px",
+                          "size": 7
+                        },
                         "divider": "yes",
                         "divider_color": "#E0D8C8",
-                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "22", "left": "0", "isLinked": false}
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "22",
+                          "left": "0",
+                          "isLinked": false
+                        }
                       }
                     },
                     {
-                      "id": "svc1-cta",
+                      "id": "nmzqx0e",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
                         "text": "See Plans →",
-                        "link": {"url": "#pricing"},
+                        "link": {
+                          "url": "#pricing"
+                        },
                         "size": "xs",
                         "typography_typography": "custom",
-                        "typography_font_size": {"unit": "px", "size": 12},
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
                         "typography_font_weight": "700",
                         "button_text_color": "#1A3D6B",
                         "background_color": "transparent",
-                        "padding": {"unit": "px", "top": "0", "right": "0", "bottom": "2", "left": "0", "isLinked": false},
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "2",
+                          "left": "0",
+                          "isLinked": false
+                        },
                         "border_border": "solid",
-                        "border_width": {"unit": "px", "top": "0", "right": "0", "bottom": "2", "left": "0", "isLinked": false},
+                        "border_width": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "2",
+                          "left": "0",
+                          "isLinked": false
+                        },
                         "border_color": "#E8EFF8"
                       }
                     }
                   ]
                 },
                 {
-                  "id": "svc-col-2",
+                  "id": "mv302db",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -340,27 +444,44 @@
                   },
                   "elements": [
                     {
-                      "id": "svc2-icon",
+                      "id": "5zzh2g3",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
                         "title": "📱",
                         "header_size": "span",
-                        "typography_font_size": {"unit": "px", "size": 35},
-                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "18", "left": "0", "isLinked": false}
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 35
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "18",
+                          "left": "0",
+                          "isLinked": false
+                        }
                       }
                     },
                     {
-                      "id": "svc2-tag",
+                      "id": "pdtcu80",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
                         "editor": "<span style=\"display:inline-block;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;background:rgba(255,255,255,0.15);color:#fff;padding:3px 10px;border-radius:100px;border:1px solid rgba(255,255,255,0.2);\">Most Popular</span>",
-                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "11", "left": "0", "isLinked": false}
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "11",
+                          "left": "0",
+                          "isLinked": false
+                        }
                       }
                     },
                     {
-                      "id": "svc2-title",
+                      "id": "uchali6",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -368,71 +489,152 @@
                         "header_size": "h3",
                         "typography_typography": "custom",
                         "typography_font_family": "Fraunces",
-                        "typography_font_size": {"unit": "px", "size": 20},
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
                         "typography_font_weight": "700",
-                        "typography_line_height": {"unit": "em", "size": 1.2},
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.2
+                        },
                         "title_color": "#FFFFFF",
-                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "10",
+                          "left": "0",
+                          "isLinked": false
+                        }
                       }
                     },
                     {
-                      "id": "svc2-desc",
+                      "id": "8xzrq9h",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
                         "editor": "Talk to a certified Bengali-speaking doctor in 10 minutes — from home. Prescription on WhatsApp. Available at 2 AM. From ₹199 only.",
                         "typography_typography": "custom",
                         "typography_font_family": "Jost",
-                        "typography_font_size": {"unit": "px", "size": 13},
-                        "typography_line_height": {"unit": "em", "size": 1.75},
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.75
+                        },
                         "text_color": "rgba(255,255,255,0.75)",
-                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "19", "left": "0", "isLinked": false}
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "19",
+                          "left": "0",
+                          "isLinked": false
+                        }
                       }
                     },
                     {
-                      "id": "svc2-features",
+                      "id": "5tqist6",
                       "elType": "widget",
                       "widgetType": "icon-list",
                       "settings": {
                         "icon_list": [
-                          {"text": "Doctor in 10 minutes, 24×7", "selected_icon": {"value": "fas fa-check", "library": "fa-solid"}},
-                          {"text": "Digital Rx sent to WhatsApp", "selected_icon": {"value": "fas fa-check", "library": "fa-solid"}},
-                          {"text": "Bengali, Hindi & English", "selected_icon": {"value": "fas fa-check", "library": "fa-solid"}},
-                          {"text": "Medicine delivery in Howrah 2–4 hrs", "selected_icon": {"value": "fas fa-check", "library": "fa-solid"}},
-                          {"text": "Family Account — you book from abroad", "selected_icon": {"value": "fas fa-check", "library": "fa-solid"}}
+                          {
+                            "text": "Doctor in 10 minutes, 24×7",
+                            "selected_icon": {
+                              "value": "fas fa-check",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Digital Rx sent to WhatsApp",
+                            "selected_icon": {
+                              "value": "fas fa-check",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Bengali, Hindi & English",
+                            "selected_icon": {
+                              "value": "fas fa-check",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Medicine delivery in Howrah 2–4 hrs",
+                            "selected_icon": {
+                              "value": "fas fa-check",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Family Account — you book from abroad",
+                            "selected_icon": {
+                              "value": "fas fa-check",
+                              "library": "fa-solid"
+                            }
+                          }
                         ],
                         "icon_color": "#7FFFC4",
-                        "icon_size": {"unit": "px", "size": 11},
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
                         "text_color": "rgba(255,255,255,0.8)",
                         "text_typography_typography": "custom",
-                        "text_typography_font_size": {"unit": "px", "size": 12},
+                        "text_typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
                         "divider": "yes",
                         "divider_color": "rgba(255,255,255,0.1)",
-                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "22", "left": "0", "isLinked": false}
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "22",
+                          "left": "0",
+                          "isLinked": false
+                        }
                       }
                     },
                     {
-                      "id": "svc2-cta",
+                      "id": "qckfo6s",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
                         "text": "Book Now →",
-                        "link": {"url": "#pricing"},
+                        "link": {
+                          "url": "#pricing"
+                        },
                         "size": "xs",
                         "typography_typography": "custom",
-                        "typography_font_size": {"unit": "px", "size": 12},
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
                         "typography_font_weight": "700",
                         "button_text_color": "#FFFFFF",
                         "background_color": "transparent",
                         "border_border": "solid",
-                        "border_width": {"unit": "px", "top": "0", "right": "0", "bottom": "2", "left": "0", "isLinked": false},
+                        "border_width": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "2",
+                          "left": "0",
+                          "isLinked": false
+                        },
                         "border_color": "rgba(255,255,255,0.3)"
                       }
                     }
                   ]
                 },
                 {
-                  "id": "svc-col-3",
+                  "id": "yhdoz4d",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -468,27 +670,44 @@
                   },
                   "elements": [
                     {
-                      "id": "svc3-icon",
+                      "id": "y1eadb0",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
                         "title": "👨‍👩‍👧",
                         "header_size": "span",
-                        "typography_font_size": {"unit": "px", "size": 35},
-                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "18", "left": "0", "isLinked": false}
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 35
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "18",
+                          "left": "0",
+                          "isLinked": false
+                        }
                       }
                     },
                     {
-                      "id": "svc3-tag",
+                      "id": "v7cwgxs",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
                         "editor": "<span style=\"display:inline-block;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;background:#F5E6C8;color:#C8851A;padding:3px 10px;border-radius:100px;\">NRI Families</span>",
-                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "11", "left": "0", "isLinked": false}
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "11",
+                          "left": "0",
+                          "isLinked": false
+                        }
                       }
                     },
                     {
-                      "id": "svc3-title",
+                      "id": "pwvwts5",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -496,64 +715,145 @@
                         "header_size": "h3",
                         "typography_typography": "custom",
                         "typography_font_family": "Fraunces",
-                        "typography_font_size": {"unit": "px", "size": 20},
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
                         "typography_font_weight": "700",
-                        "typography_line_height": {"unit": "em", "size": 1.2},
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.2
+                        },
                         "title_color": "#1C1A16",
-                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "10",
+                          "left": "0",
+                          "isLinked": false
+                        }
                       }
                     },
                     {
-                      "id": "svc3-desc",
+                      "id": "rsi6d3o",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
                         "editor": "Living in Singapore, London, or the US? We become your local family in Kolkata. Book doctors, manage prescriptions, coordinate hospital visits — we handle everything.",
                         "typography_typography": "custom",
                         "typography_font_family": "Jost",
-                        "typography_font_size": {"unit": "px", "size": 13},
-                        "typography_line_height": {"unit": "em", "size": 1.75},
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.75
+                        },
                         "text_color": "#6B6355",
-                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "19", "left": "0", "isLinked": false}
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "19",
+                          "left": "0",
+                          "isLinked": false
+                        }
                       }
                     },
                     {
-                      "id": "svc3-features",
+                      "id": "99t8sky",
                       "elType": "widget",
                       "widgetType": "icon-list",
                       "settings": {
                         "icon_list": [
-                          {"text": "You book from anywhere in the world", "selected_icon": {"value": "fas fa-check", "library": "fa-solid"}},
-                          {"text": "All reports & Rx on your WhatsApp", "selected_icon": {"value": "fas fa-check", "library": "fa-solid"}},
-                          {"text": "Hospital escort & coordination", "selected_icon": {"value": "fas fa-check", "library": "fa-solid"}},
-                          {"text": "Festival & birthday companionship", "selected_icon": {"value": "fas fa-check", "library": "fa-solid"}},
-                          {"text": "Monthly written care report to you", "selected_icon": {"value": "fas fa-check", "library": "fa-solid"}}
+                          {
+                            "text": "You book from anywhere in the world",
+                            "selected_icon": {
+                              "value": "fas fa-check",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "All reports & Rx on your WhatsApp",
+                            "selected_icon": {
+                              "value": "fas fa-check",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Hospital escort & coordination",
+                            "selected_icon": {
+                              "value": "fas fa-check",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Festival & birthday companionship",
+                            "selected_icon": {
+                              "value": "fas fa-check",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Monthly written care report to you",
+                            "selected_icon": {
+                              "value": "fas fa-check",
+                              "library": "fa-solid"
+                            }
+                          }
                         ],
                         "icon_color": "#1A6B4A",
-                        "icon_size": {"unit": "px", "size": 11},
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
                         "text_color": "#6B6355",
                         "text_typography_typography": "custom",
-                        "text_typography_font_size": {"unit": "px", "size": 12},
+                        "text_typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
                         "divider": "yes",
                         "divider_color": "#E0D8C8",
-                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "22", "left": "0", "isLinked": false}
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "22",
+                          "left": "0",
+                          "isLinked": false
+                        }
                       }
                     },
                     {
-                      "id": "svc3-cta",
+                      "id": "0676dpj",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
                         "text": "See Plans →",
-                        "link": {"url": "#pricing"},
+                        "link": {
+                          "url": "#pricing"
+                        },
                         "size": "xs",
                         "typography_typography": "custom",
-                        "typography_font_size": {"unit": "px", "size": 12},
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
                         "typography_font_weight": "700",
                         "button_text_color": "#1A3D6B",
                         "background_color": "transparent",
                         "border_border": "solid",
-                        "border_width": {"unit": "px", "top": "0", "right": "0", "bottom": "2", "left": "0", "isLinked": false},
+                        "border_width": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "2",
+                          "left": "0",
+                          "isLinked": false
+                        },
                         "border_color": "#E8EFF8"
                       }
                     }
@@ -565,5 +865,12 @@
         }
       ]
     }
-  ]
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Services - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
 }

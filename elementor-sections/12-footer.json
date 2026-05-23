@@ -1,40 +1,76 @@
 {
-  "title": "Footer - KolkataElderCare",
-  "type": "page",
-  "version": "0.4",
-  "page_settings": [],
   "content": [
     {
-      "id": "footer-section",
+      "id": "vx7i6fa",
       "elType": "section",
       "settings": {
         "layout": "full_width",
-        "content_width": {"unit": "%", "size": 90},
+        "content_width": {
+          "unit": "%",
+          "size": 90
+        },
         "background_background": "classic",
         "background_color": "#1C1A16",
-        "padding": {"unit": "px", "top": "64", "right": "40", "bottom": "32", "left": "40", "isLinked": false},
-        "padding_tablet": {"unit": "px", "top": "50", "right": "20", "bottom": "24", "left": "20", "isLinked": false},
-        "padding_mobile": {"unit": "px", "top": "40", "right": "15", "bottom": "20", "left": "15", "isLinked": false}
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "40",
+          "bottom": "32",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "50",
+          "right": "20",
+          "bottom": "24",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "40",
+          "right": "15",
+          "bottom": "20",
+          "left": "15",
+          "isLinked": false
+        }
       },
       "elements": [
         {
-          "id": "footer-grid-col",
+          "id": "pkcz33j",
           "elType": "column",
-          "settings": {"_column_size": 100, "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false}},
+          "settings": {
+            "_column_size": 100,
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "40",
+              "left": "0",
+              "isLinked": false
+            }
+          },
           "elements": [
             {
-              "id": "footer-grid-inner",
+              "id": "xcu5xwf",
               "elType": "section",
               "isInner": true,
-              "settings": {"structure": "40", "gap": "extended"},
+              "settings": {
+                "structure": "40",
+                "gap": "extended"
+              },
               "elements": [
                 {
-                  "id": "footer-brand-col",
+                  "id": "it0rxib",
                   "elType": "column",
-                  "settings": {"_column_size": 37, "_column_size_tablet": 100},
+                  "settings": {
+                    "_column_size": 37,
+                    "_column_size_tablet": 100
+                  },
                   "elements": [
                     {
-                      "id": "footer-brand",
+                      "id": "ameag6d",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
@@ -44,12 +80,16 @@
                   ]
                 },
                 {
-                  "id": "footer-services-col",
+                  "id": "5ge5eci",
                   "elType": "column",
-                  "settings": {"_column_size": 21, "_column_size_tablet": 33, "_column_size_mobile": 100},
+                  "settings": {
+                    "_column_size": 21,
+                    "_column_size_tablet": 33,
+                    "_column_size_mobile": 100
+                  },
                   "elements": [
                     {
-                      "id": "footer-services",
+                      "id": "yxj3rhl",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
@@ -59,12 +99,16 @@
                   ]
                 },
                 {
-                  "id": "footer-links-col",
+                  "id": "mz3mzm3",
                   "elType": "column",
-                  "settings": {"_column_size": 21, "_column_size_tablet": 33, "_column_size_mobile": 100},
+                  "settings": {
+                    "_column_size": 21,
+                    "_column_size_tablet": 33,
+                    "_column_size_mobile": 100
+                  },
                   "elements": [
                     {
-                      "id": "footer-links",
+                      "id": "ipp4sn6",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
@@ -74,12 +118,16 @@
                   ]
                 },
                 {
-                  "id": "footer-support-col",
+                  "id": "t8qvy8b",
                   "elType": "column",
-                  "settings": {"_column_size": 21, "_column_size_tablet": 33, "_column_size_mobile": 100},
+                  "settings": {
+                    "_column_size": 21,
+                    "_column_size_tablet": 33,
+                    "_column_size_mobile": 100
+                  },
                   "elements": [
                     {
-                      "id": "footer-support",
+                      "id": "ipv856f",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
@@ -93,18 +141,32 @@
           ]
         },
         {
-          "id": "footer-bottom-col",
+          "id": "9zc8fmy",
           "elType": "column",
           "settings": {
             "_column_size": 100,
             "border_border": "solid",
-            "border_width": {"unit": "px", "top": "1", "right": "0", "bottom": "0", "left": "0", "isLinked": false},
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
             "border_color": "rgba(255,255,255,0.08)",
-            "padding": {"unit": "px", "top": "22", "right": "0", "bottom": "0", "left": "0", "isLinked": false}
+            "padding": {
+              "unit": "px",
+              "top": "22",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
           },
           "elements": [
             {
-              "id": "footer-bottom-text",
+              "id": "e4ph3h3",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -115,5 +177,12 @@
         }
       ]
     }
-  ]
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Footer - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
 }

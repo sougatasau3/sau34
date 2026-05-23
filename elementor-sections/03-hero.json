@@ -1,11 +1,7 @@
 {
-  "title": "Hero - KolkataElderCare",
-  "type": "page",
-  "version": "0.4",
-  "page_settings": [],
   "content": [
     {
-      "id": "hero-section",
+      "id": "l5vwgds",
       "elType": "section",
       "settings": {
         "layout": "full_width",
@@ -47,7 +43,7 @@
       },
       "elements": [
         {
-          "id": "hero-col-content",
+          "id": "g4sbvdq",
           "elType": "column",
           "settings": {
             "_column_size": 50,
@@ -64,7 +60,7 @@
           },
           "elements": [
             {
-              "id": "hero-eyebrow",
+              "id": "96d825l",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -82,7 +78,7 @@
               }
             },
             {
-              "id": "hero-heading",
+              "id": "rmqecue",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -125,7 +121,7 @@
               }
             },
             {
-              "id": "hero-sub",
+              "id": "dvwjf4a",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -159,7 +155,7 @@
               }
             },
             {
-              "id": "hero-actions-wrapper",
+              "id": "zvknlu5",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -215,7 +211,7 @@
               }
             },
             {
-              "id": "hero-call-btn",
+              "id": "dbxtfej",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -272,7 +268,7 @@
               }
             },
             {
-              "id": "hero-trust-badges",
+              "id": "pcl04xx",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -290,7 +286,7 @@
               }
             },
             {
-              "id": "hero-stats",
+              "id": "1hkebd8",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -302,7 +298,7 @@
           ]
         },
         {
-          "id": "hero-col-visual",
+          "id": "hou48wg",
           "elType": "column",
           "settings": {
             "_column_size": 50,
@@ -312,7 +308,7 @@
           },
           "elements": [
             {
-              "id": "hero-visual-area",
+              "id": "804gnvm",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -324,5 +320,12 @@
         }
       ]
     }
-  ]
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Hero - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
 }

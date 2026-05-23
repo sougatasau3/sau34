@@ -1,11 +1,7 @@
 {
-  "title": "Top Strip - KolkataElderCare",
-  "type": "page",
-  "version": "0.4",
-  "page_settings": [],
   "content": [
     {
-      "id": "top-strip-section",
+      "id": "ecv5hfx",
       "elType": "section",
       "settings": {
         "layout": "full_width",
@@ -42,7 +38,7 @@
       },
       "elements": [
         {
-          "id": "top-strip-col-left",
+          "id": "5rhjv1d",
           "elType": "column",
           "settings": {
             "_column_size": 70,
@@ -50,7 +46,7 @@
           },
           "elements": [
             {
-              "id": "top-strip-info",
+              "id": "0lsz974",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -75,7 +71,7 @@
           ]
         },
         {
-          "id": "top-strip-col-right",
+          "id": "kwm4x1w",
           "elType": "column",
           "settings": {
             "_column_size": 30,
@@ -84,7 +80,7 @@
           },
           "elements": [
             {
-              "id": "top-strip-wa-btn",
+              "id": "b3myze7",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -130,5 +126,12 @@
         }
       ]
     }
-  ]
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Top Strip - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
 }

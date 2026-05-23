@@ -1,30 +1,54 @@
 {
-  "title": "WhatsApp CTA - KolkataElderCare",
-  "type": "page",
-  "version": "0.4",
-  "page_settings": [],
   "content": [
     {
-      "id": "wa-section",
+      "id": "rnbor9v",
       "elType": "section",
       "settings": {
         "layout": "full_width",
-        "content_width": {"unit": "%", "size": 90},
+        "content_width": {
+          "unit": "%",
+          "size": 90
+        },
         "background_background": "classic",
         "background_color": "#25D366",
-        "padding": {"unit": "px", "top": "64", "right": "40", "bottom": "64", "left": "40", "isLinked": false},
-        "padding_tablet": {"unit": "px", "top": "50", "right": "20", "bottom": "50", "left": "20", "isLinked": false},
-        "padding_mobile": {"unit": "px", "top": "40", "right": "15", "bottom": "40", "left": "15", "isLinked": false},
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "40",
+          "bottom": "64",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "50",
+          "right": "20",
+          "bottom": "50",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "40",
+          "right": "15",
+          "bottom": "40",
+          "left": "15",
+          "isLinked": false
+        },
         "structure": "20"
       },
       "elements": [
         {
-          "id": "wa-col-left",
+          "id": "oc6eyx3",
           "elType": "column",
-          "settings": {"_column_size": 50, "_column_size_tablet": 100, "content_position": "center"},
+          "settings": {
+            "_column_size": 50,
+            "_column_size_tablet": 100,
+            "content_position": "center"
+          },
           "elements": [
             {
-              "id": "wa-label",
+              "id": "l4rcyi3",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -32,16 +56,29 @@
                 "header_size": "span",
                 "typography_typography": "custom",
                 "typography_font_family": "Jost",
-                "typography_font_size": {"unit": "px", "size": 11},
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
                 "typography_font_weight": "700",
-                "typography_letter_spacing": {"unit": "px", "size": 2.5},
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.5
+                },
                 "typography_text_transform": "uppercase",
                 "title_color": "rgba(255,255,255,0.65)",
-                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                }
               }
             },
             {
-              "id": "wa-title",
+              "id": "7o6lh8l",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -49,31 +86,63 @@
                 "header_size": "h2",
                 "typography_typography": "custom",
                 "typography_font_family": "Fraunces",
-                "typography_font_size": {"unit": "px", "size": 38},
-                "typography_font_size_tablet": {"unit": "px", "size": 30},
-                "typography_font_size_mobile": {"unit": "px", "size": 26},
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 30
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 26
+                },
                 "typography_font_weight": "700",
-                "typography_line_height": {"unit": "em", "size": 1.12},
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.12
+                },
                 "title_color": "#FFFFFF",
-                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
               }
             },
             {
-              "id": "wa-desc",
+              "id": "nmf03tr",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
                 "editor": "No forms. No waiting. Send us a WhatsApp in Bengali or English and we will arrange everything — free assessment call, plan details, and a match with the right caregiver — within minutes.",
                 "typography_typography": "custom",
                 "typography_font_family": "Jost",
-                "typography_font_size": {"unit": "px", "size": 15},
-                "typography_line_height": {"unit": "em", "size": 1.85},
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.85
+                },
                 "text_color": "rgba(255,255,255,0.85)",
-                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
               }
             },
             {
-              "id": "wa-buttons",
+              "id": "jnulq0t",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -83,12 +152,16 @@
           ]
         },
         {
-          "id": "wa-col-right",
+          "id": "ojygwqd",
           "elType": "column",
-          "settings": {"_column_size": 50, "_column_size_tablet": 100, "content_position": "center"},
+          "settings": {
+            "_column_size": 50,
+            "_column_size_tablet": 100,
+            "content_position": "center"
+          },
           "elements": [
             {
-              "id": "wa-phone-box",
+              "id": "cnuzn9m",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -99,5 +172,12 @@
         }
       ]
     }
-  ]
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "WhatsApp CTA - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
 }

@@ -1,29 +1,51 @@
 {
-  "title": "Pricing - KolkataElderCare",
-  "type": "page",
-  "version": "0.4",
-  "page_settings": [],
   "content": [
     {
-      "id": "pricing-section",
+      "id": "1htckt5",
       "elType": "section",
       "settings": {
         "layout": "full_width",
-        "content_width": {"unit": "%", "size": 90},
+        "content_width": {
+          "unit": "%",
+          "size": 90
+        },
         "background_background": "classic",
         "background_color": "#FDFAF5",
-        "padding": {"unit": "px", "top": "88", "right": "40", "bottom": "88", "left": "40", "isLinked": false},
-        "padding_tablet": {"unit": "px", "top": "60", "right": "20", "bottom": "60", "left": "20", "isLinked": false},
-        "padding_mobile": {"unit": "px", "top": "40", "right": "15", "bottom": "40", "left": "15", "isLinked": false}
+        "padding": {
+          "unit": "px",
+          "top": "88",
+          "right": "40",
+          "bottom": "88",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "40",
+          "right": "15",
+          "bottom": "40",
+          "left": "15",
+          "isLinked": false
+        }
       },
       "elements": [
         {
-          "id": "pricing-header-col",
+          "id": "jeucpbg",
           "elType": "column",
-          "settings": {"_column_size": 100},
+          "settings": {
+            "_column_size": 100
+          },
           "elements": [
             {
-              "id": "pricing-label",
+              "id": "xjemjn8",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -32,16 +54,29 @@
                 "align": "center",
                 "typography_typography": "custom",
                 "typography_font_family": "Jost",
-                "typography_font_size": {"unit": "px", "size": 11},
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
                 "typography_font_weight": "700",
-                "typography_letter_spacing": {"unit": "px", "size": 2.5},
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.5
+                },
                 "typography_text_transform": "uppercase",
                 "title_color": "#C8851A",
-                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                }
               }
             },
             {
-              "id": "pricing-title",
+              "id": "spbot20",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -50,17 +85,36 @@
                 "align": "center",
                 "typography_typography": "custom",
                 "typography_font_family": "Fraunces",
-                "typography_font_size": {"unit": "px", "size": 38},
-                "typography_font_size_tablet": {"unit": "px", "size": 30},
-                "typography_font_size_mobile": {"unit": "px", "size": 26},
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 30
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 26
+                },
                 "typography_font_weight": "700",
-                "typography_line_height": {"unit": "em", "size": 1.12},
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.12
+                },
                 "title_color": "#1C1A16",
-                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
               }
             },
             {
-              "id": "pricing-sub",
+              "id": "2yfdu5p",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -68,27 +122,45 @@
                 "align": "center",
                 "typography_typography": "custom",
                 "typography_font_family": "Jost",
-                "typography_font_size": {"unit": "px", "size": 15},
-                "typography_line_height": {"unit": "em", "size": 1.85},
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.85
+                },
                 "text_color": "#6B6355",
-                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "48", "left": "0", "isLinked": false}
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "48",
+                  "left": "0",
+                  "isLinked": false
+                }
               }
             }
           ]
         },
         {
-          "id": "pricing-cards-col",
+          "id": "oanbnrt",
           "elType": "column",
-          "settings": {"_column_size": 100},
+          "settings": {
+            "_column_size": 100
+          },
           "elements": [
             {
-              "id": "pricing-cards-inner",
+              "id": "0bleuvh",
               "elType": "section",
               "isInner": true,
-              "settings": {"structure": "30", "gap": "extended"},
+              "settings": {
+                "structure": "30",
+                "gap": "extended"
+              },
               "elements": [
                 {
-                  "id": "price-col-1",
+                  "id": "nq55idj",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -96,14 +168,35 @@
                     "background_background": "classic",
                     "background_color": "#FFFFFF",
                     "border_border": "solid",
-                    "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
                     "border_color": "#E0D8C8",
-                    "border_radius": {"unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true},
-                    "padding": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true}
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
                   },
                   "elements": [
                     {
-                      "id": "p1-content",
+                      "id": "swfa13h",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
@@ -113,19 +206,32 @@
                   ]
                 },
                 {
-                  "id": "price-col-2",
+                  "id": "nfqcfz3",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
                     "_column_size_tablet": 100,
                     "background_background": "classic",
                     "background_color": "#1A3D6B",
-                    "border_radius": {"unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true},
-                    "box_shadow_box_shadow": {"horizontal": 0, "vertical": 16, "blur": 56, "spread": 0, "color": "rgba(26,61,107,0.25)"}
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 16,
+                      "blur": 56,
+                      "spread": 0,
+                      "color": "rgba(26,61,107,0.25)"
+                    }
                   },
                   "elements": [
                     {
-                      "id": "p2-content",
+                      "id": "zbdb91a",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
@@ -135,7 +241,7 @@
                   ]
                 },
                 {
-                  "id": "price-col-3",
+                  "id": "qziaew4",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -143,13 +249,27 @@
                     "background_background": "classic",
                     "background_color": "#FFFFFF",
                     "border_border": "solid",
-                    "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
                     "border_color": "#E0D8C8",
-                    "border_radius": {"unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true}
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": true
+                    }
                   },
                   "elements": [
                     {
-                      "id": "p3-content",
+                      "id": "n6upubl",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
@@ -161,7 +281,7 @@
               ]
             },
             {
-              "id": "pricing-footer-note",
+              "id": "5xafrp8",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -169,14 +289,31 @@
                 "align": "center",
                 "typography_typography": "custom",
                 "typography_font_family": "Jost",
-                "typography_font_size": {"unit": "px", "size": 13},
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
                 "text_color": "#6B6355",
-                "margin": {"unit": "px", "top": "32", "right": "0", "bottom": "0", "left": "0", "isLinked": false}
+                "margin": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
               }
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Pricing - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
 }

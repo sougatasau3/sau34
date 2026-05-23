@@ -1,29 +1,59 @@
 {
-  "title": "Contact - KolkataElderCare",
-  "type": "page",
-  "version": "0.4",
-  "page_settings": [],
   "content": [
     {
-      "id": "contact-section",
+      "id": "5m9z5sz",
       "elType": "section",
       "settings": {
         "layout": "full_width",
-        "content_width": {"unit": "%", "size": 90},
+        "content_width": {
+          "unit": "%",
+          "size": 90
+        },
         "background_background": "classic",
         "background_color": "#F3EDE0",
-        "padding": {"unit": "px", "top": "88", "right": "40", "bottom": "88", "left": "40", "isLinked": false},
-        "padding_tablet": {"unit": "px", "top": "60", "right": "20", "bottom": "60", "left": "20", "isLinked": false},
-        "padding_mobile": {"unit": "px", "top": "40", "right": "15", "bottom": "40", "left": "15", "isLinked": false}
+        "padding": {
+          "unit": "px",
+          "top": "88",
+          "right": "40",
+          "bottom": "88",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "40",
+          "right": "15",
+          "bottom": "40",
+          "left": "15",
+          "isLinked": false
+        }
       },
       "elements": [
         {
-          "id": "contact-heading-col",
+          "id": "v6x3a6l",
           "elType": "column",
-          "settings": {"_column_size": 100, "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false}},
+          "settings": {
+            "_column_size": 100,
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "40",
+              "left": "0",
+              "isLinked": false
+            }
+          },
           "elements": [
             {
-              "id": "contact-label",
+              "id": "flk58z5",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -31,16 +61,29 @@
                 "header_size": "span",
                 "typography_typography": "custom",
                 "typography_font_family": "Jost",
-                "typography_font_size": {"unit": "px", "size": 11},
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
                 "typography_font_weight": "700",
-                "typography_letter_spacing": {"unit": "px", "size": 2.5},
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.5
+                },
                 "typography_text_transform": "uppercase",
                 "title_color": "#C8851A",
-                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                }
               }
             },
             {
-              "id": "contact-title",
+              "id": "q9wgpui",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -48,29 +91,46 @@
                 "header_size": "h2",
                 "typography_typography": "custom",
                 "typography_font_family": "Fraunces",
-                "typography_font_size": {"unit": "px", "size": 38},
-                "typography_font_size_tablet": {"unit": "px", "size": 30},
-                "typography_font_size_mobile": {"unit": "px", "size": 26},
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 30
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 26
+                },
                 "typography_font_weight": "700",
-                "typography_line_height": {"unit": "em", "size": 1.12},
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.12
+                },
                 "title_color": "#1C1A16"
               }
             }
           ]
         },
         {
-          "id": "contact-body-col",
+          "id": "cvleqz4",
           "elType": "column",
-          "settings": {"_column_size": 100},
+          "settings": {
+            "_column_size": 100
+          },
           "elements": [
             {
-              "id": "contact-inner",
+              "id": "aut5y24",
               "elType": "section",
               "isInner": true,
-              "settings": {"structure": "20", "gap": "extended"},
+              "settings": {
+                "structure": "20",
+                "gap": "extended"
+              },
               "elements": [
                 {
-                  "id": "contact-form-col",
+                  "id": "cvja5ef",
                   "elType": "column",
                   "settings": {
                     "_column_size": 50,
@@ -78,15 +138,42 @@
                     "background_background": "classic",
                     "background_color": "#FFFFFF",
                     "border_border": "solid",
-                    "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
                     "border_color": "#E0D8C8",
-                    "border_radius": {"unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true},
-                    "padding": {"unit": "px", "top": "32", "right": "32", "bottom": "32", "left": "32", "isLinked": true},
-                    "box_shadow_box_shadow": {"horizontal": 0, "vertical": 4, "blur": 32, "spread": 0, "color": "rgba(0,0,0,0.06)"}
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "32",
+                      "bottom": "32",
+                      "left": "32",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 4,
+                      "blur": 32,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.06)"
+                    }
                   },
                   "elements": [
                     {
-                      "id": "form-title",
+                      "id": "8w5njkx",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -94,61 +181,137 @@
                         "header_size": "h3",
                         "typography_typography": "custom",
                         "typography_font_family": "Fraunces",
-                        "typography_font_size": {"unit": "px", "size": 22},
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
                         "typography_font_weight": "700",
                         "title_color": "#1C1A16",
-                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "22", "left": "0", "isLinked": false}
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "22",
+                          "left": "0",
+                          "isLinked": false
+                        }
                       }
                     },
                     {
-                      "id": "contact-form-widget",
+                      "id": "5m6rma0",
                       "elType": "widget",
                       "widgetType": "form",
                       "settings": {
                         "form_name": "Contact Form",
                         "form_fields": [
-                          {"field_type": "text", "field_label": "Your Name", "placeholder": "Ranjit Banerjee", "required": "yes", "width": "50", "field_id": "name"},
-                          {"field_type": "tel", "field_label": "Phone / WhatsApp", "placeholder": "+91 98300 XXXXX", "required": "yes", "width": "50", "field_id": "phone"},
-                          {"field_type": "email", "field_label": "Email", "placeholder": "your@email.com", "width": "100", "field_id": "email"},
-                          {"field_type": "select", "field_label": "How Can We Help?", "field_options": "Book Elder Care for My Parent\nMonthly Plan Information\nTelemedicine Consultation\nEmergency Care Needed\nDementia / Memory Care\nNRI Family Account Setup\nOther", "width": "100", "field_id": "service"},
-                          {"field_type": "textarea", "field_label": "Message", "placeholder": "Tell us about your parents and what you need...", "rows": 4, "width": "100", "field_id": "message"}
+                          {
+                            "field_type": "text",
+                            "field_label": "Your Name",
+                            "placeholder": "Ranjit Banerjee",
+                            "required": "yes",
+                            "width": "50",
+                            "field_id": "name"
+                          },
+                          {
+                            "field_type": "tel",
+                            "field_label": "Phone / WhatsApp",
+                            "placeholder": "+91 98300 XXXXX",
+                            "required": "yes",
+                            "width": "50",
+                            "field_id": "phone"
+                          },
+                          {
+                            "field_type": "email",
+                            "field_label": "Email",
+                            "placeholder": "your@email.com",
+                            "width": "100",
+                            "field_id": "email"
+                          },
+                          {
+                            "field_type": "select",
+                            "field_label": "How Can We Help?",
+                            "field_options": "Book Elder Care for My Parent\nMonthly Plan Information\nTelemedicine Consultation\nEmergency Care Needed\nDementia / Memory Care\nNRI Family Account Setup\nOther",
+                            "width": "100",
+                            "field_id": "service"
+                          },
+                          {
+                            "field_type": "textarea",
+                            "field_label": "Message",
+                            "placeholder": "Tell us about your parents and what you need...",
+                            "rows": 4,
+                            "width": "100",
+                            "field_id": "message"
+                          }
                         ],
                         "button_text": "📲 Send Message on WhatsApp →",
                         "button_size": "md",
                         "button_width": "100",
                         "button_background_color": "#25D366",
                         "button_text_color": "#FFFFFF",
-                        "button_border_radius": {"unit": "px", "top": "100", "right": "100", "bottom": "100", "left": "100", "isLinked": true},
+                        "button_border_radius": {
+                          "unit": "px",
+                          "top": "100",
+                          "right": "100",
+                          "bottom": "100",
+                          "left": "100",
+                          "isLinked": true
+                        },
                         "button_hover_background_color": "#128C7E",
                         "button_typography_typography": "custom",
                         "button_typography_font_family": "Jost",
-                        "button_typography_font_size": {"unit": "px", "size": 14},
+                        "button_typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
                         "button_typography_font_weight": "700",
                         "label_typography_typography": "custom",
                         "label_typography_font_family": "Jost",
-                        "label_typography_font_size": {"unit": "px", "size": 11},
+                        "label_typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
                         "label_typography_font_weight": "700",
                         "label_typography_text_transform": "uppercase",
                         "label_color": "#6B6355",
                         "field_typography_typography": "custom",
                         "field_typography_font_family": "Jost",
-                        "field_typography_font_size": {"unit": "px", "size": 14},
+                        "field_typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
                         "field_text_color": "#1C1A16",
                         "field_background_color": "#FDFAF5",
                         "field_border_color": "#E0D8C8",
-                        "field_border_width": {"unit": "px", "top": "1.5", "right": "1.5", "bottom": "1.5", "left": "1.5", "isLinked": true},
-                        "field_border_radius": {"unit": "px", "top": "10", "right": "10", "bottom": "10", "left": "10", "isLinked": true}
+                        "field_border_width": {
+                          "unit": "px",
+                          "top": "1.5",
+                          "right": "1.5",
+                          "bottom": "1.5",
+                          "left": "1.5",
+                          "isLinked": true
+                        },
+                        "field_border_radius": {
+                          "unit": "px",
+                          "top": "10",
+                          "right": "10",
+                          "bottom": "10",
+                          "left": "10",
+                          "isLinked": true
+                        }
                       }
                     }
                   ]
                 },
                 {
-                  "id": "contact-info-col",
+                  "id": "u8dbu6t",
                   "elType": "column",
-                  "settings": {"_column_size": 50, "_column_size_tablet": 100},
+                  "settings": {
+                    "_column_size": 50,
+                    "_column_size_tablet": 100
+                  },
                   "elements": [
                     {
-                      "id": "emergency-box",
+                      "id": "deipwq0",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
@@ -156,7 +319,7 @@
                       }
                     },
                     {
-                      "id": "contact-cards",
+                      "id": "8uch2sb",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
@@ -171,5 +334,12 @@
         }
       ]
     }
-  ]
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Contact - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
 }

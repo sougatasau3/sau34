@@ -1,11 +1,7 @@
 {
-  "title": "About - KolkataElderCare",
-  "type": "page",
-  "version": "0.4",
-  "page_settings": [],
   "content": [
     {
-      "id": "about-section",
+      "id": "ybvnyim",
       "elType": "section",
       "settings": {
         "layout": "full_width",
@@ -43,7 +39,7 @@
       },
       "elements": [
         {
-          "id": "about-col-text",
+          "id": "epfzmxu",
           "elType": "column",
           "settings": {
             "_column_size": 50,
@@ -52,7 +48,7 @@
           },
           "elements": [
             {
-              "id": "about-label",
+              "id": "bmxzcrz",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -82,7 +78,7 @@
               }
             },
             {
-              "id": "about-title",
+              "id": "x1btvr2",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -119,7 +115,7 @@
               }
             },
             {
-              "id": "about-text",
+              "id": "k5fpl3t",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -137,7 +133,7 @@
               }
             },
             {
-              "id": "about-wa-btn",
+              "id": "g28hnpo",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -178,7 +174,7 @@
           ]
         },
         {
-          "id": "about-col-visual",
+          "id": "w4mztu1",
           "elType": "column",
           "settings": {
             "_column_size": 50,
@@ -187,7 +183,7 @@
           },
           "elements": [
             {
-              "id": "about-quote-card",
+              "id": "g9zklk3",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -203,7 +199,7 @@
               }
             },
             {
-              "id": "about-diff-card",
+              "id": "8p2o4gp",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -214,5 +210,12 @@
         }
       ]
     }
-  ]
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "About - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
 }
