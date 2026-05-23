@@ -1,0 +1,134 @@
+{
+  "title": "Top Strip - KolkataElderCare",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": [],
+  "content": [
+    {
+      "id": "top-strip-section",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#1A3D6B",
+        "padding": {
+          "unit": "px",
+          "top": "10",
+          "right": "40",
+          "bottom": "10",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "10",
+          "right": "20",
+          "bottom": "10",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "8",
+          "right": "15",
+          "bottom": "8",
+          "left": "15",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "top-strip-col-left",
+          "elType": "column",
+          "settings": {
+            "_column_size": 70,
+            "content_position": "center"
+          },
+          "elements": [
+            {
+              "id": "top-strip-info",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"color: rgba(255,255,255,0.88); font-family: 'Jost', sans-serif; font-size: 12px; font-weight: 500;\">🇮🇳 +91 72888 18181 &nbsp;&nbsp;&nbsp; 🇺🇸 For USA: +1 989 268 2922 &nbsp;&nbsp;&nbsp; 📍 Serving Howrah · Kolkata · West Bengal</span>",
+                "align": "left",
+                "align_tablet": "center",
+                "align_mobile": "center",
+                "text_color": "rgba(255,255,255,0.88)",
+                "typography_typography": "custom",
+                "typography_font_family": "Jost",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_font_weight": "500"
+              }
+            }
+          ]
+        },
+        {
+          "id": "top-strip-col-right",
+          "elType": "column",
+          "settings": {
+            "_column_size": 30,
+            "content_position": "center",
+            "align": "right"
+          },
+          "elements": [
+            {
+              "id": "top-strip-wa-btn",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "📲 WhatsApp Now",
+                "link": {
+                  "url": "https://wa.me/917288818181?text=Hi%2C+I+want+to+book+elder+care+for+my+parents",
+                  "is_external": "on",
+                  "nofollow": ""
+                },
+                "align": "right",
+                "align_mobile": "center",
+                "size": "xs",
+                "typography_typography": "custom",
+                "typography_font_family": "Jost",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_font_weight": "600",
+                "button_text_color": "#FFFFFF",
+                "background_color": "#25D366",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "100",
+                  "right": "100",
+                  "bottom": "100",
+                  "left": "100",
+                  "isLinked": true
+                },
+                "button_text_color_hover": "#FFFFFF",
+                "button_background_color_hover": "#128C7E",
+                "padding": {
+                  "unit": "px",
+                  "top": "5",
+                  "right": "14",
+                  "bottom": "5",
+                  "left": "14",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

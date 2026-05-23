@@ -1,0 +1,175 @@
+{
+  "title": "Contact - KolkataElderCare",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": [],
+  "content": [
+    {
+      "id": "contact-section",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {"unit": "%", "size": 90},
+        "background_background": "classic",
+        "background_color": "#F3EDE0",
+        "padding": {"unit": "px", "top": "88", "right": "40", "bottom": "88", "left": "40", "isLinked": false},
+        "padding_tablet": {"unit": "px", "top": "60", "right": "20", "bottom": "60", "left": "20", "isLinked": false},
+        "padding_mobile": {"unit": "px", "top": "40", "right": "15", "bottom": "40", "left": "15", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "contact-heading-col",
+          "elType": "column",
+          "settings": {"_column_size": 100, "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false}},
+          "elements": [
+            {
+              "id": "contact-label",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Contact Us",
+                "header_size": "span",
+                "typography_typography": "custom",
+                "typography_font_family": "Jost",
+                "typography_font_size": {"unit": "px", "size": 11},
+                "typography_font_weight": "700",
+                "typography_letter_spacing": {"unit": "px", "size": 2.5},
+                "typography_text_transform": "uppercase",
+                "title_color": "#C8851A",
+                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "contact-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "We're Here.<br>Any Time You <em style=\"color:#C8851A\">Need Us.</em>",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Fraunces",
+                "typography_font_size": {"unit": "px", "size": 38},
+                "typography_font_size_tablet": {"unit": "px", "size": 30},
+                "typography_font_size_mobile": {"unit": "px", "size": 26},
+                "typography_font_weight": "700",
+                "typography_line_height": {"unit": "em", "size": 1.12},
+                "title_color": "#1C1A16"
+              }
+            }
+          ]
+        },
+        {
+          "id": "contact-body-col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "contact-inner",
+              "elType": "section",
+              "isInner": true,
+              "settings": {"structure": "20", "gap": "extended"},
+              "elements": [
+                {
+                  "id": "contact-form-col",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_column_size_tablet": 100,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                    "border_color": "#E0D8C8",
+                    "border_radius": {"unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true},
+                    "padding": {"unit": "px", "top": "32", "right": "32", "bottom": "32", "left": "32", "isLinked": true},
+                    "box_shadow_box_shadow": {"horizontal": 0, "vertical": 4, "blur": 32, "spread": 0, "color": "rgba(0,0,0,0.06)"}
+                  },
+                  "elements": [
+                    {
+                      "id": "form-title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Send Us a Message",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Fraunces",
+                        "typography_font_size": {"unit": "px", "size": 22},
+                        "typography_font_weight": "700",
+                        "title_color": "#1C1A16",
+                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "22", "left": "0", "isLinked": false}
+                      }
+                    },
+                    {
+                      "id": "contact-form-widget",
+                      "elType": "widget",
+                      "widgetType": "form",
+                      "settings": {
+                        "form_name": "Contact Form",
+                        "form_fields": [
+                          {"field_type": "text", "field_label": "Your Name", "placeholder": "Ranjit Banerjee", "required": "yes", "width": "50", "field_id": "name"},
+                          {"field_type": "tel", "field_label": "Phone / WhatsApp", "placeholder": "+91 98300 XXXXX", "required": "yes", "width": "50", "field_id": "phone"},
+                          {"field_type": "email", "field_label": "Email", "placeholder": "your@email.com", "width": "100", "field_id": "email"},
+                          {"field_type": "select", "field_label": "How Can We Help?", "field_options": "Book Elder Care for My Parent\nMonthly Plan Information\nTelemedicine Consultation\nEmergency Care Needed\nDementia / Memory Care\nNRI Family Account Setup\nOther", "width": "100", "field_id": "service"},
+                          {"field_type": "textarea", "field_label": "Message", "placeholder": "Tell us about your parents and what you need...", "rows": 4, "width": "100", "field_id": "message"}
+                        ],
+                        "button_text": "📲 Send Message on WhatsApp →",
+                        "button_size": "md",
+                        "button_width": "100",
+                        "button_background_color": "#25D366",
+                        "button_text_color": "#FFFFFF",
+                        "button_border_radius": {"unit": "px", "top": "100", "right": "100", "bottom": "100", "left": "100", "isLinked": true},
+                        "button_hover_background_color": "#128C7E",
+                        "button_typography_typography": "custom",
+                        "button_typography_font_family": "Jost",
+                        "button_typography_font_size": {"unit": "px", "size": 14},
+                        "button_typography_font_weight": "700",
+                        "label_typography_typography": "custom",
+                        "label_typography_font_family": "Jost",
+                        "label_typography_font_size": {"unit": "px", "size": 11},
+                        "label_typography_font_weight": "700",
+                        "label_typography_text_transform": "uppercase",
+                        "label_color": "#6B6355",
+                        "field_typography_typography": "custom",
+                        "field_typography_font_family": "Jost",
+                        "field_typography_font_size": {"unit": "px", "size": 14},
+                        "field_text_color": "#1C1A16",
+                        "field_background_color": "#FDFAF5",
+                        "field_border_color": "#E0D8C8",
+                        "field_border_width": {"unit": "px", "top": "1.5", "right": "1.5", "bottom": "1.5", "left": "1.5", "isLinked": true},
+                        "field_border_radius": {"unit": "px", "top": "10", "right": "10", "bottom": "10", "left": "10", "isLinked": true}
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "contact-info-col",
+                  "elType": "column",
+                  "settings": {"_column_size": 50, "_column_size_tablet": 100},
+                  "elements": [
+                    {
+                      "id": "emergency-box",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style=\"background:#FAF0EB;border:1px solid rgba(184,76,42,0.2);border-radius:14px;padding:19px 22px;margin-bottom:16px;\"><h4 style=\"font-size:14px;font-weight:700;color:#B84C2A;margin-bottom:5px;display:flex;align-items:center;gap:6px;\">⚠️ Medical Emergency?</h4><p style=\"font-size:12px;color:#6B6355;line-height:1.65;\">Call <strong>108</strong> immediately or go to Howrah District Hospital. Our service is for elder care coordination and non-emergency consultations. For emergencies, always call 108 first.</p></div>"
+                      }
+                    },
+                    {
+                      "id": "contact-cards",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style=\"display:flex;flex-direction:column;gap:16px;\"><div style=\"background:#fff;border:1px solid #E0D8C8;border-radius:14px;padding:19px 22px;display:flex;align-items:flex-start;gap:14px;\"><span style=\"font-size:1.4rem;flex-shrink:0;margin-top:2px;\">📲</span><div><div style=\"font-size:13px;font-weight:700;color:#1C1A16;margin-bottom:2px;\">WhatsApp — Fastest Response</div><div style=\"font-size:13px;color:#6B6355;line-height:1.6;\"><a href=\"https://wa.me/917288818181\" style=\"color:#1A3D6B;font-weight:600;text-decoration:none;\">+91 72888 18181</a> · Available 24×7<br>Average reply: under 2 minutes · Bengali & English</div></div></div><div style=\"background:#fff;border:1px solid #E0D8C8;border-radius:14px;padding:19px 22px;display:flex;align-items:flex-start;gap:14px;\"><span style=\"font-size:1.4rem;flex-shrink:0;margin-top:2px;\">📞</span><div><div style=\"font-size:13px;font-weight:700;color:#1C1A16;margin-bottom:2px;\">Phone — India</div><div style=\"font-size:13px;color:#6B6355;line-height:1.6;\"><a href=\"tel:+917288818181\" style=\"color:#1A3D6B;font-weight:600;text-decoration:none;\">+91 72888 18181</a> · 24×7<br>Bengali, Hindi & English</div></div></div><div style=\"background:#fff;border:1px solid #E0D8C8;border-radius:14px;padding:19px 22px;display:flex;align-items:flex-start;gap:14px;\"><span style=\"font-size:1.4rem;flex-shrink:0;margin-top:2px;\">🇺🇸</span><div><div style=\"font-size:13px;font-weight:700;color:#1C1A16;margin-bottom:2px;\">Phone — USA / Canada</div><div style=\"font-size:13px;color:#6B6355;line-height:1.6;\"><a href=\"tel:+19892682922\" style=\"color:#1A3D6B;font-weight:600;text-decoration:none;\">+1 989 268 2922</a><br>For NRI families in North America</div></div></div><div style=\"background:#fff;border:1px solid #E0D8C8;border-radius:14px;padding:19px 22px;display:flex;align-items:flex-start;gap:14px;\"><span style=\"font-size:1.4rem;flex-shrink:0;margin-top:2px;\">📧</span><div><div style=\"font-size:13px;font-weight:700;color:#1C1A16;margin-bottom:2px;\">Email</div><div style=\"font-size:13px;color:#6B6355;line-height:1.6;\"><a href=\"mailto:hello@kolkataeldercare.in\" style=\"color:#1A3D6B;font-weight:600;text-decoration:none;\">hello@kolkataeldercare.in</a><br>Response within 2 business hours</div></div></div><div style=\"background:#fff;border:1px solid #E0D8C8;border-radius:14px;padding:19px 22px;display:flex;align-items:flex-start;gap:14px;\"><span style=\"font-size:1.4rem;flex-shrink:0;margin-top:2px;\">🏢</span><div><div style=\"font-size:13px;font-weight:700;color:#1C1A16;margin-bottom:2px;\">Office</div><div style=\"font-size:13px;color:#6B6355;line-height:1.6;\">Kalikapur, EM Bypass, Kolkata – 700099<br>Near CMIG · West Bengal</div></div></div></div>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

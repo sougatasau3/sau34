@@ -1,0 +1,119 @@
+{
+  "title": "Footer - KolkataElderCare",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": [],
+  "content": [
+    {
+      "id": "footer-section",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {"unit": "%", "size": 90},
+        "background_background": "classic",
+        "background_color": "#1C1A16",
+        "padding": {"unit": "px", "top": "64", "right": "40", "bottom": "32", "left": "40", "isLinked": false},
+        "padding_tablet": {"unit": "px", "top": "50", "right": "20", "bottom": "24", "left": "20", "isLinked": false},
+        "padding_mobile": {"unit": "px", "top": "40", "right": "15", "bottom": "20", "left": "15", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "footer-grid-col",
+          "elType": "column",
+          "settings": {"_column_size": 100, "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false}},
+          "elements": [
+            {
+              "id": "footer-grid-inner",
+              "elType": "section",
+              "isInner": true,
+              "settings": {"structure": "40", "gap": "extended"},
+              "elements": [
+                {
+                  "id": "footer-brand-col",
+                  "elType": "column",
+                  "settings": {"_column_size": 37, "_column_size_tablet": 100},
+                  "elements": [
+                    {
+                      "id": "footer-brand",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<span style=\"font-family:'Fraunces',serif;font-size:1.4rem;font-weight:700;color:#fff;display:block;margin-bottom:10px;\">Kolkata<span style=\"color:#C8851A;font-style:italic;\">Elder</span>Care</span><p style=\"font-size:12px;color:rgba(255,255,255,0.7);line-height:1.7;max-width:240px;margin-bottom:16px;\">Telemedicine + in-home elder care for West Bengal seniors and their NRI families. Bengali-speaking. CMIG certified. Available 24×7.</p><a href=\"https://wa.me/917288818181\" target=\"_blank\" style=\"background:#25D366;color:#fff;padding:9px 18px;border-radius:100px;font-size:12px;font-weight:600;display:inline-flex;align-items:center;gap:5px;text-decoration:none;\">📲 WhatsApp Us Now</a><div style=\"display:flex;gap:8px;flex-wrap:wrap;margin-top:12px;\"><span style=\"background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.45);padding:3px 9px;border-radius:4px;font-size:10px;font-weight:600;\">CMIG ✓</span><span style=\"background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.45);padding:3px 9px;border-radius:4px;font-size:10px;font-weight:600;\">ABDM ✓</span><span style=\"background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.45);padding:3px 9px;border-radius:4px;font-size:10px;font-weight:600;\">HIPAA ✓</span><span style=\"background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.45);padding:3px 9px;border-radius:4px;font-size:10px;font-weight:600;\">WB-TELEMED-2024</span></div>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "footer-services-col",
+                  "elType": "column",
+                  "settings": {"_column_size": 21, "_column_size_tablet": 33, "_column_size_mobile": 100},
+                  "elements": [
+                    {
+                      "id": "footer-services",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<h4 style=\"font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-bottom:16px;\">Services</h4><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"margin-bottom:9px;\"><a href=\"#services\" style=\"font-size:12px;color:rgba(255,255,255,0.55);text-decoration:none;\">Gerontologist Home Visits</a></li><li style=\"margin-bottom:9px;\"><a href=\"#services\" style=\"font-size:12px;color:rgba(255,255,255,0.55);text-decoration:none;\">Telemedicine Consultations</a></li><li style=\"margin-bottom:9px;\"><a href=\"#services\" style=\"font-size:12px;color:rgba(255,255,255,0.55);text-decoration:none;\">NRI Family Care</a></li><li style=\"margin-bottom:9px;\"><a href=\"#services\" style=\"font-size:12px;color:rgba(255,255,255,0.55);text-decoration:none;\">Dementia Support</a></li><li><a href=\"#services\" style=\"font-size:12px;color:rgba(255,255,255,0.55);text-decoration:none;\">24hr Medicine Delivery</a></li></ul>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "footer-links-col",
+                  "elType": "column",
+                  "settings": {"_column_size": 21, "_column_size_tablet": 33, "_column_size_mobile": 100},
+                  "elements": [
+                    {
+                      "id": "footer-links",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<h4 style=\"font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-bottom:16px;\">Quick Links</h4><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"margin-bottom:9px;\"><a href=\"#about\" style=\"font-size:12px;color:rgba(255,255,255,0.55);text-decoration:none;\">About Us</a></li><li style=\"margin-bottom:9px;\"><a href=\"#pricing\" style=\"font-size:12px;color:rgba(255,255,255,0.55);text-decoration:none;\">Pricing Plans</a></li><li style=\"margin-bottom:9px;\"><a href=\"#doctors\" style=\"font-size:12px;color:rgba(255,255,255,0.55);text-decoration:none;\">Our Doctors</a></li><li style=\"margin-bottom:9px;\"><a href=\"#reviews\" style=\"font-size:12px;color:rgba(255,255,255,0.55);text-decoration:none;\">Testimonials</a></li><li><a href=\"#contact\" style=\"font-size:12px;color:rgba(255,255,255,0.55);text-decoration:none;\">Contact</a></li></ul>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "footer-support-col",
+                  "elType": "column",
+                  "settings": {"_column_size": 21, "_column_size_tablet": 33, "_column_size_mobile": 100},
+                  "elements": [
+                    {
+                      "id": "footer-support",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<h4 style=\"font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-bottom:16px;\">Support</h4><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"margin-bottom:9px;\"><a href=\"#\" style=\"font-size:12px;color:rgba(255,255,255,0.55);text-decoration:none;\">Privacy Policy</a></li><li style=\"margin-bottom:9px;\"><a href=\"#\" style=\"font-size:12px;color:rgba(255,255,255,0.55);text-decoration:none;\">Refund Policy</a></li><li style=\"margin-bottom:9px;\"><a href=\"#\" style=\"font-size:12px;color:rgba(255,255,255,0.55);text-decoration:none;\">Patient Rights</a></li><li style=\"margin-bottom:9px;\"><a href=\"#\" style=\"font-size:12px;color:rgba(255,255,255,0.55);text-decoration:none;\">Grievance Officer</a></li><li><a href=\"#\" style=\"font-size:12px;color:rgba(255,255,255,0.55);text-decoration:none;\">Disclaimer</a></li></ul>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "footer-bottom-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "border_border": "solid",
+            "border_width": {"unit": "px", "top": "1", "right": "0", "bottom": "0", "left": "0", "isLinked": false},
+            "border_color": "rgba(255,255,255,0.08)",
+            "padding": {"unit": "px", "top": "22", "right": "0", "bottom": "0", "left": "0", "isLinked": false}
+          },
+          "elements": [
+            {
+              "id": "footer-bottom-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:11px;color:rgba(255,255,255,0.3);line-height:1.7;max-width:600px;\">© 2025 KolkataElderCare. Kalikapur, EM Bypass, Kolkata – 700099, West Bengal. License: WB-TELEMED-2024. ABDM Integrated. CMIG Kolkata Affiliated.</p><p style=\"font-size:10px;color:rgba(255,255,255,0.25);margin-top:5px;\">⚠️ Disclaimer: Services are elder care coordination and telemedicine consultations. Not a substitute for emergency medical care. For emergencies, call 108. Gerontology services are non-medical care coordination. KMC Trade License: XXXX. GST: Not applicable (below threshold).</p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
