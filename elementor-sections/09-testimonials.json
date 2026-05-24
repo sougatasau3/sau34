@@ -34,7 +34,8 @@
           "bottom": "40",
           "left": "15",
           "isLinked": false
-        }
+        },
+        "css_id": "reviews"
       },
       "elements": [
         {

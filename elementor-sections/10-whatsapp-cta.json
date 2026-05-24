@@ -35,7 +35,8 @@
           "left": "15",
           "isLinked": false
         },
-        "structure": "20"
+        "structure": "20",
+        "css_id": "whatsapp"
       },
       "elements": [
         {
