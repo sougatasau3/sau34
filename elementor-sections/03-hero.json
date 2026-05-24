@@ -1,20 +1,16 @@
 {
   "content": [
     {
-      "id": "l5vwgds",
+      "id": "her01sec",
       "elType": "section",
       "settings": {
         "layout": "full_width",
         "content_width": {
           "unit": "%",
-          "size": 90
+          "size": 100
         },
         "background_background": "classic",
         "background_color": "#FDFAF5",
-        "min_height": {
-          "unit": "vh",
-          "size": 88
-        },
         "padding": {
           "unit": "px",
           "top": "80",
@@ -38,282 +34,22 @@
           "bottom": "40",
           "left": "15",
           "isLinked": false
-        },
-        "structure": "20"
+        }
       },
       "elements": [
         {
-          "id": "g4sbvdq",
+          "id": "her01c1",
           "elType": "column",
           "settings": {
-            "_column_size": 50,
-            "_column_size_tablet": 100,
-            "content_position": "center",
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "80",
-              "left": "0",
-              "isLinked": false
-            }
+            "_column_size": 100
           },
           "elements": [
             {
-              "id": "96d825l",
+              "id": "her01htm",
               "elType": "widget",
-              "widgetType": "text-editor",
+              "widgetType": "html",
               "settings": {
-                "editor": "<span style=\"display:inline-flex;align-items:center;gap:8px;background:#E8EFF8;border:1px solid rgba(26,61,107,0.12);color:#1A3D6B;padding:6px 16px;border-radius:100px;font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;\"><span style=\"width:6px;height:6px;border-radius:50%;background:#1A3D6B;display:inline-block;\"></span> CMIG Kolkata Certified · Trusted by 12,000+ Families</span>",
-                "align": "left",
-                "align_mobile": "center",
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "25",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            },
-            {
-              "id": "rmqecue",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Your Parents<br>Are Not <em style=\"color:#C8851A\">Alone.</em><br><span style=\"color:#1A3D6B\">আমরা আছি।</span>",
-                "header_size": "h1",
-                "align": "left",
-                "align_mobile": "center",
-                "typography_typography": "custom",
-                "typography_font_family": "Fraunces",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 56
-                },
-                "typography_font_size_tablet": {
-                  "unit": "px",
-                  "size": 42
-                },
-                "typography_font_size_mobile": {
-                  "unit": "px",
-                  "size": 34
-                },
-                "typography_font_weight": "900",
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.05
-                },
-                "typography_letter_spacing": {
-                  "unit": "px",
-                  "size": -1
-                },
-                "title_color": "#1C1A16",
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "22",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            },
-            {
-              "id": "dvwjf4a",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "You moved abroad for a better future. Your parents stayed back.<br><strong>We become your eyes and ears in Kolkata</strong> — certified gerontologists, telemedicine doctors, and in-home care specialists. Available at 2 AM.",
-                "align": "left",
-                "align_mobile": "center",
-                "typography_typography": "custom",
-                "typography_font_family": "Jost",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 17
-                },
-                "typography_font_size_mobile": {
-                  "unit": "px",
-                  "size": 15
-                },
-                "typography_font_weight": "400",
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.85
-                },
-                "text_color": "#6B6355",
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "35",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            },
-            {
-              "id": "zvknlu5",
-              "elType": "widget",
-              "widgetType": "button",
-              "settings": {
-                "text": "📲 WhatsApp to Book Free Call",
-                "link": {
-                  "url": "https://wa.me/917288818181?text=Hi%2C+I+want+to+book+elder+care+for+my+Ma-Baba+in+Kolkata",
-                  "is_external": "on"
-                },
-                "align": "left",
-                "align_mobile": "center",
-                "size": "md",
-                "typography_typography": "custom",
-                "typography_font_family": "Jost",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16
-                },
-                "typography_font_weight": "600",
-                "button_text_color": "#FFFFFF",
-                "background_color": "#25D366",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "100",
-                  "right": "100",
-                  "bottom": "100",
-                  "left": "100",
-                  "isLinked": true
-                },
-                "button_background_color_hover": "#128C7E",
-                "button_box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 6,
-                  "blur": 24,
-                  "spread": 0,
-                  "color": "rgba(37,211,102,0.3)"
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "14",
-                  "right": "28",
-                  "bottom": "14",
-                  "left": "28",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "10",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            },
-            {
-              "id": "dbxtfej",
-              "elType": "widget",
-              "widgetType": "button",
-              "settings": {
-                "text": "📞 Call Now",
-                "link": {
-                  "url": "tel:+917288818181"
-                },
-                "align": "left",
-                "align_mobile": "center",
-                "size": "md",
-                "typography_typography": "custom",
-                "typography_font_family": "Jost",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 14
-                },
-                "typography_font_weight": "600",
-                "button_text_color": "#1A3D6B",
-                "background_color": "transparent",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1.5",
-                  "right": "1.5",
-                  "bottom": "1.5",
-                  "left": "1.5",
-                  "isLinked": true
-                },
-                "border_color": "#E8EFF8",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "100",
-                  "right": "100",
-                  "bottom": "100",
-                  "left": "100",
-                  "isLinked": true
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "13",
-                  "right": "22",
-                  "bottom": "13",
-                  "left": "22",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "25",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            },
-            {
-              "id": "pcl04xx",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<div style=\"display:flex;align-items:center;gap:8px;flex-wrap:wrap;\"><span style=\"display:inline-flex;align-items:center;gap:6px;background:#fff;border:1px solid #E0D8C8;padding:6px 12px;border-radius:100px;font-size:11px;font-weight:600;color:#6B6355;box-shadow:0 1px 6px rgba(0,0,0,0.04);\">🎓 CMIG Kolkata Certified</span><span style=\"display:inline-flex;align-items:center;gap:6px;background:#fff;border:1px solid #E0D8C8;padding:6px 12px;border-radius:100px;font-size:11px;font-weight:600;color:#6B6355;box-shadow:0 1px 6px rgba(0,0,0,0.04);\">⭐ 4.9 Google Rating</span><span style=\"display:inline-flex;align-items:center;gap:6px;background:#fff;border:1px solid #E0D8C8;padding:6px 12px;border-radius:100px;font-size:11px;font-weight:600;color:#6B6355;box-shadow:0 1px 6px rgba(0,0,0,0.04);\">🇮🇳 ABDM Integrated</span><span style=\"display:inline-flex;align-items:center;gap:6px;background:#fff;border:1px solid #E0D8C8;padding:6px 12px;border-radius:100px;font-size:11px;font-weight:600;color:#6B6355;box-shadow:0 1px 6px rgba(0,0,0,0.04);\">🔒 HIPAA Compliant</span></div>",
-                "align": "left",
-                "align_mobile": "center",
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "30",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            },
-            {
-              "id": "1hkebd8",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<div style=\"display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:1px solid #E0D8C8;border-radius:14px;box-shadow:0 2px 20px rgba(0,0,0,0.06);overflow:hidden;\"><div style=\"padding:16px;border-right:1px solid #E0D8C8;text-align:center;\"><div style=\"font-family:'Fraunces',serif;font-size:1.6rem;font-weight:700;color:#1C1A16;line-height:1;\">12K+</div><div style=\"font-size:10px;color:#6B6355;margin-top:3px;line-height:1.4;\">Families Served</div></div><div style=\"padding:16px;border-right:1px solid #E0D8C8;text-align:center;\"><div style=\"font-family:'Fraunces',serif;font-size:1.6rem;font-weight:700;color:#1C1A16;line-height:1;\">4.9★</div><div style=\"font-size:10px;color:#6B6355;margin-top:3px;line-height:1.4;\">Google Rating</div></div><div style=\"padding:16px;border-right:1px solid #E0D8C8;text-align:center;\"><div style=\"font-family:'Fraunces',serif;font-size:1.6rem;font-weight:700;color:#1C1A16;line-height:1;\">24×7</div><div style=\"font-size:10px;color:#6B6355;margin-top:3px;line-height:1.4;\">Always Available</div></div><div style=\"padding:16px;text-align:center;\"><div style=\"font-family:'Fraunces',serif;font-size:1.6rem;font-weight:700;color:#1C1A16;line-height:1;\">10 Min</div><div style=\"font-size:10px;color:#6B6355;margin-top:3px;line-height:1.4;\">Avg Doctor Wait</div></div></div>",
-                "align": "left",
-                "responsive_description": "Stats grid becomes 2x2 on mobile"
-              }
-            }
-          ]
-        },
-        {
-          "id": "hou48wg",
-          "elType": "column",
-          "settings": {
-            "_column_size": 50,
-            "_column_size_tablet": 100,
-            "content_position": "bottom",
-            "hide_mobile": "hidden-phone"
-          },
-          "elements": [
-            {
-              "id": "804gnvm",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<div style=\"position:relative;\"><div style=\"background:linear-gradient(160deg,#F3EDE0 0%,#E8DEC8 100%);border-radius:24px 24px 0 0;height:460px;display:flex;align-items:flex-end;justify-content:center;overflow:hidden;position:relative;\"><div style=\"font-size:8rem;line-height:1;padding-bottom:1rem;filter:drop-shadow(0 10px 20px rgba(0,0,0,0.12));\">👴🏽</div><div style=\"position:absolute;top:24px;right:-16px;background:#fff;border:1px solid #E0D8C8;border-radius:14px;padding:12px 16px;box-shadow:0 8px 32px rgba(0,0,0,0.1);min-width:180px;\"><div style=\"font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;opacity:0.6;margin-bottom:4px;\">Doctor Online Now</div><div style=\"font-size:14px;font-weight:700;line-height:1.3;\">Dr. Subrata Ghosh</div><div style=\"font-size:11px;opacity:0.75;margin-top:2px;\">Geriatrician · CMIG · Available</div></div><div style=\"position:absolute;bottom:80px;left:-20px;background:#25D366;color:#fff;border-radius:14px;padding:12px 16px;box-shadow:0 8px 32px rgba(37,211,102,0.3);min-width:200px;\"><div style=\"font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,0.7);margin-bottom:4px;\">📲 WhatsApp Update</div><div style=\"font-size:14px;font-weight:700;line-height:1.3;\">\"Ma bhalo ache — video report sent\"</div><div style=\"font-size:11px;opacity:0.75;margin-top:2px;\">Sent to your WhatsApp · 2 min ago</div></div></div></div>",
-                "align": "center"
+                "html": "<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&family=Jost:wght@300;400;500;600&display=swap\" rel=\"stylesheet\"><style>.kec-hero{max-width:1320px;margin:0 auto;font-family:'Jost',sans-serif;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;min-height:80vh;position:relative;overflow:hidden}.kec-hero::before{content:'';position:absolute;top:-200px;right:-200px;width:700px;height:700px;background:radial-gradient(circle,rgba(200,133,26,.07) 0%,transparent 65%);pointer-events:none}.kec-hero-content{position:relative;z-index:1;padding-bottom:3rem}.kec-hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:#E8EFF8;border:1px solid rgba(26,61,107,.12);color:#1A3D6B;padding:6px 16px;border-radius:100px;font-size:.72rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-bottom:1.6rem}.kec-hero-eyebrow .dot{width:6px;height:6px;border-radius:50%;background:#1A3D6B;animation:kecpulse 2s infinite}@keyframes kecpulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.5)}}.kec-hero h1{font-family:'Fraunces',Georgia,serif;font-size:clamp(2.8rem,4.5vw,4rem);font-weight:900;line-height:1.05;letter-spacing:-1px;color:#1C1A16;margin:0 0 1.4rem 0}.kec-hero h1 em{font-style:italic;color:#C8851A}.kec-hero h1 .bn{color:#1A3D6B}.kec-hero-sub{font-size:1.05rem;color:#6B6355;max-width:480px;line-height:1.85;margin:0 0 2.2rem 0}.kec-hero-sub strong{color:#1C1A16;font-weight:600}.kec-hero-actions{display:flex;gap:1rem;align-items:center;flex-wrap:wrap;margin-bottom:2.5rem}.kec-btn-wa{background:#25D366;color:#fff;padding:14px 28px;border-radius:100px;font-weight:600;font-size:1rem;display:inline-flex;align-items:center;gap:8px;text-decoration:none;transition:all .2s;box-shadow:0 6px 24px rgba(37,211,102,.3)}.kec-btn-wa:hover{background:#128C7E;transform:translateY(-2px);box-shadow:0 10px 32px rgba(37,211,102,.35)}.kec-btn-call{display:inline-flex;align-items:center;gap:7px;color:#1A3D6B;font-weight:600;font-size:.9rem;border:1.5px solid #E8EFF8;padding:13px 22px;border-radius:100px;text-decoration:none;transition:all .2s}.kec-btn-call:hover{background:#E8EFF8}.kec-hero-trust{display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;margin-bottom:2rem}.kec-trust-badge{display:inline-flex;align-items:center;gap:6px;background:#fff;border:1px solid #E0D8C8;padding:6px 12px;border-radius:100px;font-size:.72rem;font-weight:600;color:#6B6355;box-shadow:0 1px 6px rgba(0,0,0,.04)}.kec-hero-stats{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:1px solid #E0D8C8;border-radius:14px;box-shadow:0 2px 20px rgba(0,0,0,.06);overflow:hidden}.kec-hero-stat{padding:16px;border-right:1px solid #E0D8C8;text-align:center}.kec-hero-stat:last-child{border-right:none}.kec-hero-stat .n{font-family:'Fraunces',serif;font-size:1.6rem;font-weight:700;color:#1C1A16;line-height:1}.kec-hero-stat .l{font-size:10px;color:#6B6355;margin-top:3px;line-height:1.4}.kec-hero-visual{position:relative;display:flex;flex-direction:column;justify-content:flex-end}.kec-hero-img-wrap{background:linear-gradient(160deg,#F3EDE0 0%,#E8DEC8 100%);border-radius:24px 24px 0 0;height:460px;display:flex;align-items:flex-end;justify-content:center;overflow:hidden;position:relative}.kec-hero-img-wrap .emoji{font-size:8rem;line-height:1;padding-bottom:1rem;filter:drop-shadow(0 10px 20px rgba(0,0,0,.12))}.kec-hero-float-1{position:absolute;top:24px;right:-16px;background:#fff;border:1px solid #E0D8C8;border-radius:14px;padding:12px 16px;box-shadow:0 8px 32px rgba(0,0,0,.1);min-width:180px;animation:kecfloat1 4s ease-in-out infinite}@keyframes kecfloat1{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}.kec-hero-float-2{position:absolute;bottom:80px;left:-20px;background:#25D366;color:#fff;border-radius:14px;padding:12px 16px;box-shadow:0 8px 32px rgba(37,211,102,.3);min-width:200px;animation:kecfloat2 5s ease-in-out infinite}@keyframes kecfloat2{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}.kec-float-title{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;opacity:.6;margin-bottom:4px}.kec-float-val{font-size:.88rem;font-weight:700;line-height:1.3}.kec-float-sub{font-size:.7rem;opacity:.75;margin-top:2px}@media(max-width:920px){.kec-hero{grid-template-columns:1fr}.kec-hero-visual{display:none}}@media(max-width:600px){.kec-hero-actions{flex-direction:column;align-items:flex-start}.kec-hero-stat .n{font-size:1.2rem}.kec-hero-stat{padding:12px 8px}}</style><div class=\"kec-hero\"><div class=\"kec-hero-content\"><div class=\"kec-hero-eyebrow\"><span class=\"dot\"></span> CMIG Kolkata Certified · Trusted by 12,000+ Families</div><h1>Your Parents<br>Are Not <em>Alone.</em><br><span class=\"bn\">আমরা আছি।</span></h1><p class=\"kec-hero-sub\">You moved abroad for a better future. Your parents stayed back.<br><strong>We become your eyes and ears in Kolkata</strong> — certified gerontologists, telemedicine doctors, and in-home care specialists. Available at 2 AM.</p><div class=\"kec-hero-actions\"><a href=\"https://wa.me/917288818181?text=Hi%2C+I+want+to+book+elder+care+for+my+Ma-Baba+in+Kolkata\" target=\"_blank\" class=\"kec-btn-wa\">📲 WhatsApp to Book Free Call</a><a href=\"tel:+917288818181\" class=\"kec-btn-call\">📞 Call Now</a></div><div class=\"kec-hero-trust\"><span class=\"kec-trust-badge\">🎓 CMIG Kolkata Certified</span><span class=\"kec-trust-badge\">⭐ 4.9 Google Rating</span><span class=\"kec-trust-badge\">🇮🇳 ABDM Integrated</span><span class=\"kec-trust-badge\">🔒 HIPAA Compliant</span></div><div class=\"kec-hero-stats\"><div class=\"kec-hero-stat\"><div class=\"n\">12K+</div><div class=\"l\">Families Served</div></div><div class=\"kec-hero-stat\"><div class=\"n\">4.9★</div><div class=\"l\">Google Rating</div></div><div class=\"kec-hero-stat\"><div class=\"n\">24×7</div><div class=\"l\">Always Available</div></div><div class=\"kec-hero-stat\"><div class=\"n\">10 Min</div><div class=\"l\">Avg Doctor Wait</div></div></div></div><div class=\"kec-hero-visual\"><div class=\"kec-hero-img-wrap\"><div class=\"emoji\">👴🏽</div><div class=\"kec-hero-float-1\"><div class=\"kec-float-title\">Doctor Online Now</div><div class=\"kec-float-val\">Dr. Subrata Ghosh</div><div class=\"kec-float-sub\">Geriatrician · CMIG · Available</div></div><div class=\"kec-hero-float-2\"><div class=\"kec-float-title\" style=\"color:rgba(255,255,255,.7)\">📲 WhatsApp Update</div><div class=\"kec-float-val\">\"Ma bhalo ache — video report sent\"</div><div class=\"kec-float-sub\">Sent to your WhatsApp · 2 min ago</div></div></div></div></div>"
               }
             }
           ]
