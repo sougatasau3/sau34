@@ -1,0 +1,67 @@
+{
+  "content": [
+    {
+      "id": "privacy1",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#FDFAF5",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "40",
+          "bottom": "60",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "40",
+          "right": "20",
+          "bottom": "40",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "30",
+          "right": "15",
+          "bottom": "30",
+          "left": "15",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "privacy2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "privacy3",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;1,400&family=Jost:wght@400;500;600;700&display=swap\" rel=\"stylesheet\"><style>.kec-page{max-width:800px;margin:0 auto;font-family:'Jost',sans-serif;padding:2rem 0}.kec-page h2{font-family:'Fraunces',serif;font-size:clamp(1.8rem,3vw,2.4rem);font-weight:700;color:#1C1A16;margin:0 0 1rem 0}.kec-page h3{font-family:'Fraunces',serif;font-size:1.2rem;font-weight:700;color:#1C1A16;margin:2rem 0 0.8rem 0}.kec-page p{font-size:0.92rem;color:#6B6355;line-height:1.85;margin:0 0 1rem 0}.kec-page ul,.kec-page ol{padding-left:1.5rem;margin:0 0 1rem 0}.kec-page li{font-size:0.88rem;color:#6B6355;line-height:1.8;margin-bottom:0.4rem}.kec-page strong{color:#1C1A16}.kec-page a{color:#1A3D6B;font-weight:600;text-decoration:none}.kec-page a:hover{text-decoration:underline}.kec-page table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:0.85rem}.kec-page th{text-align:left;padding:10px;background:#F3EDE0;color:#1C1A16;font-weight:700;border-bottom:2px solid #E0D8C8}.kec-page td{padding:10px;border-bottom:1px solid #E0D8C8;color:#6B6355}.kec-back{display:inline-flex;align-items:center;gap:6px;font-size:0.82rem;font-weight:600;color:#1A3D6B;text-decoration:none;margin-bottom:1.5rem;padding:6px 14px;border:1.5px solid #E8EFF8;border-radius:100px;transition:all 0.2s}.kec-back:hover{background:#E8EFF8}</style><div class=\"kec-page\"><a href=\"/\" class=\"kec-back\">&larr; Back to Home</a><h2>Privacy Policy</h2><p><strong>Effective Date:</strong> January 1, 2025</p><h3>1. Introduction</h3><p>KolkataElderCare (\"we,\" \"us,\" or \"our\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our elder care coordination and telemedicine services.</p><h3>2. Information We Collect</h3><p><strong>Personal Information:</strong></p><ul><li>Name, phone number, email address</li><li>Address and location (for home visit services)</li><li>Age, gender, and health-related information of the elder</li><li>Payment information (UPI, card, PayPal details)</li><li>WhatsApp messages and communication history</li><li>Family member/NRI contact details</li></ul><p><strong>Health Information:</strong></p><ul><li>Medical history, current medications, and prescriptions</li><li>Doctor consultation notes and recommendations</li><li>Diagnostic reports and health assessments</li><li>CMIG gerontology assessment reports</li></ul><h3>3. How We Use Your Information</h3><ul><li>To provide elder care coordination services</li><li>To facilitate telemedicine consultations</li><li>To send WhatsApp updates to family members</li><li>To manage appointments and medicine schedules</li><li>To process payments and billing</li><li>To improve our services and customer experience</li><li>To comply with legal and regulatory requirements</li></ul><h3>4. Information Sharing</h3><p>We do NOT sell your personal information. We may share information with:</p><ul><li>MCI/NMC registered doctors providing consultations</li><li>CMIG certified gerontologists assigned to your family</li><li>Pharmacies for medicine delivery</li><li>Hospitals for emergency coordination</li><li>Payment processors for transaction handling</li><li>Authorized family members as designated by you</li></ul><h3>5. Data Security</h3><p>We implement industry-standard security measures including:</p><ul><li>HIPAA-compliant data handling procedures</li><li>ABDM (Ayushman Bharat Digital Mission) integration standards</li><li>Encrypted communication channels</li><li>Secure cloud storage with access controls</li><li>Regular security audits</li></ul><h3>6. Data Retention</h3><p>We retain your information for as long as your account is active or as needed to provide services. Medical records are retained as per Indian medical record-keeping regulations (minimum 3 years).</p><h3>7. Your Rights</h3><ul><li>Access your personal data</li><li>Request correction of inaccurate data</li><li>Request deletion of your data (subject to legal requirements)</li><li>Withdraw consent for marketing communications</li><li>Port your data to another service provider</li></ul><h3>8. Cookies &amp; Tracking</h3><p>Our website may use cookies for analytics and improving user experience. You can disable cookies in your browser settings.</p><h3>9. Children's Privacy</h3><p>Our services are designed for adults and elderly care coordination. We do not knowingly collect information from children under 18.</p><h3>10. Changes to This Policy</h3><p>We may update this policy periodically. Changes will be posted on this page with an updated effective date.</p><h3>11. Contact Us</h3><p>For privacy-related concerns:</p><ul><li>WhatsApp: +91 72888 18181</li><li>Email: hello@kolkataeldercare.in</li><li>Office: Kalikapur, EM Bypass, Kolkata - 700099, West Bengal</li></ul></div>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Privacy Policy - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
+}

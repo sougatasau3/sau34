@@ -1,0 +1,67 @@
+{
+  "content": [
+    {
+      "id": "disclai1",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#FDFAF5",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "40",
+          "bottom": "60",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "40",
+          "right": "20",
+          "bottom": "40",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "30",
+          "right": "15",
+          "bottom": "30",
+          "left": "15",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "disclai2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "disclai3",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;1,400&family=Jost:wght@400;500;600;700&display=swap\" rel=\"stylesheet\"><style>.kec-page{max-width:800px;margin:0 auto;font-family:'Jost',sans-serif;padding:2rem 0}.kec-page h2{font-family:'Fraunces',serif;font-size:clamp(1.8rem,3vw,2.4rem);font-weight:700;color:#1C1A16;margin:0 0 1rem 0}.kec-page h3{font-family:'Fraunces',serif;font-size:1.2rem;font-weight:700;color:#1C1A16;margin:2rem 0 0.8rem 0}.kec-page p{font-size:0.92rem;color:#6B6355;line-height:1.85;margin:0 0 1rem 0}.kec-page ul,.kec-page ol{padding-left:1.5rem;margin:0 0 1rem 0}.kec-page li{font-size:0.88rem;color:#6B6355;line-height:1.8;margin-bottom:0.4rem}.kec-page strong{color:#1C1A16}.kec-page a{color:#1A3D6B;font-weight:600;text-decoration:none}.kec-page a:hover{text-decoration:underline}.kec-page table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:0.85rem}.kec-page th{text-align:left;padding:10px;background:#F3EDE0;color:#1C1A16;font-weight:700;border-bottom:2px solid #E0D8C8}.kec-page td{padding:10px;border-bottom:1px solid #E0D8C8;color:#6B6355}.kec-back{display:inline-flex;align-items:center;gap:6px;font-size:0.82rem;font-weight:600;color:#1A3D6B;text-decoration:none;margin-bottom:1.5rem;padding:6px 14px;border:1.5px solid #E8EFF8;border-radius:100px;transition:all 0.2s}.kec-back:hover{background:#E8EFF8}</style><div class=\"kec-page\"><a href=\"/\" class=\"kec-back\">&larr; Back to Home</a><h2>Disclaimer</h2><p><strong>Last Updated:</strong> January 1, 2025</p><h3>1. Nature of Services</h3><p>KolkataElderCare provides <strong>elder care coordination</strong> and <strong>telemedicine consultation</strong> services.</p><ul><li>Care coordination between families and healthcare providers</li><li>Telemedicine video consultations with registered doctors</li><li>Gerontology assessments (non-medical care coordination)</li><li>Medicine schedule management and delivery coordination</li><li>Emergency response coordination</li></ul><h3>2. Not a Substitute for Emergency Care</h3><div style=\"background:#FAF0EB;border:1px solid rgba(184,76,42,0.2);border-radius:14px;padding:1.5rem;margin:1.5rem 0;\"><p style=\"margin:0;color:#B84C2A;font-weight:600;\">In case of a medical emergency, always call 108 (ambulance) or go to the nearest hospital immediately. Our service is NOT a substitute for emergency medical care.</p></div><h3>3. Medical Disclaimer</h3><ul><li>Telemedicine consultations are advisory in nature</li><li>Our doctors provide their best medical judgment but cannot perform physical examinations remotely</li><li>Prescriptions issued via telemedicine follow Telemedicine Practice Guidelines of India (2020)</li><li>Some conditions require in-person examination</li><li>Always follow up with in-person care when recommended</li></ul><h3>4. Gerontology Services</h3><p>Our CMIG-certified gerontology services are <strong>non-medical care coordination</strong>. Gerontologists provide:</p><ul><li>Home safety assessments</li><li>Social and emotional well-being monitoring</li><li>Coordination with medical professionals</li><li>Activity and lifestyle recommendations</li></ul><p>Gerontologists do NOT diagnose, prescribe medicines, or provide medical treatment.</p><h3>5. Credentials</h3><ul><li>All doctors are MCI/NMC registered with verified registration numbers</li><li>Gerontologists are CMIG Kolkata certified</li><li>License: WB-TELEMED-2024</li><li>ABDM Integrated</li><li>KMC Trade License: Applied</li><li>GST: Not applicable (below threshold)</li></ul><h3>6. Limitation of Liability</h3><p>KolkataElderCare shall not be liable for:</p><ul><li>Outcomes of medical treatments prescribed by consulting doctors</li><li>Delays caused by patient non-compliance with recommendations</li><li>Third-party service failures (pharmacy delays, hospital wait times)</li><li>Network or technology failures during telemedicine consultations</li></ul><h3>7. Third-Party Services</h3><p>We coordinate with third-party providers but do not control their services. We are not liable for their performance, pricing, or availability.</p><h3>8. Testimonials</h3><p>Testimonials represent individual experiences. Results may vary.</p><h3>9. Pricing</h3><p>All prices are in Indian Rupees. USD equivalents are approximate. Prices subject to change with prior notice.</p><h3>10. Governing Law</h3><p>This disclaimer is governed by the laws of India. Disputes subject to exclusive jurisdiction of courts in Kolkata, West Bengal.</p><h3>11. Contact</h3><ul><li>WhatsApp: +91 72888 18181</li><li>Email: hello@kolkataeldercare.in</li><li>Office: Kalikapur, EM Bypass, Kolkata - 700099, West Bengal</li></ul></div>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Disclaimer - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
+}

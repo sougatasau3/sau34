@@ -1,0 +1,67 @@
+{
+  "content": [
+    {
+      "id": "refund1",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#FDFAF5",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "40",
+          "bottom": "60",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "40",
+          "right": "20",
+          "bottom": "40",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "30",
+          "right": "15",
+          "bottom": "30",
+          "left": "15",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "refund2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "refund3",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;1,400&family=Jost:wght@400;500;600;700&display=swap\" rel=\"stylesheet\"><style>.kec-page{max-width:800px;margin:0 auto;font-family:'Jost',sans-serif;padding:2rem 0}.kec-page h2{font-family:'Fraunces',serif;font-size:clamp(1.8rem,3vw,2.4rem);font-weight:700;color:#1C1A16;margin:0 0 1rem 0}.kec-page h3{font-family:'Fraunces',serif;font-size:1.2rem;font-weight:700;color:#1C1A16;margin:2rem 0 0.8rem 0}.kec-page p{font-size:0.92rem;color:#6B6355;line-height:1.85;margin:0 0 1rem 0}.kec-page ul,.kec-page ol{padding-left:1.5rem;margin:0 0 1rem 0}.kec-page li{font-size:0.88rem;color:#6B6355;line-height:1.8;margin-bottom:0.4rem}.kec-page strong{color:#1C1A16}.kec-page a{color:#1A3D6B;font-weight:600;text-decoration:none}.kec-page a:hover{text-decoration:underline}.kec-page table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:0.85rem}.kec-page th{text-align:left;padding:10px;background:#F3EDE0;color:#1C1A16;font-weight:700;border-bottom:2px solid #E0D8C8}.kec-page td{padding:10px;border-bottom:1px solid #E0D8C8;color:#6B6355}.kec-back{display:inline-flex;align-items:center;gap:6px;font-size:0.82rem;font-weight:600;color:#1A3D6B;text-decoration:none;margin-bottom:1.5rem;padding:6px 14px;border:1.5px solid #E8EFF8;border-radius:100px;transition:all 0.2s}.kec-back:hover{background:#E8EFF8}</style><div class=\"kec-page\"><a href=\"/\" class=\"kec-back\">&larr; Back to Home</a><h2>Refund Policy</h2><p><strong>Effective Date:</strong> January 1, 2025</p><h3>1. Subscription Plans</h3><p>All monthly subscription plans (Basic Guardian, Complete Care, Dementia Support) are billed on a monthly basis.</p><h3>2. Cancellation</h3><ul><li><strong>No lock-in period:</strong> You may cancel your subscription at any time</li><li><strong>Notice:</strong> Please provide at least 7 days notice before your next billing cycle</li><li><strong>How to cancel:</strong> Send a WhatsApp message to +91 72888 18181 or email hello@kolkataeldercare.in</li></ul><h3>3. Refund Eligibility</h3><table><tr><th>Scenario</th><th>Refund</th></tr><tr><td>Cancel within 48 hours of first payment</td><td>Full refund</td></tr><tr><td>Cancel within first week (no services used)</td><td>Full refund</td></tr><tr><td>Cancel mid-month (services partially used)</td><td>Pro-rated refund</td></tr><tr><td>Cancel after full month of service</td><td>No refund (next month not charged)</td></tr><tr><td>Service quality complaint</td><td>Case-by-case review</td></tr></table><h3>4. Telemedicine Consultations</h3><ul><li><strong>Completed consultations:</strong> Non-refundable</li><li><strong>Doctor no-show or technical failure:</strong> Full refund or free rescheduling</li><li><strong>Patient cancellation (24+ hours notice):</strong> Full refund</li><li><strong>Patient cancellation (less than 24 hours):</strong> 50% refund</li><li><strong>Patient no-show:</strong> Non-refundable</li></ul><h3>5. Refund Processing</h3><ul><li><strong>UPI/Bank Transfer:</strong> 3-5 business days</li><li><strong>Credit/Debit Card:</strong> 5-10 business days</li><li><strong>PayPal (NRI):</strong> 5-7 business days</li></ul><h3>6. How to Request a Refund</h3><ol><li>WhatsApp us at +91 72888 18181 with \"REFUND REQUEST\"</li><li>Include your registered name and reason for refund</li><li>Our team will respond within 24 hours</li><li>Approved refunds are processed within the timelines above</li></ol><h3>7. Non-Refundable Services</h3><ul><li>Emergency coordination already dispatched</li><li>Medicine delivery after dispatch</li><li>Completed in-home visits</li><li>Assessment reports already generated</li></ul><h3>8. Contact</h3><p>For refund queries: WhatsApp +91 72888 18181 or email hello@kolkataeldercare.in</p></div>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Refund Policy - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
+}
