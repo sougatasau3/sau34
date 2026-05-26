@@ -1,0 +1,67 @@
+{
+  "content": [
+    {
+      "id": "prc01sec",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#FDFAF5",
+        "padding": {
+          "unit": "px",
+          "top": "88",
+          "right": "40",
+          "bottom": "88",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "40",
+          "right": "15",
+          "bottom": "40",
+          "left": "15",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "prc01c1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "prc01htm",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;1,400&family=Jost:wght@400;500;600;700&display=swap\" rel=\"stylesheet\"><style>.kec-pricing{max-width:1320px;margin:0 auto;font-family:'Jost',sans-serif}.kec-pricing-header{text-align:center;max-width:600px;margin:0 auto 3rem}.kec-pricing-label{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:#C8851A;margin-bottom:.85rem}.kec-pricing-title{font-family:'Fraunces',serif;font-size:clamp(2rem,3.2vw,2.8rem);font-weight:700;line-height:1.12;letter-spacing:-.3px;color:#1C1A16;margin:0 0 1rem 0}.kec-pricing-title em{font-style:italic;color:#C8851A}.kec-pricing-sub{font-size:.97rem;color:#6B6355;line-height:1.85;margin:0}.kec-pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}.kec-price-card{background:#fff;border:1px solid #E0D8C8;border-radius:20px;overflow:hidden;transition:all .25s}.kec-price-card:hover{box-shadow:0 12px 48px rgba(0,0,0,.1);transform:translateY(-3px)}.kec-price-card.featured{background:#1A3D6B;border-color:transparent;box-shadow:0 16px 56px rgba(26,61,107,.25)}.kec-price-card.featured:hover{box-shadow:0 20px 64px rgba(26,61,107,.3)}.kec-pc-head{padding:1.6rem 1.6rem 1.2rem;position:relative}.kec-pc-badge{position:absolute;top:-1px;left:50%;transform:translateX(-50%);background:#C8851A;color:#fff;font-size:.62rem;font-weight:700;letter-spacing:.5px;padding:4px 14px;border-radius:0 0 10px 10px;white-space:nowrap}.kec-pc-name{font-size:.68rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#C8851A;margin-bottom:.5rem}.kec-price-card.featured .kec-pc-name{color:rgba(255,255,255,.65)}.kec-pc-price{font-family:'Fraunces',serif;font-size:2.8rem;font-weight:700;color:#1C1A16;line-height:1}.kec-price-card.featured .kec-pc-price{color:#fff}.kec-pc-price .cur{font-size:1.2rem;vertical-align:top;margin-top:.5rem;display:inline-block}.kec-pc-price .per{font-family:'Jost',sans-serif;font-size:.75rem;font-weight:400;color:#6B6355}.kec-price-card.featured .kec-pc-price .per{color:rgba(255,255,255,.55)}.kec-pc-usd{font-size:.78rem;color:#6B6355;margin-top:.3rem}.kec-price-card.featured .kec-pc-usd{color:rgba(255,255,255,.5)}.kec-pc-tagline{font-size:.78rem;color:#6B6355;margin-top:.4rem;font-style:italic}.kec-price-card.featured .kec-pc-tagline{color:rgba(255,255,255,.65)}.kec-pc-body{padding:.8rem 1.6rem 1.6rem}.kec-pc-features{list-style:none;padding:0;margin:0}.kec-pc-features li{font-size:.8rem;color:#6B6355;padding:.45rem 0;border-bottom:1px solid #E0D8C8;display:flex;align-items:flex-start;gap:8px;line-height:1.5}.kec-pc-features li:last-child{border-bottom:none}.kec-price-card.featured .kec-pc-features li{color:rgba(255,255,255,.8);border-color:rgba(255,255,255,.1)}.kec-pc-features .ck{color:#1A6B4A;font-size:.7rem;flex-shrink:0;margin-top:2px}.kec-price-card.featured .kec-pc-features .ck{color:#7FFFC4}.kec-pc-cta{padding:1.2rem 1.6rem;border-top:1px solid #E0D8C8;display:flex;flex-direction:column;gap:.6rem}.kec-price-card.featured .kec-pc-cta{border-color:rgba(255,255,255,.1)}.kec-btn-wa-card{background:#25D366;color:#fff;padding:11px 0;border-radius:100px;font-size:.82rem;font-weight:600;display:flex;align-items:center;justify-content:center;gap:6px;text-decoration:none;transition:all .2s}.kec-btn-wa-card:hover{background:#128C7E}.kec-btn-call-card{color:#1A3D6B;border:1.5px solid #E8EFF8;padding:9px 0;border-radius:100px;font-size:.78rem;font-weight:600;display:flex;align-items:center;justify-content:center;gap:5px;text-decoration:none;transition:all .2s}.kec-btn-call-card:hover{background:#E8EFF8}.kec-price-card.featured .kec-btn-call-card{color:#fff;border-color:rgba(255,255,255,.25)}.kec-price-card.featured .kec-btn-call-card:hover{background:rgba(255,255,255,.1)}.kec-pricing-note{text-align:center;margin-top:2rem;font-size:.82rem;color:#6B6355}@media(max-width:920px){.kec-pricing-grid{grid-template-columns:1fr}}@media(max-width:600px){.kec-pricing-grid{grid-template-columns:1fr}}</style><div id=\"pricing\" class=\"kec-pricing\"><div class=\"kec-pricing-header\"><span class=\"kec-pricing-label\">Simple Pricing</span><h2 class=\"kec-pricing-title\">No Hidden Fees.<br><em>No Surprises. Ever.</em></h2><p class=\"kec-pricing-sub\">Cancel any month. No lock-in. E-prescription included. NRI families pay online — UPI, card, or PayPal.</p></div><div class=\"kec-pricing-grid\"><div class=\"kec-price-card\"><div class=\"kec-pc-head\"><div class=\"kec-pc-name\">Basic Guardian</div><div class=\"kec-pc-price\"><span class=\"cur\">₹</span>12,500<span class=\"per\">/month</span></div><div class=\"kec-pc-usd\">≈ $150 USD / month</div><div class=\"kec-pc-tagline\">\"Peace of mind starter\"</div></div><div class=\"kec-pc-body\"><ul class=\"kec-pc-features\"><li><span class=\"ck\">✓</span>2 gerontologist video calls/month</li><li><span class=\"ck\">✓</span>Emergency contact on-call</li><li><span class=\"ck\">✓</span>Monthly written care report</li><li><span class=\"ck\">✓</span>Medicine schedule management</li><li><span class=\"ck\">✓</span>📲 WhatsApp updates to family</li><li><span class=\"ck\">✓</span>Telemedicine consult included</li></ul></div><div class=\"kec-pc-cta\"><a href=\"https://wa.me/917288818181?text=Hi%2C+I%27m+interested+in+the+Basic+Guardian+Plan\" target=\"_blank\" class=\"kec-btn-wa-card\">📲 WhatsApp to Start</a><a href=\"tel:+917288818181\" class=\"kec-btn-call-card\">📞 Call to Ask</a></div></div><div class=\"kec-price-card featured\"><div class=\"kec-pc-head\"><div class=\"kec-pc-badge\">⭐ Most Popular</div><div class=\"kec-pc-name\">Complete Care</div><div class=\"kec-pc-price\"><span class=\"cur\">₹</span>21,000<span class=\"per\">/month</span></div><div class=\"kec-pc-usd\">≈ $250 USD / month</div><div class=\"kec-pc-tagline\">\"We become local family\"</div></div><div class=\"kec-pc-body\"><ul class=\"kec-pc-features\"><li><span class=\"ck\">✓</span>Weekly in-home gerontologist visit</li><li><span class=\"ck\">✓</span>Unlimited telemedicine consultations</li><li><span class=\"ck\">✓</span>Doctor visit coordination & escort</li><li><span class=\"ck\">✓</span>Medicine delivery management</li><li><span class=\"ck\">✓</span>📲 Weekly \"Ma bhalo ache\" WhatsApp video</li><li><span class=\"ck\">✓</span>Festival & birthday companionship</li><li><span class=\"ck\">✓</span>Emergency 1-hour response</li><li><span class=\"ck\">✓</span>Monthly video call with NRI family</li></ul></div><div class=\"kec-pc-cta\"><a href=\"https://wa.me/917288818181?text=Hi%2C+I%27m+interested+in+the+Complete+Care+Plan\" target=\"_blank\" class=\"kec-btn-wa-card\">📲 WhatsApp to Start</a><a href=\"tel:+917288818181\" class=\"kec-btn-call-card\">📞 Call to Ask</a></div></div><div class=\"kec-price-card\"><div class=\"kec-pc-head\"><div class=\"kec-pc-name\">Dementia Support</div><div class=\"kec-pc-price\"><span class=\"cur\">₹</span>29,000<span class=\"per\">/month</span></div><div class=\"kec-pc-usd\">≈ $350 USD / month</div><div class=\"kec-pc-tagline\">\"Specialised memory care\"</div></div><div class=\"kec-pc-body\"><ul class=\"kec-pc-features\"><li><span class=\"ck\">✓</span>Everything in Complete Care</li><li><span class=\"ck\">✓</span>Dedicated dementia specialist</li><li><span class=\"ck\">✓</span>Caregiver training for home staff</li><li><span class=\"ck\">✓</span>Personalised cognitive exercise plan</li><li><span class=\"ck\">✓</span>Neurologist/psychologist coordination</li><li><span class=\"ck\">✓</span>Behaviour & wandering safety plan</li><li><span class=\"ck\">✓</span>📲 Daily WhatsApp check-in report</li></ul></div><div class=\"kec-pc-cta\"><a href=\"https://wa.me/917288818181?text=Hi%2C+I%27m+interested+in+the+Dementia+Support+Plan\" target=\"_blank\" class=\"kec-btn-wa-card\">📲 WhatsApp to Start</a><a href=\"tel:+917288818181\" class=\"kec-btn-call-card\">📞 Call to Ask</a></div></div></div><div class=\"kec-pricing-note\">All plans include a <strong>free 15-minute assessment call</strong>. Cancel anytime. No lock-in. NRI payments via card or PayPal accepted.</div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Pricing - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
+}

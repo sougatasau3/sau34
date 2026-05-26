@@ -1,0 +1,67 @@
+{
+  "content": [
+    {
+      "id": "grievan1",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#FDFAF5",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "40",
+          "bottom": "60",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "40",
+          "right": "20",
+          "bottom": "40",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "30",
+          "right": "15",
+          "bottom": "30",
+          "left": "15",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "grievan2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "grievan3",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;1,400&family=Jost:wght@400;500;600;700&display=swap\" rel=\"stylesheet\"><style>.kec-page{max-width:800px;margin:0 auto;font-family:'Jost',sans-serif;padding:2rem 0}.kec-page h2{font-family:'Fraunces',serif;font-size:clamp(1.8rem,3vw,2.4rem);font-weight:700;color:#1C1A16;margin:0 0 1rem 0}.kec-page h3{font-family:'Fraunces',serif;font-size:1.2rem;font-weight:700;color:#1C1A16;margin:2rem 0 0.8rem 0}.kec-page p{font-size:0.92rem;color:#6B6355;line-height:1.85;margin:0 0 1rem 0}.kec-page ul,.kec-page ol{padding-left:1.5rem;margin:0 0 1rem 0}.kec-page li{font-size:0.88rem;color:#6B6355;line-height:1.8;margin-bottom:0.4rem}.kec-page strong{color:#1C1A16}.kec-page a{color:#1A3D6B;font-weight:600;text-decoration:none}.kec-page a:hover{text-decoration:underline}.kec-page table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:0.85rem}.kec-page th{text-align:left;padding:10px;background:#F3EDE0;color:#1C1A16;font-weight:700;border-bottom:2px solid #E0D8C8}.kec-page td{padding:10px;border-bottom:1px solid #E0D8C8;color:#6B6355}.kec-back{display:inline-flex;align-items:center;gap:6px;font-size:0.82rem;font-weight:600;color:#1A3D6B;text-decoration:none;margin-bottom:1.5rem;padding:6px 14px;border:1.5px solid #E8EFF8;border-radius:100px;transition:all 0.2s}.kec-back:hover{background:#E8EFF8}</style><div class=\"kec-page\"><a href=\"/\" class=\"kec-back\">&larr; Back to Home</a><h2>Grievance Redressal</h2><p>KolkataElderCare is committed to addressing all concerns promptly and fairly.</p><h3>Grievance Officer Details</h3><div style=\"background:#E8EFF8;border:1px solid rgba(26,61,107,0.12);border-radius:14px;padding:1.5rem;margin:1.5rem 0;\"><p style=\"margin:0 0 8px 0;\"><strong>Name:</strong> Grievance Officer, KolkataElderCare</p><p style=\"margin:0 0 8px 0;\"><strong>Phone:</strong> +91 72888 18181</p><p style=\"margin:0 0 8px 0;\"><strong>Email:</strong> grievance@kolkataeldercare.in</p><p style=\"margin:0 0 8px 0;\"><strong>WhatsApp:</strong> +91 72888 18181 (mention \"GRIEVANCE\")</p><p style=\"margin:0;\"><strong>Address:</strong> Kalikapur, EM Bypass, Kolkata - 700099, West Bengal</p></div><h3>How to File a Complaint</h3><ol><li><strong>Step 1:</strong> Contact us via WhatsApp, phone, or email with your complaint details</li><li><strong>Step 2:</strong> You will receive an acknowledgment with a complaint reference number within 24 hours</li><li><strong>Step 3:</strong> Our team investigates the matter (3-5 business days)</li><li><strong>Step 4:</strong> Resolution communicated to you within 7 working days</li><li><strong>Step 5:</strong> If unsatisfied, escalate to the Grievance Officer directly</li></ol><h3>Information Required</h3><ul><li>Your full name and contact number</li><li>Patient/elder's name (if different)</li><li>Date(s) of incident</li><li>Description of the complaint</li><li>Any supporting documents or screenshots</li><li>Expected resolution</li></ul><h3>Resolution Timelines</h3><table><tr><th>Complaint Type</th><th>Resolution Time</th></tr><tr><td>Service quality</td><td>3-5 working days</td></tr><tr><td>Billing/refund</td><td>5-7 working days</td></tr><tr><td>Staff behavior</td><td>3-5 working days</td></tr><tr><td>Medical concern</td><td>24-48 hours</td></tr><tr><td>Data privacy</td><td>48 hours</td></tr></table><h3>Escalation</h3><p>If your complaint is not resolved satisfactorily, you may escalate to:</p><ul><li>West Bengal Consumer Disputes Redressal Commission</li><li>National Consumer Helpline: 1800-11-4000</li><li>Indian Medical Association, West Bengal Branch</li></ul></div>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Grievance Officer - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
+}

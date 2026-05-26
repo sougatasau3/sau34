@@ -1,0 +1,184 @@
+{
+  "content": [
+    {
+      "id": "rnbor9v",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {
+          "unit": "%",
+          "size": 90
+        },
+        "background_background": "classic",
+        "background_color": "#1A9B4A",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "40",
+          "bottom": "64",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "50",
+          "right": "20",
+          "bottom": "50",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "40",
+          "right": "15",
+          "bottom": "40",
+          "left": "15",
+          "isLinked": false
+        },
+        "structure": "20",
+        "css_id": "whatsapp"
+      },
+      "elements": [
+        {
+          "id": "oc6eyx3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_column_size_tablet": 100,
+            "content_position": "center"
+          },
+          "elements": [
+            {
+              "id": "l4rcyi3",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Talk to Us Now",
+                "header_size": "span",
+                "typography_typography": "custom",
+                "typography_font_family": "Jost",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.5
+                },
+                "typography_text_transform": "uppercase",
+                "title_color": "rgba(255,255,255,0.65)",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "7o6lh8l",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Stop Guessing.<br>Start Knowing.",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Fraunces",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 30
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 26
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.12
+                },
+                "title_color": "#FFFFFF",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "nmf03tr",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "No forms. No waiting. Send us a WhatsApp in Bengali or English and we will arrange everything — free assessment call, plan details, and a match with the right caregiver — within minutes.",
+                "typography_typography": "custom",
+                "typography_font_family": "Jost",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.85
+                },
+                "text_color": "rgba(255,255,255,0.85)",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "jnulq0t",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style=\"display:flex;flex-direction:column;gap:12px;max-width:340px;\"><a href=\"https://wa.me/917288818181?text=Hi%2C+I+want+to+book+elder+care+for+my+parents+in+Kolkata\" target=\"_blank\" style=\"background:rgba(255,255,255,0.15);border:1.5px solid rgba(255,255,255,0.3);color:#fff;padding:13px 20px;border-radius:14px;font-size:14px;font-weight:600;display:flex;align-items:center;gap:10px;text-decoration:none;\"><span style=\"font-size:1.2rem;\">👴</span><div><span style=\"font-size:13px;font-weight:700;display:block;\">Book Elder Care for My Parent</span><span style=\"font-size:11px;opacity:0.75;display:block;margin-top:1px;\">Free 15-min assessment call</span></div></a><a href=\"https://wa.me/917288818181?text=Hi%2C+please+tell+me+about+your+monthly+plans\" target=\"_blank\" style=\"background:rgba(255,255,255,0.15);border:1.5px solid rgba(255,255,255,0.3);color:#fff;padding:13px 20px;border-radius:14px;font-size:14px;font-weight:600;display:flex;align-items:center;gap:10px;text-decoration:none;\"><span style=\"font-size:1.2rem;\">📋</span><div><span style=\"font-size:13px;font-weight:700;display:block;\">Ask About Monthly Plans & Pricing</span><span style=\"font-size:11px;opacity:0.75;display:block;margin-top:1px;\">₹12,500 – ₹29,000/month</span></div></a><a href=\"https://wa.me/917288818181?text=URGENT%3A+I+need+help+for+my+parent+right+now.+Please+help.\" target=\"_blank\" style=\"background:rgba(255,255,255,0.25);border:1.5px solid rgba(255,255,255,0.3);color:#fff;padding:13px 20px;border-radius:14px;font-size:14px;font-weight:600;display:flex;align-items:center;gap:10px;text-decoration:none;\"><span style=\"font-size:1.2rem;\">🚨</span><div><span style=\"font-size:13px;font-weight:700;display:block;\">Emergency — I Need Help Now</span><span style=\"font-size:11px;opacity:0.75;display:block;margin-top:1px;\">We respond in under 2 minutes</span></div></a></div><div style=\"font-size:11px;color:rgba(255,255,255,0.6);margin-top:12px;display:flex;align-items:center;gap:5px;\">🔒 Private · Never shared · HIPAA compliant</div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ojygwqd",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_column_size_tablet": 100,
+            "content_position": "center"
+          },
+          "elements": [
+            {
+              "id": "cnuzn9m",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style=\"background:rgba(255,255,255,0.12);border:1.5px solid rgba(255,255,255,0.2);border-radius:20px;padding:28px 32px;text-align:center;\"><span style=\"font-size:12px;color:rgba(255,255,255,0.6);text-transform:uppercase;letter-spacing:1.5px;display:block;margin-bottom:10px;\">Call or WhatsApp Anytime</span><span style=\"font-family:'Fraunces',serif;font-size:2rem;font-weight:700;color:#fff;display:block;margin-bottom:6px;\">+91 72888 18181</span><div style=\"font-size:13px;color:rgba(255,255,255,0.7);margin-bottom:5px;\">🇮🇳 India — Bengali, Hindi & English</div><div style=\"font-size:12px;color:rgba(255,255,255,0.6);display:flex;align-items:center;justify-content:center;gap:6px;\"><span>🇺🇸</span> USA/Canada: +1 989 268 2922</div><div style=\"font-size:11px;color:rgba(255,255,255,0.5);margin-top:10px;\">⚡ Average response under 2 minutes · 24×7</div><a href=\"https://wa.me/917288818181\" target=\"_blank\" style=\"display:inline-flex;align-items:center;gap:8px;background:#25D366;border:2px solid #fff;color:#fff;padding:12px 28px;border-radius:100px;font-weight:600;font-size:14px;margin-top:19px;text-decoration:none;box-shadow:0 6px 24px rgba(37,211,102,0.3);\">📲 Open WhatsApp Chat</a></div>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "WhatsApp CTA - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
+}

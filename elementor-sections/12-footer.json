@@ -1,0 +1,67 @@
+{
+  "content": [
+    {
+      "id": "ftr01sec",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#1C1A16",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "40",
+          "bottom": "32",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "50",
+          "right": "20",
+          "bottom": "24",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "40",
+          "right": "15",
+          "bottom": "20",
+          "left": "15",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "ftr01c1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "ftr01htm",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;1,400&family=Jost:wght@400;500;600;700&display=swap\" rel=\"stylesheet\"><style>.kec-footer{max-width:1320px;margin:0 auto;font-family:'Jost',sans-serif;color:rgba(255,255,255,.7)}.kec-footer-grid{display:grid;grid-template-columns:1.5fr repeat(3,1fr);gap:3rem;margin-bottom:2.5rem}.kec-footer-brand .fb-logo{font-family:'Fraunces',serif;font-size:1.4rem;font-weight:700;color:#fff;display:block;margin-bottom:.6rem;text-decoration:none}.kec-footer-brand .fb-logo span{color:#C8851A;font-style:italic}.kec-footer-brand p{font-size:.78rem;line-height:1.7;max-width:240px;margin:0 0 1rem 0;color:rgba(255,255,255,.7)}.kec-footer-wa{background:#25D366;color:#fff;padding:9px 18px;border-radius:100px;font-size:.78rem;font-weight:600;display:inline-flex;align-items:center;gap:5px;text-decoration:none;transition:background .2s}.kec-footer-wa:hover{background:#128C7E}.kec-footer-badges{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.8rem}.kec-fb-badge{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.45);padding:3px 9px;border-radius:4px;font-size:.62rem;font-weight:600}.kec-footer-col h4{font-size:.68rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.35);margin:0 0 1rem 0}.kec-footer-col ul{list-style:none;padding:0;margin:0}.kec-footer-col li{margin-bottom:.55rem}.kec-footer-col a{font-size:.78rem;color:rgba(255,255,255,.55);text-decoration:none;transition:color .2s}.kec-footer-col a:hover{color:#fff}.kec-footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:1.4rem}.kec-footer-bottom p{font-size:.68rem;color:rgba(255,255,255,.3);line-height:1.7;max-width:600px;margin:0}.kec-footer-bottom .disclaimer{font-size:.65rem;color:rgba(255,255,255,.25);margin-top:.3rem}@media(max-width:920px){.kec-footer-grid{grid-template-columns:1fr 1fr;gap:2rem}}@media(max-width:600px){.kec-footer-grid{grid-template-columns:1fr;gap:1.5rem}}</style><div class=\"kec-footer\"><div class=\"kec-footer-grid\"><div class=\"kec-footer-brand\"><a href=\"#home\" class=\"fb-logo\">Kolkata<span>Elder</span>Care</a><p>Telemedicine + in-home elder care for West Bengal seniors and their NRI families. Bengali-speaking. CMIG certified. Available 24×7.</p><a href=\"https://wa.me/917288818181\" target=\"_blank\" class=\"kec-footer-wa\">📲 WhatsApp Us Now</a><div class=\"kec-footer-badges\"><span class=\"kec-fb-badge\">CMIG ✓</span><span class=\"kec-fb-badge\">ABDM ✓</span><span class=\"kec-fb-badge\">HIPAA ✓</span><span class=\"kec-fb-badge\">WB-TELEMED-2024</span></div></div><div class=\"kec-footer-col\"><h4>Services</h4><ul><li><a href=\"#services\">Gerontologist Home Visits</a></li><li><a href=\"#services\">Telemedicine Consultations</a></li><li><a href=\"#services\">NRI Family Care</a></li><li><a href=\"#services\">Dementia Support</a></li><li><a href=\"#services\">24hr Medicine Delivery</a></li></ul></div><div class=\"kec-footer-col\"><h4>Quick Links</h4><ul><li><a href=\"#about\">About Us</a></li><li><a href=\"#pricing\">Pricing Plans</a></li><li><a href=\"#doctors\">Our Doctors</a></li><li><a href=\"#reviews\">Testimonials</a></li><li><a href=\"#contact\">Contact</a></li></ul></div><div class=\"kec-footer-col\"><h4>Support</h4><ul><li><a href=\"#\">Privacy Policy</a></li><li><a href=\"#\">Refund Policy</a></li><li><a href=\"#\">Patient Rights</a></li><li><a href=\"#\">Grievance Officer</a></li><li><a href=\"#\">Disclaimer</a></li></ul></div></div><div class=\"kec-footer-bottom\"><p>© 2025 KolkataElderCare. Kalikapur, EM Bypass, Kolkata – 700099, West Bengal. License: WB-TELEMED-2024. ABDM Integrated. CMIG Kolkata Affiliated.</p><p class=\"disclaimer\">⚠️ Disclaimer: Services are elder care coordination and telemedicine consultations. Not a substitute for emergency medical care. For emergencies, call 108. Gerontology services are non-medical care coordination. KMC Trade License: XXXX. GST: Not applicable (below threshold).</p></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Footer - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
+}

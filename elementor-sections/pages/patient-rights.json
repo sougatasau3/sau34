@@ -1,0 +1,67 @@
+{
+  "content": [
+    {
+      "id": "patient1",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#FDFAF5",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "40",
+          "bottom": "60",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "40",
+          "right": "20",
+          "bottom": "40",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "30",
+          "right": "15",
+          "bottom": "30",
+          "left": "15",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "patient2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "patient3",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;1,400&family=Jost:wght@400;500;600;700&display=swap\" rel=\"stylesheet\"><style>.kec-page{max-width:800px;margin:0 auto;font-family:'Jost',sans-serif;padding:2rem 0}.kec-page h2{font-family:'Fraunces',serif;font-size:clamp(1.8rem,3vw,2.4rem);font-weight:700;color:#1C1A16;margin:0 0 1rem 0}.kec-page h3{font-family:'Fraunces',serif;font-size:1.2rem;font-weight:700;color:#1C1A16;margin:2rem 0 0.8rem 0}.kec-page p{font-size:0.92rem;color:#6B6355;line-height:1.85;margin:0 0 1rem 0}.kec-page ul,.kec-page ol{padding-left:1.5rem;margin:0 0 1rem 0}.kec-page li{font-size:0.88rem;color:#6B6355;line-height:1.8;margin-bottom:0.4rem}.kec-page strong{color:#1C1A16}.kec-page a{color:#1A3D6B;font-weight:600;text-decoration:none}.kec-page a:hover{text-decoration:underline}.kec-page table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:0.85rem}.kec-page th{text-align:left;padding:10px;background:#F3EDE0;color:#1C1A16;font-weight:700;border-bottom:2px solid #E0D8C8}.kec-page td{padding:10px;border-bottom:1px solid #E0D8C8;color:#6B6355}.kec-back{display:inline-flex;align-items:center;gap:6px;font-size:0.82rem;font-weight:600;color:#1A3D6B;text-decoration:none;margin-bottom:1.5rem;padding:6px 14px;border:1.5px solid #E8EFF8;border-radius:100px;transition:all 0.2s}.kec-back:hover{background:#E8EFF8}</style><div class=\"kec-page\"><a href=\"/\" class=\"kec-back\">&larr; Back to Home</a><h2>Patient Rights</h2><p><strong>At KolkataElderCare, we respect and uphold the rights of every patient and their families.</strong></p><h3>1. Right to Information</h3><ul><li>Complete information about your care plan in a language you understand (Bengali, Hindi, or English)</li><li>Clear explanation of diagnosis, treatment options, and prognosis</li><li>Information about the qualifications of your care team</li><li>Transparent pricing with no hidden charges</li></ul><h3>2. Right to Dignity &amp; Respect</h3><ul><li>Respectful treatment regardless of age, gender, religion, caste, or economic status</li><li>Cultural sensitivity in all interactions</li><li>Communication in your preferred language</li><li>Respect for personal space and modesty during home visits</li></ul><h3>3. Right to Consent</h3><ul><li>Informed consent before any treatment or procedure</li><li>Right to refuse treatment at any time</li><li>Right to a second opinion</li><li>Consent required before sharing information with family/NRI members</li></ul><h3>4. Right to Privacy &amp; Confidentiality</h3><ul><li>All medical information kept strictly confidential</li><li>HIPAA-compliant data handling</li><li>Information shared only with authorized persons</li><li>Secure communication channels for all health data</li></ul><h3>5. Right to Quality Care</h3><ul><li>Care from qualified, MCI/NMC registered doctors</li><li>CMIG certified gerontologists for elder care</li><li>Evidence-based treatment protocols</li><li>Continuity of care with consistent care team</li></ul><h3>6. Right to Safety</h3><ul><li>Safe home environment assessment</li><li>Proper medication management to prevent adverse interactions</li><li>Emergency response protocols in place</li><li>Background-verified care staff</li></ul><h3>7. Right to Complain</h3><ul><li>File complaints without fear of retaliation</li><li>Receive acknowledgment within 24 hours</li><li>Resolution within 7 working days</li><li>Escalation to Grievance Officer if unsatisfied</li></ul><h3>8. Right to Choose</h3><ul><li>Choose or change your assigned doctor/gerontologist</li><li>Choose your preferred mode of consultation (video/phone/in-person)</li><li>Change or cancel your care plan at any time</li><li>Choose your preferred pharmacy for medicine delivery</li></ul><h3>9. Family/NRI Rights</h3><ul><li>Regular updates on your parent's health (as authorized)</li><li>Participate in care planning discussions</li><li>Access to all reports and prescriptions via WhatsApp</li><li>Book and manage appointments from anywhere in the world</li></ul><h3>10. Contact</h3><p>WhatsApp: +91 72888 18181 | Email: hello@kolkataeldercare.in</p></div>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Patient Rights - KolkataElderCare",
+  "type": "page",
+  "metadata": {
+    "wp_page_template": "elementor_canvas"
+  }
+}
